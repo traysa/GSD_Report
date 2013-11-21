@@ -1,0 +1,77 @@
+\documentclass[12pt]{report} %article, letter, book, macthesis, report, memoir, elsarticle
+\usepackage{graphicx} %this allows for including figures (images) in Latex documents
+\usepackage{subfig} %subfigure environment
+\graphicspath{ {images/} }
+
+\usepackage[T1]{fontenc}
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+
+
+%PREAMBLE
+\author{Christoffer Wilken Pagaard
+\and
+Jacob Romme Rasmussen
+\and
+Theresa Brandt von Fackh
+\and
+Tomas Miseikis
+}
+\title{
+		{Occupancy Analyzer}\\
+		{\includegraphics[width=0.5\textwidth]{ITU_logo_ENG}}
+}
+\date{15. Dezember 2013}
+
+%CONTENT
+\begin{document}
+
+%\maketitle %prints all the preamble content
+\input{titlepage}
+
+\newpage %makes a new page
+
+\begin{abstract}
+Write abstract text...
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\chapter{Introduction}
+\input{chapters/introduction}
+
+\chapter{Analysis}
+\input{chapters/Analysis}
+
+\chapter{Design}
+\input{chapters/Design}
+
+\chapter{Implementation}
+\input{chapters/Implementation}
+
+\chapter{Evaluation}
+\input{chapters/Evaluation}
+
+\chapter{Collaboration}
+\input{chapters/Collaboration}
+
+\chapter{Discussion}
+\input{chapters/Discussion}
+
+\chapter{Conclusion}
+\input{chapters/Conclusion}
+
+\chapter{References}
+\input{chapters/References}
+
+%\bibliographystyle{apalike}%plain, acm, ieeetr, apalike, ...
+%\bibliography{}
+
+\end{document}
