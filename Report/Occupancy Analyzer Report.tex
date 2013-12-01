@@ -1,7 +1,10 @@
-\documentclass[12pt]{report} %article, letter, book, macthesis, report, memoir, elsarticle
-\usepackage{graphicx} %this allows for including figures (images) in Latex documents
-\usepackage{subfig} %subfigure environment
-\graphicspath{ {images/} }
+\documentclass[12pt]{report} % article, letter, book, macthesis, report, memoir, elsarticle
+\usepackage{graphicx} % This allows to include figures (images) in Latex documents.
+\usepackage{fullpage} % For using more space in paper (smaller margins).
+\usepackage{subfig} % subfigure environment
+\graphicspath{{images/}}
+\setcounter{secnumdepth}{3} % Depth of section numbering (will show numbers for subsubsections).
+\setcounter{tocdepth}{3} % Depth of subsection showing in TOC.
 
 \usepackage[T1]{fontenc}
 \usepackage{titlesec, blindtext, color}
@@ -21,7 +24,7 @@ Theresa Brandt von Fackh
 Tomas Miseikis
 }
 \title{
-		{Occupancy Analyzer}\\
+		{Occupancy A11nalyzer}\\
 		{\includegraphics[width=0.5\textwidth]{ITU_logo_ENG}}
 }
 \date{15. Dezember 2013}
