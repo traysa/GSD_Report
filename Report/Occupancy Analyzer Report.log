@@ -1,10 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  1 DEC 2013 22:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.21)  1 DEC 2013 20:34
 entering extended mode
-**D:/data/Studium/Master/Semester*1/Global*Software*Development/Report/Shared*f
-iles/Report/Occupancy*Analyzer*Report.tex
-
-("D:/data/Studium/Master/Semester 1/Global Software Development/Report/Shared f
-iles/Report/Occupancy Analyzer Report.tex"
+**Occupancy*Analyzer*Report.tex
+("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -66,13 +63,17 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen105
@@ -86,18 +87,18 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@ContinuedFloat=\count89
 )
 \c@KVtest=\count90
-\sf@farskip=\skip43
+\sf@farskip=\skip44
 \sf@captopadj=\dimen112
-\sf@capskip=\skip44
-\sf@nearskip=\skip45
+\sf@capskip=\skip45
+\sf@nearskip=\skip46
 \c@subfigure=\count91
 \c@subfigure@save=\count92
 \c@lofdepth=\count93
 \c@subtable=\count94
 \c@subtable@save=\count95
 \c@lotdepth=\count96
-\sf@top=\skip46
-\sf@bottom=\skip47
+\sf@top=\skip47
+\sf@bottom=\skip48
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -106,11 +107,11 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box26
-\beforetitleunit=\skip48
-\aftertitleunit=\skip49
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
 \ttl@plus=\dimen113
 \ttl@minus=\dimen114
 \ttl@toksa=\toks15
@@ -118,7 +119,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen116
 \titlewidthfirst=\dimen117
 )
-(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\blindtext\blindtext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
@@ -151,22 +152,21 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\Occupancy Analyzer Report.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
-(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen118
@@ -183,117 +183,293 @@ LaTeX Font Info:    ... okay on input line 30.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\titlepage.tex"
+ (C:\Users\Tomas\Documents\GSD_Report\Report\titlepage.tex
 <images/ITU_logo_ENG.jpg, id=1, 373.395pt x 274.02374pt>
 File: images/ITU_logo_ENG.jpg Graphic file (type jpg)
 
 <use images/ITU_logo_ENG.jpg>
 Package pdftex.def Info: images/ITU_logo_ENG.jpg used on input line 27.
-(pdftex.def)             Requested size: 155.99762pt x 114.4829pt.
+(pdftex.def)             Requested size: 187.89914pt x 137.89377pt.
  [1
 
-{C:/Users/Theresa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/data/S
-tudium/Master/Semester 1/Global Software Development/Report/Shared files/Report
-/images/ITU_logo_ENG.jpg>]) [1]
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\Occupancy Analyzer Report.toc"
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Tomas/Documents/
+GSD_Report/Report/images/ITU_logo_ENG.jpg>])
+[1] ("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
+[1
+
+])
 \tf@toc=\write3
- [1
+ [2]
+Chapter 1.
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/introduction.tex) [3
 
 ]
-Chapter 1.
-
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\chapters/introduction.tex" [2
-
-]) [3]
 Chapter 2.
-
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\chapters/Analysis.tex") [4
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Analysis.tex) [4
 
 ]
 Chapter 3.
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design.tex
+<images/system_overview/system_overview_tomas.png, id=28, 860.21375pt x 337.26p
+t>
+File: images/system_overview/system_overview_tomas.png Graphic file (type png)
+ <use images/system_overview/system_overview_tomas.png>
+Package pdftex.def Info: images/system_overview/system_overview_tomas.png used 
+on input line 10.
+(pdftex.def)             Requested size: 464.5085pt x 182.11768pt.
 
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\chapters/Design.tex"
-<images/System_Overview.png, id=28, 551.05875pt x 413.29407pt>
-File: images/System_Overview.png Graphic file (type png)
+<images/system_overview/system_overview_theresa.png, id=30, 551.05875pt x 413.2
+9407pt>
+File: images/system_overview/system_overview_theresa.png Graphic file (type png
+)
+ <use images/system_overview/system_overview_theresa.png>
+Package pdftex.def Info: images/system_overview/system_overview_theresa.png use
+d on input line 18.
+(pdftex.def)             Requested size: 297.56728pt x 223.17546pt.
+ [5
 
-<use images/System_Overview.png>
-Package pdftex.def Info: images/System_Overview.png used on input line 3.
-(pdftex.def)             Requested size: 390.0pt x 292.5138pt.
-) [5
+ <C:/Users/Tomas/Documents/GSD_Report/Report/images/system_overview/system_over
+view_tomas.png>]
+<images/camera_placement/camera_placement_1.jpg, id=36, 355.3275pt x 142.5325pt
+>
+File: images/camera_placement/camera_placement_1.jpg Graphic file (type jpg)
+ <use images/camera_placement/camera_placement_1.jpg>
+Package pdftex.def Info: images/camera_placement/camera_placement_1.jpg used on
+ input line 42.
+(pdftex.def)             Requested size: 230.96013pt x 92.645pt.
 
- <D:/data/Studium/Master/Semester 1/Global Software Development/Report/Shared f
-iles/Report/images/System_Overview.png>]
+<images/camera_placement/camera_placement_2.jpg, id=37, 355.3275pt x 142.5325pt
+>
+File: images/camera_placement/camera_placement_2.jpg Graphic file (type jpg)
+ <use images/camera_placement/camera_placement_2.jpg>
+Package pdftex.def Info: images/camera_placement/camera_placement_2.jpg used on
+ input line 43.
+(pdftex.def)             Requested size: 230.96013pt x 92.645pt.
+ [6 <C:/Users/Tomas/Documents/GSD_Report/Report/images/system_overview/system_o
+verview_theresa.png>]
+<images/background_subtraction/background_subtraction_1.png, id=41, 569.12625pt
+ x 129.48375pt>
+File: images/background_subtraction/background_subtraction_1.png Graphic file (
+type png)
+
+<use images/background_subtraction/background_subtraction_1.png>
+Package pdftex.def Info: images/background_subtraction/background_subtraction_1
+.png used on input line 60.
+(pdftex.def)             Requested size: 369.92767pt x 84.16342pt.
+
+<images/background_subtraction/background_subtraction_2.png, id=42, 574.145pt x
+ 127.47626pt>
+File: images/background_subtraction/background_subtraction_2.png Graphic file (
+type png)
+ <use images/background_subtraction/background_subtraction_2.png>
+Package pdftex.def Info: images/background_subtraction/background_subtraction_2
+.png used on input line 67.
+(pdftex.def)             Requested size: 373.18983pt x 82.85857pt.
+
+<images/background_subtraction/background_subtraction_3.png, id=43, 569.12625pt
+ x 127.47626pt>
+File: images/background_subtraction/background_subtraction_3.png Graphic file (
+type png)
+
+<use images/background_subtraction/background_subtraction_3.png>
+Package pdftex.def Info: images/background_subtraction/background_subtraction_3
+.png used on input line 75.
+(pdftex.def)             Requested size: 369.92767pt x 82.85857pt.
+
+<images/background_subtraction/background_subtraction_4.png, id=44, 577.15625pt
+ x 127.47626pt>
+File: images/background_subtraction/background_subtraction_4.png Graphic file (
+type png)
+
+<use images/background_subtraction/background_subtraction_4.png>
+Package pdftex.def Info: images/background_subtraction/background_subtraction_4
+.png used on input line 82.
+(pdftex.def)             Requested size: 375.14711pt x 82.85857pt.
+
+<images/background_subtraction/background_subtraction_5.png, id=45, 569.12625pt
+ x 127.47626pt>
+File: images/background_subtraction/background_subtraction_5.png Graphic file (
+type png)
+
+<use images/background_subtraction/background_subtraction_5.png>
+Package pdftex.def Info: images/background_subtraction/background_subtraction_5
+.png used on input line 90.
+(pdftex.def)             Requested size: 369.92767pt x 82.85857pt.
+ [7 <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_placement/camera_
+placement_1.jpg> <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_plac
+ement/camera_placement_2.jpg>]
+<images/moving_average/moving_average_1.png, id=50, 478.78876pt x 358.33875pt>
+File: images/moving_average/moving_average_1.png Graphic file (type png)
+
+<use images/moving_average/moving_average_1.png>
+Package pdftex.def Info: images/moving_average/moving_average_1.png used on inp
+ut line 103.
+(pdftex.def)             Requested size: 143.63773pt x 107.50244pt.
+
+<images/moving_average/moving_average_2.png, id=51, 478.78876pt x 358.33875pt>
+File: images/moving_average/moving_average_2.png Graphic file (type png)
+
+<use images/moving_average/moving_average_2.png>
+Package pdftex.def Info: images/moving_average/moving_average_2.png used on inp
+ut line 108.
+(pdftex.def)             Requested size: 143.63773pt x 107.50244pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 101--111
+[][] [] 
+ []
+
+[8 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/ba
+ckground_subtraction_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/
+background_subtraction/background_subtraction_2.png> <C:/Users/Tomas/Documents/
+GSD_Report/Report/images/background_subtraction/background_subtraction_3.png>]
+<images/blur/blur_1.png, id=58, 479.54156pt x 361.35pt>
+File: images/blur/blur_1.png Graphic file (type png)
+
+<use images/blur/blur_1.png>
+Package pdftex.def Info: images/blur/blur_1.png used on input line 120.
+(pdftex.def)             Requested size: 143.86357pt x 108.40584pt.
+
+<images/blur/blur_2.png, id=59, 478.78876pt x 360.59718pt>
+File: images/blur/blur_2.png Graphic file (type png)
+
+<use images/blur/blur_2.png>
+Package pdftex.def Info: images/blur/blur_2.png used on input line 125.
+(pdftex.def)             Requested size: 143.63773pt x 108.17998pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 118--128
+[][] [] 
+ []
+
+<images/grayscale/grayscale_1.png, id=60, 305.64188pt x 226.59656pt>
+File: images/grayscale/grayscale_1.png Graphic file (type png)
+
+<use images/grayscale/grayscale_1.png>
+Package pdftex.def Info: images/grayscale/grayscale_1.png used on input line 13
+7.
+(pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
+
+<images/grayscale/grayscale_2.png, id=61, 305.64188pt x 226.59656pt>
+File: images/grayscale/grayscale_2.png Graphic file (type png)
+
+<use images/grayscale/grayscale_2.png>
+Package pdftex.def Info: images/grayscale/grayscale_2.png used on input line 14
+2.
+(pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
+
+<images/grayscale/grayscale_3.png, id=62, 305.64188pt x 226.59656pt>
+File: images/grayscale/grayscale_3.png Graphic file (type png)
+
+<use images/grayscale/grayscale_3.png>
+Package pdftex.def Info: images/grayscale/grayscale_3.png used on input line 14
+7.
+(pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
+
+<images/threshold/threshold_1.png, id=63, 305.64188pt x 226.59656pt>
+File: images/threshold/threshold_1.png Graphic file (type png)
+
+<use images/threshold/threshold_1.png>
+Package pdftex.def Info: images/threshold/threshold_1.png used on input line 15
+2.
+(pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
+
+<images/dilate_erode/dilate_erode_1.png, id=64, 305.64188pt x 226.59656pt>
+File: images/dilate_erode/dilate_erode_1.png Graphic file (type png)
+
+<use images/dilate_erode/dilate_erode_1.png>
+Package pdftex.def Info: images/dilate_erode/dilate_erode_1.png used on input l
+ine 157.
+(pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
+
+<images/bounding_box/bounding_box_1.png, id=65, 305.64188pt x 226.59656pt>
+File: images/bounding_box/bounding_box_1.png Graphic file (type png)
+
+<use images/bounding_box/bounding_box_1.png>
+Package pdftex.def Info: images/bounding_box/bounding_box_1.png used on input l
+ine 162.
+(pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 135--165
+[][] []
+ []
+
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 135--165
+[] []
+ []
+
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 135--165
+[] [] 
+ []
+
+[9 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/ba
+ckground_subtraction_4.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/
+background_subtraction/background_subtraction_5.png>] [10 <C:/Users/Tomas/Docum
+ents/GSD_Report/Report/images/moving_average/moving_average_1.png> <C:/Users/To
+mas/Documents/GSD_Report/Report/images/moving_average/moving_average_2.png> <C:
+/Users/Tomas/Documents/GSD_Report/Report/images/blur/blur_1.png> <C:/Users/Toma
+s/Documents/GSD_Report/Report/images/blur/blur_2.png>] [11 <C:/Users/Tomas/Docu
+ments/GSD_Report/Report/images/grayscale/grayscale_1.png> <C:/Users/Tomas/Docum
+ents/GSD_Report/Report/images/grayscale/grayscale_2.png> <C:/Users/Tomas/Docume
+nts/GSD_Report/Report/images/grayscale/grayscale_3.png> <C:/Users/Tomas/Documen
+ts/GSD_Report/Report/images/threshold/threshold_1.png> <C:/Users/Tomas/Document
+s/GSD_Report/Report/images/dilate_erode/dilate_erode_1.png> <C:/Users/Tomas/Doc
+uments/GSD_Report/Report/images/bounding_box/bounding_box_1.png>]) [12]
 Chapter 4.
-
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\chapters/Implementation.tex") [6
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation.tex)
+[13
 
 ]
 Chapter 5.
-
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\chapters/Evaluation.tex") [7
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Evaluation.tex) [14
 
 ]
 Chapter 6.
-
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\chapters/Collaboration.tex") [8
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Collaboration.tex)
+[15
 
 ]
 Chapter 7.
-
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\chapters/Discussion.tex") [9
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Discussion.tex) [16
 
 ]
 Chapter 8.
-
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\chapters/Conclusion.tex") [10
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Conclusion.tex) [17
 
 ]
 Chapter 9.
-
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\chapters/References.tex") [11
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/References.tex) [18
 
 ]
-("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
-iles\Report\Occupancy Analyzer Report.aux") ) 
+("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.aux") ) 
 Here is how much of TeX's memory you used:
- 3085 strings out of 493921
- 48760 string characters out of 3144869
- 100049 words of memory out of 3000000
- 6346 multiletter control sequences out of 15000+200000
- 12557 words of font info for 31 fonts, out of 3000000 for 9000
+ 3229 strings out of 493921
+ 52010 string characters out of 3144875
+ 107106 words of memory out of 3000000
+ 6448 multiletter control sequences out of 15000+200000
+ 14100 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,6n,42p,953b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Theresa\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Theresa\App
-Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users
-\Theresa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.p
-k> <C:\Users\Theresa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm1728.pk> <C:\Users\Theresa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecbx2074.pk> <C:\Users\Theresa\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Theresa\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
-Output written on "Occupancy Analyzer Report.pdf" (13 pages, 178289 bytes).
+ 44i,10n,42p,2552b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 
+<C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
+x1440.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
+dpi600\ecbx1728.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecrm1200.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Tomas\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Tomas\App
+Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users
+\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
+
+Output written on "Occupancy Analyzer Report.pdf" (20 pages, 3238316 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
+ 398 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
