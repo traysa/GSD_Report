@@ -6,17 +6,36 @@
 %Course setup
 %Aim for 1 page.
 
+Smart use of energy ressources is an ongoing topic these days. The reduction of expenses is mostly the biggest impulse for companies. But also the debate around climate change brings a new legislation to reduce the waste of energy resources, whose production is damaging to the environment and future generations. The IT University of Copenhagen (ITU) has an interest in producing an occupancy model for commercial buildings, like the ITU building, to detect where energy ressources are needed and where they can be saved. Energy ressources are needed for e.g. lighting and heat-regulating systems, which are relevant for occupants in a commercial building. With the detected occupancy data the ITU can predict occupancy and develop concepts for a smart use of energy ressources in commercial buildings.
+
+The Strathmore university in Kenya has also an interest in building up an occupancy model, but mainly for surveillance reasons. Surveillance can be used for several purposes like traffic monitoring, public safety and facilities surveillance. An IT-based surveillance system can automatically analyse the scene without the use of human ressources. By analysing the scene the detection of occupancy is a major part. Moreover a real-time prediction model on the occupancy data can be used for preventing criminal behaviour by triggering alarm or other surveillance systems.
+
+Currently there is no existing infrastructure to build up an occupancy model in the Strathmore university or the ITU building. Both universities want a solution for an occupancy analyzer based on Raspberry PIs due to the minimal consumption of computational and monetary ressources. Furthermore the Starthmore university requests for an Android application, which represents a live-feed of the occupants in a considered room.
+
+A group of students from both universities have to collaborate to come up with a solution for an occupancy analyzer, which can satisfy the needs of both university interests. Ideally a product should have been developed, which can be adapted to fit one or the other university needs.
+Furthermore a collaboration project is mandatory for the student group from ITU, in which they have to face the challenges of global collaboration, navigate compromises and come up with a solution.
+
+This report contains the product result, design of the product, details of the project work and the learning outcomes, which were achieved in the project with the globally distributed team from the perspective of the ITU students. The project team consists of international students located in Nairobi, Kenya (East African Time) and Copenhagen, Denmark (Central European Time).
 
 
 \section{Problem}
 
 %given the context
-%What is the specific problem you are looking at? At this point this won't be clear to you and that is okay. Spend some time thinking about what the system you are building could be used for and %write down something that makes sense (notice that this is the reverse approach: what do we want to do -> what does this solve).This makes you think about the problem and gives us %something to discuss. Later on we will revise it. 
+%What is the specific problem you are looking at? At this point this won't be clear to you and that is okay. Spend some time thinking about what the system you are building could be used for and write down something that makes sense (notice that this is the reverse approach: what do we want to do -> what does this solve).This makes you think about the problem and gives us something to discuss. Later on we will revise it. 
 %Describe the problem you are facing.
 %Give a clear definition of the problem you are trying to solve. This is what the success of the product is measured against.
 %The context
 %Aim for ½-1 page.
 
+The content of this project is to build an occupancy analyzer, which detects people in a room or corridor and predicts their movement. The occupancy analyzer has to be based on Raspberry PIs and webcams, which comes with computational restrictions. A solution for the right architecture and programming languages has to be found, which can deal with those limited ressources.
+
+Due to the usage of webcams, a visual detection of people has to be made. Analyzing images by detecting people, which are moving objects that are not part of the room, is one major challenge to face. Visual conditions of the image can change as a result of daylight. For example dynamic lighting and moving shadows should not influence the detection of people. 
+For the best capturing of occupants and the requirement to represent the occupants on an Android application, leads to an argumentation of a reasonable placement of the webcamera. 
+The differentiation between people, but also between people and the setting of the room, is important to detect right data about occupancy. Only if reliable data about occupancy exists, the data can be used for a reliable prediction model or can be usable for future concepts and projects.
+
+In another step the question, how the collected data can be used, has to be considered. Building prediction models, which relies on historic data and on real-time data, is another requirement, which the project dealed with. Decissions on what kind of prediction for a meaningful application and how the data will be stored and processed have to be made.
+
+Besides the design and implementation of an occupnacy anaylzer, another task is the collaboration of students from two different located universities. Cultural differences, difference in time, spatial distance and locally related influences have to be overcome. Different perspectives have to be combined and compromises have to be made.
 
 
 \section{Related Work}
@@ -31,6 +50,19 @@
 %How does this apply to your specific problem?
 %What can you build on and what is missing?
 %Aim for 1-2 pages.
+
+The concept of an occupancy analyzer, which uses visual recognition of occupants, is already handled in several papers and projects.
+
+
+NREL IPOS Project:
+%http://techportal.eere.energy.gov/technology.do/techID=986
+%http://www.nrel.gov/news/features/feature_detail.cfm/feature_id=2210
+%http://e3tnw.org/Documents/IPOS%20Presentation.pdf
+%http://www.ibpsa.us/presentations/2013.06_IBO_Boulder/Thursday/Low-Cost%20Sensing/Low-Cost%20Sensing_L_GENTILE_POLESE.pdf
+%http://m.eetasia.com/ART_8800686058_480500_NT_509225b4.HTM
+
+
+%http://ieeexplore.ieee.org/xpl/login.jsp?reload=true&tp=&arnumber=5606357&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F30%2F5606236%2F05606357.pdf%3Farnumber%3D5606357
 
 
 

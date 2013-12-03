@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.21)  1 DEC 2013 20:49
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  2 DEC 2013 17:09
+>>>>>>> 0d812ca2b266b15f746bdbd08bc10e0fb42dac21
 entering extended mode
-**Occupancy*Analyzer*Report.tex
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.tex"
+**D:/data/Studium/Master/Semester*1/Global*Software*Development/Report/Shared*f
+iles/Report/Occupancy*Analyzer*Report.tex
+
+("D:/data/Studium/Master/Semester 1/Global Software Development/Report/Shared f
+iles/Report/Occupancy Analyzer Report.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -63,17 +70,17 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
+(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen105
@@ -107,7 +114,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip49
@@ -119,7 +126,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen116
 \titlewidthfirst=\dimen117
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\latex\blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
@@ -152,7 +159,8 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.aux")
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\Occupancy Analyzer Report.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
@@ -166,7 +174,7 @@ LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\Theresa\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen118
@@ -183,7 +191,9 @@ LaTeX Font Info:    ... okay on input line 33.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
- (C:\Users\Tomas\Documents\GSD_Report\Report\titlepage.tex
+
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\titlepage.tex"
 <images/ITU_logo_ENG.jpg, id=1, 373.395pt x 274.02374pt>
 File: images/ITU_logo_ENG.jpg Graphic file (type jpg)
 
@@ -192,31 +202,39 @@ Package pdftex.def Info: images/ITU_logo_ENG.jpg used on input line 27.
 (pdftex.def)             Requested size: 187.89914pt x 137.89377pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Tomas/Documents/
-GSD_Report/Report/images/ITU_logo_ENG.jpg>])
-[1] ("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.toc"
+{C:/Users/Theresa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/data/S
+tudium/Master/Semester 1/Global Software Development/Report/Shared files/Report
+/images/ITU_logo_ENG.jpg>]) [1]
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\Occupancy Analyzer Report.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-[1
+ [1
 
 ])
 \tf@toc=\write3
  [2]
 Chapter 1.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/introduction.tex) [3
 
-]
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\chapters/introduction.tex" [3
+
+]) [4]
 Chapter 2.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Analysis.tex) [4
+
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\chapters/Analysis.tex") [5
 
 ]
 Chapter 3.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design.tex
-<images/system_overview/system_overview_tomas.png, id=28, 860.21375pt x 337.26p
+
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\chapters/Design.tex"
+<images/system_overview/system_overview_tomas.png, id=32, 860.21375pt x 337.26p
 t>
 File: images/system_overview/system_overview_tomas.png Graphic file (type png)
  <use images/system_overview/system_overview_tomas.png>
@@ -224,7 +242,7 @@ Package pdftex.def Info: images/system_overview/system_overview_tomas.png used
 on input line 10.
 (pdftex.def)             Requested size: 464.5085pt x 182.11768pt.
 
-<images/system_overview/system_overview_theresa.png, id=30, 551.05875pt x 413.2
+<images/system_overview/system_overview_theresa.png, id=34, 551.05875pt x 413.2
 9407pt>
 File: images/system_overview/system_overview_theresa.png Graphic file (type png
 )
@@ -232,11 +250,11 @@ File: images/system_overview/system_overview_theresa.png Graphic file (type png
 Package pdftex.def Info: images/system_overview/system_overview_theresa.png use
 d on input line 18.
 (pdftex.def)             Requested size: 297.56728pt x 223.17546pt.
- [5
+ [6
 
- <C:/Users/Tomas/Documents/GSD_Report/Report/images/system_overview/system_over
-view_tomas.png>]
-<images/camera_placement/camera_placement_1.jpg, id=36, 355.3275pt x 142.5325pt
+ <D:/data/Studium/Master/Semester 1/Global Software Development/Report/Shared f
+iles/Report/images/system_overview/system_overview_tomas.png>]
+<images/camera_placement/camera_placement_1.jpg, id=39, 355.3275pt x 142.5325pt
 >
 File: images/camera_placement/camera_placement_1.jpg Graphic file (type jpg)
  <use images/camera_placement/camera_placement_1.jpg>
@@ -244,16 +262,16 @@ Package pdftex.def Info: images/camera_placement/camera_placement_1.jpg used on
  input line 42.
 (pdftex.def)             Requested size: 230.96013pt x 92.645pt.
 
-<images/camera_placement/camera_placement_2.jpg, id=37, 355.3275pt x 142.5325pt
+<images/camera_placement/camera_placement_2.jpg, id=40, 355.3275pt x 142.5325pt
 >
 File: images/camera_placement/camera_placement_2.jpg Graphic file (type jpg)
  <use images/camera_placement/camera_placement_2.jpg>
 Package pdftex.def Info: images/camera_placement/camera_placement_2.jpg used on
  input line 43.
 (pdftex.def)             Requested size: 230.96013pt x 92.645pt.
- [6 <C:/Users/Tomas/Documents/GSD_Report/Report/images/system_overview/system_o
-verview_theresa.png>]
-<images/background_subtraction/background_subtraction_1.png, id=41, 569.12625pt
+ [7 <D:/data/Studium/Master/Semester 1/Global Software Development/Report/Share
+d files/Report/images/system_overview/system_overview_theresa.png>]
+<images/background_subtraction/background_subtraction_1.png, id=44, 569.12625pt
  x 129.48375pt>
 File: images/background_subtraction/background_subtraction_1.png Graphic file (
 type png)
@@ -263,7 +281,7 @@ Package pdftex.def Info: images/background_subtraction/background_subtraction_1
 .png used on input line 60.
 (pdftex.def)             Requested size: 369.92767pt x 84.16342pt.
 
-<images/background_subtraction/background_subtraction_2.png, id=42, 574.145pt x
+<images/background_subtraction/background_subtraction_2.png, id=45, 574.145pt x
  127.47626pt>
 File: images/background_subtraction/background_subtraction_2.png Graphic file (
 type png)
@@ -272,7 +290,7 @@ Package pdftex.def Info: images/background_subtraction/background_subtraction_2
 .png used on input line 67.
 (pdftex.def)             Requested size: 373.18983pt x 82.85857pt.
 
-<images/background_subtraction/background_subtraction_3.png, id=43, 569.12625pt
+<images/background_subtraction/background_subtraction_3.png, id=46, 569.12625pt
  x 127.47626pt>
 File: images/background_subtraction/background_subtraction_3.png Graphic file (
 type png)
@@ -282,7 +300,7 @@ Package pdftex.def Info: images/background_subtraction/background_subtraction_3
 .png used on input line 75.
 (pdftex.def)             Requested size: 369.92767pt x 82.85857pt.
 
-<images/background_subtraction/background_subtraction_4.png, id=44, 577.15625pt
+<images/background_subtraction/background_subtraction_4.png, id=47, 577.15625pt
  x 127.47626pt>
 File: images/background_subtraction/background_subtraction_4.png Graphic file (
 type png)
@@ -292,7 +310,7 @@ Package pdftex.def Info: images/background_subtraction/background_subtraction_4
 .png used on input line 82.
 (pdftex.def)             Requested size: 375.14711pt x 82.85857pt.
 
-<images/background_subtraction/background_subtraction_5.png, id=45, 569.12625pt
+<images/background_subtraction/background_subtraction_5.png, id=48, 569.12625pt
  x 127.47626pt>
 File: images/background_subtraction/background_subtraction_5.png Graphic file (
 type png)
@@ -301,10 +319,11 @@ type png)
 Package pdftex.def Info: images/background_subtraction/background_subtraction_5
 .png used on input line 90.
 (pdftex.def)             Requested size: 369.92767pt x 82.85857pt.
- [7 <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_placement/camera_
-placement_1.jpg> <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_plac
-ement/camera_placement_2.jpg>]
-<images/moving_average/moving_average_1.png, id=50, 478.78876pt x 358.33875pt>
+ [8 <D:/data/Studium/Master/Semester 1/Global Software Development/Report/Share
+d files/Report/images/camera_placement/camera_placement_1.jpg> <D:/data/Studium
+/Master/Semester 1/Global Software Development/Report/Shared files/Report/image
+s/camera_placement/camera_placement_2.jpg>]
+<images/moving_average/moving_average_1.png, id=53, 478.78876pt x 358.33875pt>
 File: images/moving_average/moving_average_1.png Graphic file (type png)
 
 <use images/moving_average/moving_average_1.png>
@@ -312,7 +331,7 @@ Package pdftex.def Info: images/moving_average/moving_average_1.png used on inp
 ut line 103.
 (pdftex.def)             Requested size: 143.63773pt x 107.50244pt.
 
-<images/moving_average/moving_average_2.png, id=51, 478.78876pt x 358.33875pt>
+<images/moving_average/moving_average_2.png, id=54, 478.78876pt x 358.33875pt>
 File: images/moving_average/moving_average_2.png Graphic file (type png)
 
 <use images/moving_average/moving_average_2.png>
@@ -324,18 +343,20 @@ Overfull \hbox (2.61047pt too wide) in paragraph at lines 101--111
 [][] [] 
  []
 
-[8 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/ba
-ckground_subtraction_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/
-background_subtraction/background_subtraction_2.png> <C:/Users/Tomas/Documents/
-GSD_Report/Report/images/background_subtraction/background_subtraction_3.png>]
-<images/blur/blur_1.png, id=58, 479.54156pt x 361.35pt>
+[9 <D:/data/Studium/Master/Semester 1/Global Software Development/Report/Shared
+ files/Report/images/background_subtraction/background_subtraction_1.png> <D:/d
+ata/Studium/Master/Semester 1/Global Software Development/Report/Shared files/R
+eport/images/background_subtraction/background_subtraction_2.png> <D:/data/Stud
+ium/Master/Semester 1/Global Software Development/Report/Shared files/Report/im
+ages/background_subtraction/background_subtraction_3.png>]
+<images/blur/blur_1.png, id=61, 479.54156pt x 361.35pt>
 File: images/blur/blur_1.png Graphic file (type png)
 
 <use images/blur/blur_1.png>
 Package pdftex.def Info: images/blur/blur_1.png used on input line 120.
 (pdftex.def)             Requested size: 143.86357pt x 108.40584pt.
 
-<images/blur/blur_2.png, id=59, 478.78876pt x 360.59718pt>
+<images/blur/blur_2.png, id=62, 478.78876pt x 360.59718pt>
 File: images/blur/blur_2.png Graphic file (type png)
 
 <use images/blur/blur_2.png>
@@ -346,7 +367,7 @@ Overfull \hbox (2.61047pt too wide) in paragraph at lines 118--128
 [][] [] 
  []
 
-<images/grayscale/grayscale_1.png, id=60, 305.64188pt x 226.59656pt>
+<images/grayscale/grayscale_1.png, id=63, 305.64188pt x 226.59656pt>
 File: images/grayscale/grayscale_1.png Graphic file (type png)
 
 <use images/grayscale/grayscale_1.png>
@@ -354,7 +375,7 @@ Package pdftex.def Info: images/grayscale/grayscale_1.png used on input line 13
 7.
 (pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
 
-<images/grayscale/grayscale_2.png, id=61, 305.64188pt x 226.59656pt>
+<images/grayscale/grayscale_2.png, id=64, 305.64188pt x 226.59656pt>
 File: images/grayscale/grayscale_2.png Graphic file (type png)
 
 <use images/grayscale/grayscale_2.png>
@@ -362,7 +383,7 @@ Package pdftex.def Info: images/grayscale/grayscale_2.png used on input line 14
 2.
 (pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
 
-<images/grayscale/grayscale_3.png, id=62, 305.64188pt x 226.59656pt>
+<images/grayscale/grayscale_3.png, id=65, 305.64188pt x 226.59656pt>
 File: images/grayscale/grayscale_3.png Graphic file (type png)
 
 <use images/grayscale/grayscale_3.png>
@@ -370,7 +391,7 @@ Package pdftex.def Info: images/grayscale/grayscale_3.png used on input line 14
 7.
 (pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
 
-<images/threshold/threshold_1.png, id=63, 305.64188pt x 226.59656pt>
+<images/threshold/threshold_1.png, id=66, 305.64188pt x 226.59656pt>
 File: images/threshold/threshold_1.png Graphic file (type png)
 
 <use images/threshold/threshold_1.png>
@@ -378,7 +399,7 @@ Package pdftex.def Info: images/threshold/threshold_1.png used on input line 15
 2.
 (pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
 
-<images/dilate_erode/dilate_erode_1.png, id=64, 305.64188pt x 226.59656pt>
+<images/dilate_erode/dilate_erode_1.png, id=67, 305.64188pt x 226.59656pt>
 File: images/dilate_erode/dilate_erode_1.png Graphic file (type png)
 
 <use images/dilate_erode/dilate_erode_1.png>
@@ -386,7 +407,7 @@ Package pdftex.def Info: images/dilate_erode/dilate_erode_1.png used on input l
 ine 157.
 (pdftex.def)             Requested size: 152.82056pt x 113.29799pt.
 
-<images/bounding_box/bounding_box_1.png, id=65, 305.64188pt x 226.59656pt>
+<images/bounding_box/bounding_box_1.png, id=68, 305.64188pt x 226.59656pt>
 File: images/bounding_box/bounding_box_1.png Graphic file (type png)
 
 <use images/bounding_box/bounding_box_1.png>
@@ -408,53 +429,80 @@ Overfull \hbox (2.61047pt too wide) in paragraph at lines 135--165
 [] [] 
  []
 
-[9 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/ba
-ckground_subtraction_4.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/
-background_subtraction/background_subtraction_5.png>] [10 <C:/Users/Tomas/Docum
-ents/GSD_Report/Report/images/moving_average/moving_average_1.png> <C:/Users/To
-mas/Documents/GSD_Report/Report/images/moving_average/moving_average_2.png> <C:
-/Users/Tomas/Documents/GSD_Report/Report/images/blur/blur_1.png> <C:/Users/Toma
-s/Documents/GSD_Report/Report/images/blur/blur_2.png>] [11 <C:/Users/Tomas/Docu
-ments/GSD_Report/Report/images/grayscale/grayscale_1.png> <C:/Users/Tomas/Docum
-ents/GSD_Report/Report/images/grayscale/grayscale_2.png> <C:/Users/Tomas/Docume
-nts/GSD_Report/Report/images/grayscale/grayscale_3.png> <C:/Users/Tomas/Documen
-ts/GSD_Report/Report/images/threshold/threshold_1.png> <C:/Users/Tomas/Document
-s/GSD_Report/Report/images/dilate_erode/dilate_erode_1.png> <C:/Users/Tomas/Doc
-uments/GSD_Report/Report/images/bounding_box/bounding_box_1.png>]) [12]
+[10 <D:/data/Studium/Master/Semester 1/Global Software Development/Report/Share
+d files/Report/images/background_subtraction/background_subtraction_4.png> <D:/
+data/Studium/Master/Semester 1/Global Software Development/Report/Shared files/
+Report/images/background_subtraction/background_subtraction_5.png>] [11 <D:/dat
+a/Studium/Master/Semester 1/Global Software Development/Report/Shared files/Rep
+ort/images/moving_average/moving_average_1.png> <D:/data/Studium/Master/Semeste
+r 1/Global Software Development/Report/Shared files/Report/images/moving_averag
+e/moving_average_2.png> <D:/data/Studium/Master/Semester 1/Global Software Deve
+lopment/Report/Shared files/Report/images/blur/blur_1.png> <D:/data/Studium/Mas
+ter/Semester 1/Global Software Development/Report/Shared files/Report/images/bl
+ur/blur_2.png>] [12 <D:/data/Studium/Master/Semester 1/Global Software Developm
+ent/Report/Shared files/Report/images/grayscale/grayscale_1.png> <D:/data/Studi
+um/Master/Semester 1/Global Software Development/Report/Shared files/Report/ima
+ges/grayscale/grayscale_2.png> <D:/data/Studium/Master/Semester 1/Global Softwa
+re Development/Report/Shared files/Report/images/grayscale/grayscale_3.png> <D:
+/data/Studium/Master/Semester 1/Global Software Development/Report/Shared files
+/Report/images/threshold/threshold_1.png> <D:/data/Studium/Master/Semester 1/Gl
+obal Software Development/Report/Shared files/Report/images/dilate_erode/dilate
+_erode_1.png> <D:/data/Studium/Master/Semester 1/Global Software Development/Re
+port/Shared files/Report/images/bounding_box/bounding_box_1.png>]) [13]
 Chapter 4.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation.tex)
-[13
+
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\chapters/Implementation.tex") [14
 
 ]
 Chapter 5.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Evaluation.tex) [14
+
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\chapters/Evaluation.tex") [15
 
 ]
 Chapter 6.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Collaboration.tex)
-[15
 
-]
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\chapters/Collaboration.tex"
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+ [16
+
+]) [17]
 Chapter 7.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Discussion.tex) [16
+
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\chapters/Discussion.tex") [18
 
 ]
 Chapter 8.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Conclusion.tex) [17
+
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\chapters/Conclusion.tex") [19
 
 ]
 Chapter 9.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/References.tex) [18
+
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\chapters/References.tex") [20
 
 ]
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.aux") ) 
+("D:\data\Studium\Master\Semester 1\Global Software Development\Report\Shared f
+iles\Report\Occupancy Analyzer Report.aux") ) 
 Here is how much of TeX's memory you used:
- 3229 strings out of 493921
- 52010 string characters out of 3144875
+ 3246 strings out of 493921
+ 53889 string characters out of 3144869
  107106 words of memory out of 3000000
- 6448 multiletter control sequences out of 15000+200000
+ 6462 multiletter control sequences out of 15000+200000
  14100 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  44i,10n,42p,2627b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
  
 <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
@@ -470,6 +518,23 @@ Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users
 Output written on "Occupancy Analyzer Report.pdf" (20 pages, 3240889 bytes).
 PDF statistics:
  405 PDF objects out of 1000 (max. 8388607)
+=======
+ 44i,10n,42p,2641b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Theresa\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Theresa\App
+Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users
+\Theresa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.p
+k> <C:\Users\Theresa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ecbx1200.pk> <C:\Users\Theresa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecrm1728.pk> <C:\Users\Theresa\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Theresa\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Theresa\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Occupancy Analyzer Report.pdf" (22 pages, 3255625 bytes).
+PDF statistics:
+ 417 PDF objects out of 1000 (max. 8388607)
+>>>>>>> 0d812ca2b266b15f746bdbd08bc10e0fb42dac21
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
