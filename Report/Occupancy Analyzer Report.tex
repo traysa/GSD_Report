@@ -1,7 +1,7 @@
 \documentclass[12pt]{report} % article, letter, book, macthesis, report, memoir, elsarticle
 \usepackage{graphicx} % This allows to include figures (images) in Latex documents.
 \usepackage{fullpage} % For using more space in paper (smaller margins).
-\usepackage{subfigure} % subfigure environment
+\usepackage{subfigure} % Allows to nicely group figures.
 \graphicspath{{images/}}
 \setcounter{secnumdepth}{3} % Depth of section numbering (will show numbers for subsubsections).
 \setcounter{tocdepth}{3} % Depth of subsection showing in TOC.
@@ -10,19 +10,22 @@
 \setlength{\parindent}{0in} 
 \setlength{\parskip}{3mm}
 
+\usepackage[numbib,notlof,notlot,nottoc]{tocbibind} % Show "References" section in ToC.
+
+\renewcommand{\bibname}{References} % Change "Bibliography" to "References"
+
 \usepackage[T1]{fontenc}
 \usepackage{titlesec, blindtext, color}
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
-
-%CONTENT
+% CONTENT
 \begin{document}
 
 \input{titlepage}
 
-\newpage %makes a new page
+\newpage % Makes a new page.
 
 \begin{abstract}
 Write abstract text...
@@ -58,10 +61,6 @@ Write abstract text...
 \chapter{Conclusion}
 \input{chapters/Conclusion}
 
-\chapter{References}
 \input{chapters/References}
-
-%\bibliographystyle{apalike}%plain, acm, ieeetr, apalike, ...
-%\bibliography{}
 
 \end{document}
