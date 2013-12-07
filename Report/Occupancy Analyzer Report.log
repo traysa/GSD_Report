@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.21)  6 DEC 2013 23:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.21)  7 DEC 2013 15:01
 entering extended mode
 **Occupancy*Analyzer*Report.tex
 ("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.tex"
@@ -223,7 +223,7 @@ File: images/camera_placement/camera_top.pdf Graphic file (type pdf)
 
 <use images/camera_placement/camera_top.pdf>
 Package pdftex.def Info: images/camera_placement/camera_top.pdf used on input l
-ine 31.
+ine 30.
 (pdftex.def)             Requested size: 465.06099pt x 198.64868pt.
 
 <images/camera_placement/camera_corner.pdf, id=42, 567.14388pt x 242.25293pt>
@@ -231,7 +231,7 @@ File: images/camera_placement/camera_corner.pdf Graphic file (type pdf)
 
 <use images/camera_placement/camera_corner.pdf>
 Package pdftex.def Info: images/camera_placement/camera_corner.pdf used on inpu
-t line 40.
+t line 38.
 (pdftex.def)             Requested size: 465.06099pt x 198.64868pt.
  [8 <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_placement/camera_
 top.pdf>]
@@ -242,7 +242,7 @@ type png)
 
 <use images/background_subtraction/background_subtraction_1.png>
 Package pdftex.def Info: images/background_subtraction/background_subtraction_1
-.png used on input line 58.
+.png used on input line 54.
 (pdftex.def)             Requested size: 466.68655pt x 106.17734pt.
 
 <images/background_subtraction/background_subtraction_2.png, id=110, 574.145pt 
@@ -252,15 +252,15 @@ type png)
 
 <use images/background_subtraction/background_subtraction_2.png>
 Package pdftex.def Info: images/background_subtraction/background_subtraction_2
-.png used on input line 66.
+.png used on input line 61.
 (pdftex.def)             Requested size: 465.0549pt x 103.25519pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 
 <images/background_subtraction/background_subtraction_3.png, id=111, 569.12625p
 t x 127.47626pt>
@@ -269,7 +269,7 @@ type png)
 
 <use images/background_subtraction/background_subtraction_3.png>
 Package pdftex.def Info: images/background_subtraction/background_subtraction_3
-.png used on input line 79.
+.png used on input line 73.
 (pdftex.def)             Requested size: 466.68655pt x 104.53119pt.
 
 <images/background_subtraction/background_subtraction_4.png, id=112, 577.15625p
@@ -279,7 +279,7 @@ type png)
 
 <use images/background_subtraction/background_subtraction_4.png>
 Package pdftex.def Info: images/background_subtraction/background_subtraction_4
-.png used on input line 87.
+.png used on input line 80.
 (pdftex.def)             Requested size: 467.494pt x 103.25519pt.
  [9 <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_placement/camera_
 corner.pdf>]
@@ -290,121 +290,121 @@ type png)
 
 <use images/background_subtraction/background_subtraction_5.png>
 Package pdftex.def Info: images/background_subtraction/background_subtraction_5
-.png used on input line 97.
+.png used on input line 89.
 (pdftex.def)             Requested size: 466.68655pt x 104.53119pt.
  [10 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/
 background_subtraction_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/image
-s/background_subtraction/background_subtraction_2.png>]
-<images/running_average/running_average_1.png, id=195, 481.8pt x 361.35pt>
+s/background_subtraction/background_subtraction_2.png> <C:/Users/Tomas/Document
+s/GSD_Report/Report/images/background_subtraction/background_subtraction_3.png>
+]
+<images/running_average/running_average_1.png, id=196, 481.8pt x 361.35pt>
 File: images/running_average/running_average_1.png Graphic file (type png)
 
 <use images/running_average/running_average_1.png>
 Package pdftex.def Info: images/running_average/running_average_1.png used on i
-nput line 116.
+nput line 106.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<images/running_average/running_average_2.png, id=196, 481.8pt x 361.35pt>
+<images/running_average/running_average_2.png, id=197, 481.8pt x 361.35pt>
 File: images/running_average/running_average_2.png Graphic file (type png)
 
 <use images/running_average/running_average_2.png>
 Package pdftex.def Info: images/running_average/running_average_2.png used on i
-nput line 120.
+nput line 110.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<images/running_average/running_average_3.png, id=197, 481.8pt x 361.35pt>
+<images/running_average/running_average_3.png, id=198, 481.8pt x 361.35pt>
 File: images/running_average/running_average_3.png Graphic file (type png)
 
 <use images/running_average/running_average_3.png>
 Package pdftex.def Info: images/running_average/running_average_3.png used on i
-nput line 123.
+nput line 113.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<images/running_average/running_average_4.png, id=198, 481.8pt x 361.35pt>
+<images/running_average/running_average_4.png, id=199, 481.8pt x 361.35pt>
 File: images/running_average/running_average_4.png Graphic file (type png)
 
 <use images/running_average/running_average_4.png>
 Package pdftex.def Info: images/running_average/running_average_4.png used on i
-nput line 127.
+nput line 117.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
  [11 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/
-background_subtraction_3.png> <C:/Users/Tomas/Documents/GSD_Report/Report/image
-s/background_subtraction/background_subtraction_4.png>]
-<images/blur/blur_1.png, id=205, 481.8pt x 361.35pt>
+background_subtraction_4.png> <C:/Users/Tomas/Documents/GSD_Report/Report/image
+s/background_subtraction/background_subtraction_5.png>]
+<images/blur/blur_1.png, id=206, 481.8pt x 361.35pt>
 File: images/blur/blur_1.png Graphic file (type png)
 
 <use images/blur/blur_1.png>
-Package pdftex.def Info: images/blur/blur_1.png used on input line 143.
+Package pdftex.def Info: images/blur/blur_1.png used on input line 131.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<images/blur/blur_2.png, id=206, 481.8pt x 361.35pt>
+<images/blur/blur_2.png, id=207, 481.8pt x 361.35pt>
 File: images/blur/blur_2.png Graphic file (type png)
 
 <use images/blur/blur_2.png>
-Package pdftex.def Info: images/blur/blur_2.png used on input line 147.
+Package pdftex.def Info: images/blur/blur_2.png used on input line 135.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
- [12 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/
-background_subtraction_5.png>]
-<images/grayscale/grayscale_1.png, id=211, 305.64188pt x 226.59656pt>
+ [12 <C:/Users/Tomas/Documents/GSD_Report/Report/images/running_average/running
+_average_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/running_aver
+age/running_average_2.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/r
+unning_average/running_average_3.png> <C:/Users/Tomas/Documents/GSD_Report/Repo
+rt/images/running_average/running_average_4.png>]
+[13 <C:/Users/Tomas/Documents/GSD_Report/Report/images/blur/blur_1.png> <C:/Use
+rs/Tomas/Documents/GSD_Report/Report/images/blur/blur_2.png>]
+<images/grayscale/grayscale_1.png, id=220, 305.64188pt x 226.59656pt>
 File: images/grayscale/grayscale_1.png Graphic file (type png)
 
 <use images/grayscale/grayscale_1.png>
-Package pdftex.def Info: images/grayscale/grayscale_1.png used on input line 16
-8.
+Package pdftex.def Info: images/grayscale/grayscale_1.png used on input line 15
+4.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/grayscale/grayscale_2.png, id=212, 305.64188pt x 226.59656pt>
+<images/grayscale/grayscale_2.png, id=221, 305.64188pt x 226.59656pt>
 File: images/grayscale/grayscale_2.png Graphic file (type png)
 
 <use images/grayscale/grayscale_2.png>
-Package pdftex.def Info: images/grayscale/grayscale_2.png used on input line 17
-2.
+Package pdftex.def Info: images/grayscale/grayscale_2.png used on input line 15
+8.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/grayscale/grayscale_3.png, id=213, 305.64188pt x 226.59656pt>
+<images/grayscale/grayscale_3.png, id=222, 305.64188pt x 226.59656pt>
 File: images/grayscale/grayscale_3.png Graphic file (type png)
 
 <use images/grayscale/grayscale_3.png>
-Package pdftex.def Info: images/grayscale/grayscale_3.png used on input line 17
-5.
+Package pdftex.def Info: images/grayscale/grayscale_3.png used on input line 16
+1.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/threshold/threshold_1.png, id=214, 305.64188pt x 226.59656pt>
+<images/threshold/threshold_1.png, id=223, 305.64188pt x 226.59656pt>
 File: images/threshold/threshold_1.png Graphic file (type png)
 
 <use images/threshold/threshold_1.png>
-Package pdftex.def Info: images/threshold/threshold_1.png used on input line 17
-9.
+Package pdftex.def Info: images/threshold/threshold_1.png used on input line 16
+5.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/dilate_erode/dilate_erode_1.png, id=215, 305.64188pt x 226.59656pt>
+<images/dilate_erode/dilate_erode_1.png, id=224, 305.64188pt x 226.59656pt>
 File: images/dilate_erode/dilate_erode_1.png Graphic file (type png)
 
 <use images/dilate_erode/dilate_erode_1.png>
 Package pdftex.def Info: images/dilate_erode/dilate_erode_1.png used on input l
-ine 182.
+ine 168.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/bounding_box/bounding_box_1.png, id=216, 305.64188pt x 226.59656pt>
+<images/bounding_box/bounding_box_1.png, id=225, 305.64188pt x 226.59656pt>
 File: images/bounding_box/bounding_box_1.png Graphic file (type png)
 
 <use images/bounding_box/bounding_box_1.png>
 Package pdftex.def Info: images/bounding_box/bounding_box_1.png used on input l
-ine 186.
+ine 172.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
- [13 <C:/Users/Tomas/Documents/GSD_Report/Report/images/running_average/running
-_average_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/running_aver
-age/running_average_2.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/r
-unning_average/running_average_3.png> <C:/Users/Tomas/Documents/GSD_Report/Repo
-rt/images/running_average/running_average_4.png>] [14 <C:/Users/Tomas/Documents
-/GSD_Report/Report/images/blur/blur_1.png> <C:/Users/Tomas/Documents/GSD_Report
-/Report/images/blur/blur_2.png>])
-[15] [16 <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/grayscale
-_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/grayscale_
-2.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/grayscale_3
-.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/threshold/threshold_1.
-png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/dilate_erode/dilate_ero
-de_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/bounding_box/bound
-ing_box_1.png>]
+ [14]) [15] [16 <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/gr
+ayscale_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/gra
+yscale_2.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/gray
+scale_3.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/threshold/thres
+hold_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/dilate_erode/dil
+ate_erode_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/bounding_bo
+x/bounding_box_1.png>]
 Chapter 4.
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation.tex)
 [17
@@ -434,13 +434,13 @@ Chapter 9.
 ]
 ("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.aux") ) 
 Here is how much of TeX's memory you used:
- 2337 strings out of 493921
- 35432 string characters out of 3144875
- 82457 words of memory out of 3000000
- 5549 multiletter control sequences out of 15000+200000
+ 2344 strings out of 493921
+ 35539 string characters out of 3144875
+ 82478 words of memory out of 3000000
+ 5556 multiletter control sequences out of 15000+200000
  15547 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,9n,32p,1289b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,32p,1324b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
  
 <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ect
 i1200.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
@@ -455,9 +455,9 @@ Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users
 rm2074.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ecbx2488.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb>
-Output written on "Occupancy Analyzer Report.pdf" (25 pages, 4935871 bytes).
+Output written on "Occupancy Analyzer Report.pdf" (25 pages, 5006918 bytes).
 PDF statistics:
- 627 PDF objects out of 1000 (max. 8388607)
+ 647 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

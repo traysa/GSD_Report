@@ -13,7 +13,7 @@
 \contentsline {subsubsection}{\numberline {3.3.1.1}Background Subtraction Approach}{9}
 \contentsline {subsubsection}{\numberline {3.3.1.2}Running Average Approach}{11}
 \contentsline {subsection}{\numberline {3.3.2}Object Detection}{12}
-\contentsline {subsection}{\numberline {3.3.3}Object Differentiation}{13}
+\contentsline {subsection}{\numberline {3.3.3}Object Differentiation}{14}
 \contentsline {section}{\numberline {3.4}The Server}{15}
 \contentsline {section}{\numberline {3.5}Prediction}{15}
 \contentsline {section}{\numberline {3.6}Android Application}{15}
