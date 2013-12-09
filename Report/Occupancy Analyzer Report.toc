@@ -16,22 +16,27 @@
 \contentsline {subsection}{\numberline {3.3.3}Object Differentiation}{14}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}The Server}{15}{section.3.4}
 \contentsline {section}{\numberline {3.5}Prediction}{15}{section.3.5}
-\contentsline {section}{\numberline {3.6}Android Application}{15}{section.3.6}
-\contentsline {chapter}{\numberline {4}Implementation}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Image Processing}{17}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Library}{17}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Programming Language}{17}{subsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.2.1}Performance Comparison Between Java and Python}{18}{subsubsection.4.1.2.1}
-\contentsline {chapter}{\numberline {5}Evaluation}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Verification}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Benchmarks}{21}{section.5.2}
-\contentsline {chapter}{\numberline {6}Collaboration}{22}{chapter.6}
-\contentsline {section}{\numberline {6.1}Circumstances}{22}{section.6.1}
-\contentsline {section}{\numberline {6.2}Projectmanagement Method}{22}{section.6.2}
-\contentsline {section}{\numberline {6.3}Project Team and Organisation}{22}{section.6.3}
-\contentsline {section}{\numberline {6.4}Timeline}{23}{section.6.4}
-\contentsline {section}{\numberline {6.5}Issues}{23}{section.6.5}
-\contentsline {section}{\numberline {6.6}Hypothetical Scenarios}{23}{section.6.6}
-\contentsline {chapter}{\numberline {7}Discussion}{24}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{25}{chapter.8}
-\contentsline {chapter}{\numberline {9}References}{26}{chapter.9}
+\contentsline {subsection}{\numberline {3.5.1}Approaches}{15}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Gathering statistical data}{16}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Custom prediction model based on HMM}{16}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Android Application}{17}{section.3.6}
+\contentsline {chapter}{\numberline {4}Implementation}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Image Processing}{20}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Library}{20}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Programming Language}{20}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Performance Comparison Between Java and Python}{21}{subsubsection.4.1.2.1}
+\contentsline {chapter}{\numberline {5}Evaluation}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verification}{24}{section.5.1}
+\contentsline {section}{\numberline {5.2}Benchmarks}{24}{section.5.2}
+\contentsline {chapter}{\numberline {6}Collaboration}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction of the Project team}{25}{section.6.1}
+\contentsline {section}{\numberline {6.2}Initial situation}{26}{section.6.2}
+\contentsline {section}{\numberline {6.3}Projectmanagement Method}{26}{section.6.3}
+\contentsline {section}{\numberline {6.4}Collaboration tools}{26}{section.6.4}
+\contentsline {section}{\numberline {6.5}Project Team and Organisation}{27}{section.6.5}
+\contentsline {section}{\numberline {6.6}Timeline}{27}{section.6.6}
+\contentsline {section}{\numberline {6.7}Collaboration Issues}{27}{section.6.7}
+\contentsline {section}{\numberline {6.8}Hypothetical Scenarios}{28}{section.6.8}
+\contentsline {chapter}{\numberline {7}Discussion}{29}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{30}{chapter.8}
+\contentsline {chapter}{\numberline {9}References}{31}{chapter.9}
