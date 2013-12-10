@@ -1,6 +1,7 @@
 \documentclass[12pt]{report} % article, letter, book, macthesis, report, memoir, elsarticle
 \usepackage{graphicx} % This allows to include figures (images).
 \usepackage{fullpage} % For using more space in paper (smaller margins).
+\usepackage{todonotes} % For using notes
 \usepackage{subfigure} % Allows to nicely group figures.
 \graphicspath{{images/}}
 \setcounter{secnumdepth}{3} % Depth of section numbering (will show numbers for subsubsections).
@@ -65,5 +66,11 @@ Write abstract text...
 \input{chapters/Conclusion}
 
 \input{chapters/References}
+
+\listoftodos
+\todo{Some note or other.}
+\todo[noline]{Another note.}
+\todo[inline]{And another one.}
+\missingfigure{Add my picture here.}
 
 \end{document}

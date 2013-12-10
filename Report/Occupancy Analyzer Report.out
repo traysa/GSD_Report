@@ -16,22 +16,32 @@
 \BOOKMARK [2][-]{subsection.3.3.3}{Object Differentiation}{section.3.3}% 16
 \BOOKMARK [1][-]{section.3.4}{The Server}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.5}{Prediction}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.6}{Android Application}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{Implementation}{}% 20
-\BOOKMARK [1][-]{section.4.1}{Image Processing}{chapter.4}% 21
-\BOOKMARK [2][-]{subsection.4.1.1}{Library}{section.4.1}% 22
-\BOOKMARK [2][-]{subsection.4.1.2}{Programming Language}{section.4.1}% 23
-\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Performance Comparison Between Java and Python}{subsection.4.1.2}% 24
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 25
-\BOOKMARK [1][-]{section.5.1}{Verification}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.2}{Benchmarks}{chapter.5}% 27
-\BOOKMARK [0][-]{chapter.6}{Collaboration}{}% 28
-\BOOKMARK [1][-]{section.6.1}{Circumstances}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.2}{Projectmanagement Method}{chapter.6}% 30
-\BOOKMARK [1][-]{section.6.3}{Project Team and Organisation}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.4}{Timeline}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.5}{Issues}{chapter.6}% 33
-\BOOKMARK [1][-]{section.6.6}{Hypothetical Scenarios}{chapter.6}% 34
-\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 35
-\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 36
-\BOOKMARK [0][-]{chapter.9}{References}{}% 37
+\BOOKMARK [2][-]{subsection.3.5.1}{Approaches}{section.3.5}% 19
+\BOOKMARK [2][-]{subsection.3.5.2}{Gathering statistical data}{section.3.5}% 20
+\BOOKMARK [2][-]{subsection.3.5.3}{Custom prediction model based on HMM}{section.3.5}% 21
+\BOOKMARK [1][-]{section.3.6}{Android Application}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{Implementation}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Image Processing}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.1.1}{Library}{section.4.1}% 25
+\BOOKMARK [2][-]{subsection.4.1.2}{Programming Language}{section.4.1}% 26
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Performance Comparison Between Java and Python}{subsection.4.1.2}% 27
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Verification}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Benchmarks}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Collaboration}{}% 31
+\BOOKMARK [1][-]{section.6.1}{Theory}{chapter.6}% 32
+\BOOKMARK [2][-]{subsection.6.1.1}{Project management}{section.6.1}% 33
+\BOOKMARK [2][-]{subsection.6.1.2}{Global collaboration}{section.6.1}% 34
+\BOOKMARK [1][-]{section.6.2}{Introduction of the Project team}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.3}{Initial situation}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.4}{Project Management}{chapter.6}% 37
+\BOOKMARK [2][-]{subsection.6.4.1}{Approach}{section.6.4}% 38
+\BOOKMARK [2][-]{subsection.6.4.2}{Methods}{section.6.4}% 39
+\BOOKMARK [2][-]{subsection.6.4.3}{Collaboration Tools}{section.6.4}% 40
+\BOOKMARK [1][-]{section.6.5}{Project Organization}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.6}{Project Issues}{chapter.6}% 42
+\BOOKMARK [2][-]{subsection.6.6.1}{Collaboration Issues}{section.6.6}% 43
+\BOOKMARK [1][-]{section.6.7}{Hypothetical Scenarios}{chapter.6}% 44
+\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 45
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 46
+\BOOKMARK [0][-]{chapter.9}{References}{}% 47
