@@ -46,7 +46,7 @@ The next component in the system architecture is Raspberry Pi computers. These c
 	\subsection{Object Extraction}
 	To detect and extract objects, or in our case, people and their movement, we need to apply several motion detection techniques on the frames we are receiving from the web camera. First of all, to detect changes in some monitored area, we naturally need to have at minimum two images, which we must compare to see what changes occurred. We will try to look into two different approaches in doing this, a simple one, and one that is a bit more complicated and sophisticated, but much more adaptive and flexible.
 	
-	\subsubsection{Background Subtraction Approach}
+	\subsubsection{Simple Background Subtraction Approach}
 	A simple approach - called Background Subtraction - would be to have a static background image of observed area that was taken prior to the analysis and did not have any people in it. Then, one can simply detect changes and movement in the area by subtracting the static background image from every newly taken image of the monitored area~\cite{background_subtraction_1}. The difference between the two images would then allow us to see if any changes happened, since after subtraction the resulting image would either be almost totally black (Figure~\ref{fig:background_subtraction_1}) - meaning no one walked passed the observed area - or the image would have some resulting bright contours of detected differences (Figure~\ref{fig:background_subtraction_2}).
 	% Background Subtraction with no background changes.
 	\begin{figure}[ht]
