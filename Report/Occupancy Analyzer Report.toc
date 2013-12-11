@@ -20,28 +20,28 @@
 \contentsline {subsection}{\numberline {3.5.2}Gathering statistical data}{17}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Custom prediction model based on HMM}{17}{subsection.3.5.3}
 \contentsline {section}{\numberline {3.6}Android Application}{18}{section.3.6}
-\contentsline {chapter}{\numberline {4}Implementation}{21}{chapter.4}
-\contentsline {section}{\numberline {4.1}Image Processing}{21}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Library}{21}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Programming Language}{21}{subsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.2.1}Performance Comparison Between Java and Python}{22}{subsubsection.4.1.2.1}
-\contentsline {chapter}{\numberline {5}Evaluation}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}Verification}{25}{section.5.1}
-\contentsline {section}{\numberline {5.2}Benchmarks}{25}{section.5.2}
-\contentsline {chapter}{\numberline {6}Collaboration}{26}{chapter.6}
-\contentsline {section}{\numberline {6.1}Theory}{26}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Project management}{26}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Global collaboration}{26}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Introduction of the Project team}{27}{section.6.2}
-\contentsline {section}{\numberline {6.3}Initial situation}{27}{section.6.3}
-\contentsline {section}{\numberline {6.4}Project Management}{28}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Approach}{28}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Methods}{29}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Collaboration Tools}{29}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Project Organization}{30}{section.6.5}
-\contentsline {section}{\numberline {6.6}Project Issues}{30}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}Collaboration Issues}{30}{subsection.6.6.1}
-\contentsline {section}{\numberline {6.7}Hypothetical Scenarios}{30}{section.6.7}
-\contentsline {chapter}{\numberline {7}Discussion}{31}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{32}{chapter.8}
-\contentsline {chapter}{\numberline {9}References}{33}{chapter.9}
+\contentsline {chapter}{\numberline {4}Implementation}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}Image Processing}{22}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Library}{22}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Programming Language}{22}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Performance Comparison Between Java and Python}{23}{subsubsection.4.1.2.1}
+\contentsline {chapter}{\numberline {5}Evaluation}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verification}{26}{section.5.1}
+\contentsline {section}{\numberline {5.2}Benchmarks}{26}{section.5.2}
+\contentsline {chapter}{\numberline {6}Collaboration}{27}{chapter.6}
+\contentsline {section}{\numberline {6.1}Theory}{27}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Project management}{27}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Global collaboration}{27}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Introduction of the Project team}{28}{section.6.2}
+\contentsline {section}{\numberline {6.3}Initial situation}{28}{section.6.3}
+\contentsline {section}{\numberline {6.4}Project Management}{29}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Approach}{29}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Methods}{30}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Collaboration Tools}{30}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Project Organization}{31}{section.6.5}
+\contentsline {section}{\numberline {6.6}Project Issues}{31}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Collaboration Issues}{31}{subsection.6.6.1}
+\contentsline {section}{\numberline {6.7}Hypothetical Scenarios}{31}{section.6.7}
+\contentsline {chapter}{\numberline {7}Discussion}{32}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{33}{chapter.8}
+\contentsline {chapter}{\numberline {9}References}{34}{chapter.9}
