@@ -12,7 +12,7 @@
 \BOOKMARK [1][-]{section.3.2}{Web Cameras}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.3}{Raspberry Pi Computers}{chapter.3}% 13
 \BOOKMARK [2][-]{subsection.3.3.1}{Object Extraction}{section.3.3}% 14
-\BOOKMARK [3][-]{subsubsection.3.3.1.1}{Background Subtraction Approach}{subsection.3.3.1}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.1.1}{Simple Background Subtraction Approach}{subsection.3.3.1}% 15
 \BOOKMARK [3][-]{subsubsection.3.3.1.2}{Running Average Approach}{subsection.3.3.1}% 16
 \BOOKMARK [2][-]{subsection.3.3.2}{Object Detection}{section.3.3}% 17
 \BOOKMARK [2][-]{subsection.3.3.3}{Object Differentiation}{section.3.3}% 18
@@ -41,16 +41,16 @@
 \BOOKMARK [2][-]{subsection.6.3.2}{Project Organization}{section.6.3}% 41
 \BOOKMARK [3][-]{subsubsection.6.3.2.1}{Timeline}{subsection.6.3.2}% 42
 \BOOKMARK [3][-]{subsubsection.6.3.2.2}{Project Team and Roles}{subsection.6.3.2}% 43
-\BOOKMARK [2][-]{subsection.6.3.3}{Methods}{section.6.3}% 44
-\BOOKMARK [3][-]{subsubsection.6.3.3.1}{Milestone plan}{subsection.6.3.3}% 45
-\BOOKMARK [3][-]{subsubsection.6.3.3.2}{Internal weekly meeting \(Jour-Fixe\)}{subsection.6.3.3}% 46
-\BOOKMARK [3][-]{subsubsection.6.3.3.3}{Global weekly meeting \(Jour-Fixe\)}{subsection.6.3.3}% 47
-\BOOKMARK [3][-]{subsubsection.6.3.3.4}{Meeting reports}{subsection.6.3.3}% 48
-\BOOKMARK [3][-]{subsubsection.6.3.3.5}{Resource planning}{subsection.6.3.3}% 49
-\BOOKMARK [3][-]{subsubsection.6.3.3.6}{Skill-/Preference-Sheet}{subsection.6.3.3}% 50
-\BOOKMARK [3][-]{subsubsection.6.3.3.7}{Motivation-Sheet}{subsection.6.3.3}% 51
+\BOOKMARK [2][-]{subsection.6.3.3}{Project Management Tools and Methods}{section.6.3}% 44
+\BOOKMARK [3][-]{subsubsection.6.3.3.1}{Member profiles}{subsection.6.3.3}% 45
+\BOOKMARK [3][-]{subsubsection.6.3.3.2}{Skill-/Preference- and Motivation-Sheet}{subsection.6.3.3}% 46
+\BOOKMARK [3][-]{subsubsection.6.3.3.3}{"Out-of-Office"-Calendar}{subsection.6.3.3}% 47
+\BOOKMARK [3][-]{subsubsection.6.3.3.4}{Milestone plan}{subsection.6.3.3}% 48
+\BOOKMARK [3][-]{subsubsection.6.3.3.5}{Internal weekly meeting \(Jour-Fixe\)}{subsection.6.3.3}% 49
+\BOOKMARK [3][-]{subsubsection.6.3.3.6}{Global weekly meeting \(Jour-Fixe\)}{subsection.6.3.3}% 50
+\BOOKMARK [3][-]{subsubsection.6.3.3.7}{Meeting reports}{subsection.6.3.3}% 51
 \BOOKMARK [3][-]{subsubsection.6.3.3.8}{Time recording}{subsection.6.3.3}% 52
-\BOOKMARK [3][-]{subsubsection.6.3.3.9}{Kick-Off meeting}{subsection.6.3.3}% 53
+\BOOKMARK [3][-]{subsubsection.6.3.3.9}{Introduction and Kick-Off meeting}{subsection.6.3.3}% 53
 \BOOKMARK [3][-]{subsubsection.6.3.3.10}{Surveys}{subsection.6.3.3}% 54
 \BOOKMARK [2][-]{subsection.6.3.4}{Collaboration Tools}{section.6.3}% 55
 \BOOKMARK [3][-]{subsubsection.6.3.4.1}{Communication}{subsection.6.3.4}% 56

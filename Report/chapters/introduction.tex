@@ -34,10 +34,9 @@ Due to the usage of web cameras, a visual detection of people has to be made. An
 To best capture occupants and the requirement to represent the occupants on an Android application, the position of web cameras becomes an important factor.
 The differentiation between multiple people, as well as between people and the setting of the room, is important for the quality of the detection. Only if reliable data about occupancy exists, can the data be used to construct a reliable prediction model usable for future concepts and projects.
 
-The question of how the collected data can be used, has to be considered. Building prediction models, which relies on historical data and real-time data, is another requirement, which the project dealt with. Decisions on what kind of prediction for a meaningful application - like the one mentioned in paragraph 2 in section \ref{sec:Context} - and how the data will be stored and processed have to be made.
+The question of how the collected data can be used, has to be considered. Building prediction models, which relies on historical data and real-time data, is another requirement, which the project dealt with. Decisions on what kind of prediction for a meaningful application - like the one mentioned in paragraph 2 in Section~\ref{sec:Context} - and how the data will be stored and processed have to be made.
 
 Besides the design and implementation of an occupancy analyzer, another task is the collaboration of students from two different universities. Cultural differences, difference in time, spatial distance and locally related influences have to be overcome. Different perspectives have to be combined and compromises have to be made.
-
 
 \section{Related Work}
 
@@ -52,14 +51,7 @@ Besides the design and implementation of an occupancy analyzer, another task is 
 %What can you build on and what is missing?
 %Aim for 1-2 pages.
 
-The concept of an occupancy analyzer, which uses visual recognition of occupants, is already handled in several papers and projects. \\
-Some guy investigated something about some image analysis and or occupancy analysis. \\
-
-Gellert \& Vintan~\cite{gellert}, in their work \emph{Person Movement Prediction Using Hidden Markov Models}, presents the use of hidden Markov models to anticipate the next movement of a given person. It is used inside an office building where it is possible to predict the next room given any room based on the history of rooms visited by a person moving within the building. The configuration of the model is optimised by evaluating movement sequences of real persons within an office building. \\
-The concept of calculating the probability, and thereby making a prediction, of the next room given any room can be related to our scenario where we predict the next occupied section of the image given an occupant in any section. This information is used in the process of predicting where an occupant will exit the room. \\
-Ashbrook \& Starner~\cite{ashbrook} demonstrated how locations of significance can be incorporated into a predictive model in the paper \emph{Using GPS to Learn Significant Locations and Predict Movement Across Multiple Users}. They cluster location data from a GPS over an extended period of time and infer meaningful locations. These locations are then incorporated into Markov models where it is used to predict a person's future location given any current location. The idea of using heavily visited areas, that is \emph{locations of significance}, to perform predictions is transferred to our scenario, where each area of the image holds a value reflecting the amount of activity within the area. This value plays an important role in the calculations of probabilities and thereby the final predictions.
-
-NREL IPOS Project:
+%NREL IPOS Project:
 %http://techportal.eere.energy.gov/technology.do/techID=986
 %http://www.nrel.gov/news/features/feature_detail.cfm/feature_id=2210
 %http://e3tnw.org/Documents/IPOS%20Presentation.pdf
@@ -69,6 +61,23 @@ NREL IPOS Project:
 
 %http://ieeexplore.ieee.org/xpl/login.jsp?reload=true&tp=&arnumber=5606357&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F30%2F5606236%2F05606357.pdf%3Farnumber%3D5606357
 
+%The concept of an occupancy analyzer, which uses visual recognition of occupants, is already handled in several papers and projects. \\
+%Some guy investigated something about some image analysis and or occupancy analysis. \\
+
+Background subtraction is an extremely important concept in surveillance applications, since this is the first step in detecting people and tracking their movement in monitored area. Y. Benezeth, P.-M. Jodoin, B. Emile, H. Laurent \& C. Rosenberger~\cite{simple_background_subtraction}, in their work \emph{Comparative Study of Background Subtraction Algorithms}, mention a basic motion detection approach by using a simple background subtraction technique. In this technique, the background image is taken when there is a total absence of motion in the monitored area. This background image is then subtracted from every newly taken image of the area in order to detect motion. This is possible since after subtraction the resulting image will either be almost totally black - meaning no motion occurred - or the image will have some resulting bright contours of detected differences.
+
+We applied this simple technique in the beginning of the project for the initial experiments and studies of object detection and tracking. These experiments and studies provided us with some knowledge on how basic object detection works and how we can apply it for our specific problem. Moreover, we have found that this technique can work well in static environments, but falls short in dynamic ones due to illumination changes and background modifications in the monitored area.
+
+Aditi Jog \& Shirish Halbe~\cite{jog_halbe}, in their paper \emph{Multiple Object Tracking using CAMshift Algorithm in Open CV}, present a better way of building object detection and tracking application than simply using basic background subtraction approach. For their implementation they used CAMshift~\footnote{Continuously Adaptive Mean Shift.} algorithm, which is capable of tracking multiple moving objects in video streams. In this algorithm, an approximate background image of the monitored area is gradually built up by smoothing or blurring out the motion areas. This is done by using several images of monitored area taken prior, and performing arithmetic averaging on them. One can then simply use this built up background image for detecting changes in the monitored area.
+
+This approach applies to the first part of our problem, namely detecting and tracking people in the monitored area. We can build upon this approach as the implementation of it is quite simple yet flexible and adaptive. Moreover, it eliminates the need to worry about lighting fluctuations or other unpredictable background changes that may corrupt surveillance of the monitored area.
+
+Gellert \& Vintan~\cite{gellert}, in their work \emph{Person Movement Prediction Using Hidden Markov Models}, presents the use of hidden Markov models to anticipate the next movement of a given person. It is used inside an office building where it is possible to predict the next room given any room based on the history of rooms visited by a person moving within the building. The configuration of the model is optimised by evaluating movement sequences of real persons within an office building.
+
+The concept of calculating the probability, and thereby making a prediction, of the next room given any room can be related to our scenario where we predict the next occupied section of the image given an occupant in any section. This information is used in the process of predicting where an occupant will exit the room.
+
+Ashbrook \& Starner~\cite{ashbrook} demonstrated how locations of significance can be incorporated into a predictive model in the paper \emph{Using GPS to Learn Significant Locations and Predict Movement Across Multiple Users}. They cluster location data from a GPS over an extended period of time and infer meaningful locations. These locations are then incorporated into Markov models where it is used to predict a person's future location given any current location. The idea of using heavily visited areas, that is \emph{locations of significance}, to perform predictions is transferred to our scenario, where each area of the image holds a value reflecting the amount of activity within the area. This value plays an important role in the calculations of probabilities and thereby the final predictions.
+
 \section{Approach}
 
 %given the problem and the related work
@@ -76,8 +85,6 @@ NREL IPOS Project:
 %To give a summary of how you did things.
 %How do you propose to solve the problem? Or at least, how do you propose to take a step towards a solution for the problem?
 %Aim for 1 page.
-
-
 
 \section{Report Structure}
 

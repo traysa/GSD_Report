@@ -192,7 +192,7 @@ The next component in the system architecture is Raspberry Pi computers. These c
 		\subfigure[Second person enters the monitored area]{
 		\includegraphics[scale=0.48]{object_differentiation/2}
 		\label{fig:object_differentiation_2}}
-		\subfigure[Two people continues their walk through the monitored area]{
+		\subfigure[Two people continue their walk through the monitored area]{
 		\includegraphics[scale=0.48]{object_differentiation/3}
 		\label{fig:object_differentiation_3}}
 		\quad
@@ -221,13 +221,14 @@ We have chosen to build our own prediction model heavily inspired by the hidden 
 \item An occupant is more likely to move to the adjacent cell with the highest amount of previous activity.
 \item The likelihood of an occupant exiting at a given exit (unless it also serves as the occupant's entrance) is inversely proportional to the direct distance to the given exit, producing a magnet-like effect. 
 \end{itemize}
-These factors have an influence on a final value of a cell or exit, which is used when calculating each probability. The sum of the probabilities of an occupant moving to each individual exit given a current cell is 100. The cell with the highest probability will be the predicted cell. \\
-\begin{figure}
+These factors have an influence on a final value of a cell or exit, which is used when calculating each probability. The sum of the probabilities of an occupant moving to each individual exit given a current cell is 100. The cell with the highest probability will be the predicted cell.
+\begin{figure}[ht]
 \centering
 \includegraphics{prediction_figures/custom}
 \caption{Applying the custom model to a scenario.}
 \label{fig:custom_model}
 \end{figure}
+
 Figure \ref{fig:custom_model} shows the custom model translated to a scenario. Each cell contains an identification number, an activity count and a value denoting whether or not the cell is an exit cell. The occupant entered the room at exit \(y_3\) and the current state is \(x_{14}\). \(a_{14-13}\) denotes the state transition probability of the occupant moving from state \(x_{14}\) to state \(x_{13}\). \(b_{14-1}\) denotes the output probability of the occupant ultimately choosing exit \(y_{1}\). Taking our custom rule set into account, the occupant is least likely to exit at \(y_3\) and most likely to continue to \(x_{13}\). Moving to \(x_9\) would increase the probability of the occupant exiting at \(y_{1}\) (\(b_{9-1}\)) significantly.
 
 \section{Android Application}
