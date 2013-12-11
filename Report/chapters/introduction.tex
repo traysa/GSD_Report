@@ -52,8 +52,12 @@ Besides the design and implementation of an occupnacy anaylzer, another task is 
 %What can you build on and what is missing?
 %Aim for 1-2 pages.
 
-The concept of an occupancy analyzer, which uses visual recognition of occupants, is already handled in several papers and projects.
+The concept of an occupancy analyzer, which uses visual recognition of occupants, is already handled in several papers and projects. \\
+Some guy investigated something about some image analysis and or occupancy analysis. \\
 
+Gellert \& Vintan~\cite{gellert}, in their work \emph{Person Movement Prediction Using Hidden Markov Models}, presents the use of hidden Markov models to anticipate the next movement of a given person. It is used inside an office building where it is possible to predict the next room given any room based on the history of rooms visited by a person moving within the building. The configuration of the model is optimised by evaluating movement sequences of real persons within an office building. \\
+The concept of calculating the probability, and thereby making a prediction, of the next room given any room can be related to our scenario where we predict the next occupied section of the image given an occupant in any section. This information is used in the process of predicting where an occupant will exit the room. \\
+Ashbrook \& Starner~\cite{ashbrook} demonstrated how locations of significance can be incorporated into a predictive model in the paper \emph{Using GPS to Learn Significant Locations and Predict Movement Across Multiple Users}. They cluster location data from a GPS over an extended period of time and infer meaningful locations. These locations are then incorporated into Markov models where it is used to predict a person's future location given any current location. The idea of using heavily visited areas, that is \emph{locations of significance}, to perform predictions is transferred to our scenario, where each area of the image holds a value reflecting the amount of activity within the area. This value plays an important role in the calculations of probabilities and thereby the final predictions.
 
 NREL IPOS Project:
 %http://techportal.eere.energy.gov/technology.do/techID=986
