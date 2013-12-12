@@ -68,3 +68,12 @@
 \contentsline {chapter}{\numberline {7}Discussion}{43}{chapter.7}
 \contentsline {chapter}{\numberline {8}Conclusion}{44}{chapter.8}
 \contentsline {chapter}{\numberline {9}References}{45}{chapter.9}
+\contentsline {chapter}{\numberline {A}Appendix A}{46}{appendix.A}
+\contentsline {chapter}{\numberline {B}Appendix B}{47}{appendix.B}
+\contentsline {section}{\numberline {B.1}Member Profiles}{47}{section.B.1}
+\contentsline {section}{\numberline {B.2}Skill-/Preference-Sheet}{57}{section.B.2}
+\contentsline {section}{\numberline {B.3}Motivation-Sheet}{58}{section.B.3}
+\contentsline {section}{\numberline {B.4}"Out-of-Office"-Calendar}{59}{section.B.4}
+\contentsline {section}{\numberline {B.5}Global Meeting Reports}{60}{section.B.5}
+\contentsline {section}{\numberline {B.6}Emails}{85}{section.B.6}
+\contentsline {section}{\numberline {B.7}Survey}{85}{section.B.7}
