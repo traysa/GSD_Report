@@ -21,8 +21,7 @@ All of these components are discussed further on in the respective chapters.
 
 %camera placement and positioning reference: http://www.lorextechnology.com/support/self-serve/Camera-Location-Placement-and-Positioning/2700036
 \section{Web Cameras}
-The purpose of the web cameras is simply to surveillance the area they have been placed in and forward the captured frames to Raspberry Pi computers for further processing, as shown in Figure~\ref{fig:system_overview}. The cameras can be placed in a room, corridor, atrium or any other similar place in or outside of the building, where the services offered are required. Cameras can be placed either directly above the observed area (Figure~\ref{fig:camera_top}) or in the corner of it, as illustrated in Figure~\ref{fig:camera_corner}. Naturally, a camera placed above the observed area would give better results, since this increases its field of view and makes it easier to correctly detect and distinguish between multiple people walking side by side. Furthermore, for the best results one must also take many different factors into account, such as
-the distance between the camera and monitored area, environmental conditions of the area the camera is placed in, lighting conditions.
+The purpose of the web cameras is simply to surveillance the area they have been placed in and forward the captured frames to Raspberry Pi computers for further processing, as shown in Figure~\ref{fig:system_overview}. The cameras can be placed in a room, corridor, atrium or any other similar place in or outside of the building, where the services offered are required. Cameras can be placed either directly above the observed area (Figure~\ref{fig:camera_top}) or in the corner of it, as illustrated in Figure~\ref{fig:camera_corner}. Naturally, a camera placed above the observed area would give better results, since this increases its field of view and makes it easier to correctly detect and distinguish between multiple people walking side by side. Furthermore, for the best results one must also take many different factors into account, such as the distance between the camera and monitored area, environmental conditions of the area the camera is placed in, lighting conditions.
 
 % Camera top placement.
 \begin{figure}[ht]
@@ -82,7 +81,7 @@ The next component in the system architecture is Raspberry Pi computers. These c
 		\label{fig:background_subtraction_4}
 	\end{figure}
 	
-	\item Another problem with background subtraction approach surfaces when a camera is placed inside an area which has objects that constantly change their original position (chairs, tables, appliances, etc.) by being moved, even small changes in object's location will spoil the resulting image after subtraction. As we can see in Figure~\ref{fig:background_subtraction_5}, the object is displayed twice in the resulting image, even thought we were not even interested in it, making it much harder to detect actual people moving in the area. From now on, the resulting image after subtraction will always be corrupt unless the object is placed back in its original position.
+	\item Another problem with background subtraction approach surfaces when a camera is placed inside an area which has objects that constantly change their original position (chairs, tables, appliances, etc.) by being moved, even small changes in object's location will spoil the resulting image after subtraction. As we can see in Figure~\ref{fig:background_subtraction_5}, the object is displayed twice in the resulting image, even though we were not even interested in it, making it much harder to detect actual people moving in the area. From now on, the resulting image after subtraction will always be corrupt unless the object is placed back in its original position.
 		% Background subtraction with background changes (object changes location).
 	\begin{figure}[ht]
 		\centering
@@ -203,8 +202,31 @@ The next component in the system architecture is Raspberry Pi computers. These c
 		\label{fig:object_differentiation_example}
 	\end{figure}
 
+
+
+
 \section{The Server}
 {\color[rgb]{1,0,0} \textbf{\large TODO}}
+
+The server is the central part of the whole system. It is here the Raspberry PIs send all the gathered data, where data are stored and structured, and where Android devices can fetch information about rooms, people, and predictions on which exits a person is most likely to use.
+
+The server is thus split into the following parts:
+
+\begin{enumerate}
+	\item Data Input API,
+	\item Data Output API,
+	\item Storage.
+\end{enumerate}
+
+% discuss why it is structured in this way and not p2p
+
+\subsection{Data Input API}
+All sorts of devices can be used to capture and process data. To simplify the process and to allow access for all types of devices, the server provides an API which allows the senders to focus on data capturing and processing.
+
+\subsection{Data Output API}
+As with the devices providing the data for the server, the devices which requests data from the server can be of different types. By providing an API these devices can focus on how to use and present the data, and let the server focus on how the data is fetched. This ensures that all data is available for everyone and that each request has a minimum of effect on other devices access to the data.
+
+\subsection{Storage}
 
 \section{Prediction}
 
