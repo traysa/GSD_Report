@@ -1,9 +1,20 @@
 \documentclass[12pt]{report} % article, letter, book, macthesis, report, memoir, elsarticle
+
+%Packages
 \usepackage{graphicx} % This allows to include figures (images).
 \usepackage{fullpage} % For using more space in paper (smaller margins).
+\usepackage{pdfpages} %For including PDF Pages
 \usepackage{todonotes} % For using notes
 \usepackage{subfigure} % Allows to nicely group figures.
+\usepackage[numbib,notlof,notlot,nottoc]{tocbibind} % Show "References" section in ToC.
+\usepackage[hidelinks]{hyperref} % For hyperlinks.
+\usepackage{footnoterange} % Allows to add footnotes.
+\usepackage[T1]{fontenc}
+\usepackage{titlesec, blindtext, color}
+
+
 \graphicspath{{images/}}
+
 \setcounter{secnumdepth}{3} % Depth of section numbering (will show numbers for subsubsections).
 \setcounter{tocdepth}{3} % Depth of subsection showing in ToC.
 
@@ -11,18 +22,16 @@
 \setlength{\parindent}{0in} 
 \setlength{\parskip}{3mm}
 
-\usepackage[numbib,notlof,notlot,nottoc]{tocbibind} % Show "References" section in ToC.
-
+% References
 \renewcommand{\bibname}{References} % Change "Bibliography" name to "References"
 
-\usepackage[hidelinks]{hyperref} % For hyperlinks.
-\usepackage{footnoterange} % Allows to add footnotes.
-
-\usepackage[T1]{fontenc}
-\usepackage{titlesec, blindtext, color}
+%Chapter titles
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+%PDFPage Counter for Appendix files
+\newcounter{includepdfpage}
 
 % CONTENT
 \begin{document}
@@ -66,6 +75,12 @@ Write abstract text...
 \input{chapters/Conclusion}
 
 \input{chapters/References}
+
+\chapter{Appendix A}
+\input{chapters/AppendixA}
+
+\chapter{Appendix B}
+\input{chapters/AppendixB}
 
 \listoftodos
 \todo{Some note or other.}
