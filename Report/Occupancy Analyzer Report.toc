@@ -6,59 +6,59 @@
 \contentsline {section}{\numberline {1.5}Report Structure}{7}{section.1.5}
 \contentsline {chapter}{\numberline {2}Analysis}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Image Analysis}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}Prediction}{8}{section.2.2}
-\contentsline {chapter}{\numberline {3}Design}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}System Overview}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}Web Cameras}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Raspberry Pi Computers}{11}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Object Extraction}{12}{subsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Simple Background Subtraction Approach}{12}{subsubsection.3.3.1.1}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Running Average Approach}{14}{subsubsection.3.3.1.2}
-\contentsline {subsection}{\numberline {3.3.2}Object Detection}{15}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Object Differentiation}{17}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}The Server}{18}{section.3.4}
-\contentsline {section}{\numberline {3.5}Prediction}{18}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Gathering statistical data}{18}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Custom prediction model based on HMM}{18}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}Android Application}{19}{section.3.6}
-\contentsline {chapter}{\numberline {4}Implementation}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Image Processing}{23}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Library}{23}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Programming Language}{23}{subsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.2.1}Performance Comparison Between Java and Python}{24}{subsubsection.4.1.2.1}
-\contentsline {chapter}{\numberline {5}Evaluation}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Verification}{27}{section.5.1}
-\contentsline {section}{\numberline {5.2}Benchmarks}{27}{section.5.2}
-\contentsline {chapter}{\numberline {6}Collaboration}{28}{chapter.6}
-\contentsline {section}{\numberline {6.1}Theory}{28}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Project management}{28}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Global collaboration}{28}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Background information of the Project Team}{29}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Team ITU}{29}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Team Kenya}{30}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Project Management}{31}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Approach}{31}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Project Organization}{31}{subsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.2.1}Timeline}{31}{subsubsection.6.3.2.1}
-\contentsline {subsubsection}{\numberline {6.3.2.2}Project Team and Roles}{31}{subsubsection.6.3.2.2}
-\contentsline {subsection}{\numberline {6.3.3}Project Management Tools and Methods}{32}{subsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.1}Member profiles}{32}{subsubsection.6.3.3.1}
-\contentsline {subsubsection}{\numberline {6.3.3.2}Skill-/Preference- and Motivation-Sheet}{32}{subsubsection.6.3.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3.3}"Out-of-Office"-Calendar}{32}{subsubsection.6.3.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.4}Milestone plan}{33}{subsubsection.6.3.3.4}
-\contentsline {subsubsection}{\numberline {6.3.3.5}Internal weekly meeting (Jour-Fixe)}{34}{subsubsection.6.3.3.5}
-\contentsline {subsubsection}{\numberline {6.3.3.6}Global weekly meeting (Jour-Fixe)}{35}{subsubsection.6.3.3.6}
-\contentsline {subsubsection}{\numberline {6.3.3.7}Meeting reports}{35}{subsubsection.6.3.3.7}
-\contentsline {subsubsection}{\numberline {6.3.3.8}Time recording}{36}{subsubsection.6.3.3.8}
-\contentsline {subsubsection}{\numberline {6.3.3.9}Introduction and Kick-Off meeting}{36}{subsubsection.6.3.3.9}
-\contentsline {subsubsection}{\numberline {6.3.3.10}Surveys}{36}{subsubsection.6.3.3.10}
-\contentsline {subsection}{\numberline {6.3.4}Collaboration Tools}{36}{subsection.6.3.4}
-\contentsline {subsubsection}{\numberline {6.3.4.1}Communication}{36}{subsubsection.6.3.4.1}
-\contentsline {subsubsection}{\numberline {6.3.4.2}Sharing}{37}{subsubsection.6.3.4.2}
-\contentsline {subsubsection}{\numberline {6.3.4.3}Time recording}{37}{subsubsection.6.3.4.3}
-\contentsline {section}{\numberline {6.4}Project Issues}{37}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Collaboration Issues}{37}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}Hypothetical Scenarios}{37}{section.6.5}
-\contentsline {chapter}{\numberline {7}Discussion}{38}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{39}{chapter.8}
-\contentsline {chapter}{\numberline {9}References}{40}{chapter.9}
+\contentsline {section}{\numberline {2.2}Prediction}{9}{section.2.2}
+\contentsline {chapter}{\numberline {3}Design}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}System Overview}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Web Cameras}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}Raspberry Pi Computers}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Object Extraction}{13}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Simple Background Subtraction Approach}{13}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Running Average Approach}{15}{subsubsection.3.3.1.2}
+\contentsline {subsection}{\numberline {3.3.2}Object Detection}{16}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Object Differentiation}{18}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}The Server}{19}{section.3.4}
+\contentsline {section}{\numberline {3.5}Prediction}{19}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Gathering statistical data}{19}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Custom prediction model based on HMM}{19}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Android Application}{20}{section.3.6}
+\contentsline {chapter}{\numberline {4}Implementation}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Image Processing}{24}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Library}{24}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Programming Language}{24}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Performance Comparison Between Java and Python}{25}{subsubsection.4.1.2.1}
+\contentsline {chapter}{\numberline {5}Evaluation}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verification}{28}{section.5.1}
+\contentsline {section}{\numberline {5.2}Benchmarks}{28}{section.5.2}
+\contentsline {chapter}{\numberline {6}Collaboration}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Theory}{29}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Project management}{29}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Global collaboration}{29}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Background information of the Project Team}{30}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Team ITU}{30}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Team Kenya}{31}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Project Management}{32}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Approach}{32}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Project Organization}{32}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Timeline}{32}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}Project Team and Roles}{32}{subsubsection.6.3.2.2}
+\contentsline {subsection}{\numberline {6.3.3}Project Management Tools and Methods}{33}{subsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.1}Member profiles}{33}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}Skill-/Preference- and Motivation-Sheet}{33}{subsubsection.6.3.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3.3}"Out-of-Office"-Calendar}{33}{subsubsection.6.3.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.4}Milestone plan}{34}{subsubsection.6.3.3.4}
+\contentsline {subsubsection}{\numberline {6.3.3.5}Internal weekly meeting (Jour-Fixe)}{35}{subsubsection.6.3.3.5}
+\contentsline {subsubsection}{\numberline {6.3.3.6}Global weekly meeting (Jour-Fixe)}{36}{subsubsection.6.3.3.6}
+\contentsline {subsubsection}{\numberline {6.3.3.7}Meeting reports}{36}{subsubsection.6.3.3.7}
+\contentsline {subsubsection}{\numberline {6.3.3.8}Time recording}{37}{subsubsection.6.3.3.8}
+\contentsline {subsubsection}{\numberline {6.3.3.9}Introduction and Kick-Off meeting}{37}{subsubsection.6.3.3.9}
+\contentsline {subsubsection}{\numberline {6.3.3.10}Surveys}{37}{subsubsection.6.3.3.10}
+\contentsline {subsection}{\numberline {6.3.4}Collaboration Tools}{37}{subsection.6.3.4}
+\contentsline {subsubsection}{\numberline {6.3.4.1}Communication}{37}{subsubsection.6.3.4.1}
+\contentsline {subsubsection}{\numberline {6.3.4.2}Sharing}{38}{subsubsection.6.3.4.2}
+\contentsline {subsubsection}{\numberline {6.3.4.3}Time recording}{38}{subsubsection.6.3.4.3}
+\contentsline {section}{\numberline {6.4}Project Issues}{38}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Collaboration Issues}{38}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Hypothetical Scenarios}{38}{section.6.5}
+\contentsline {chapter}{\numberline {7}Discussion}{39}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{40}{chapter.8}
+\contentsline {chapter}{\numberline {9}References}{41}{chapter.9}

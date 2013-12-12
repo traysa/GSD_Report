@@ -44,6 +44,7 @@ the distance between the camera and monitored area, environmental conditions of 
 The next component in the system architecture is Raspberry Pi computers. These computers have at least one web camera attached to them, and are responsible for processing the frames captured by these cameras. The main goal of processing these frames is to try to detect people in the monitored area and determine their position in that area. There are many different challenges in object detection, as well as various concepts and techniques that can be used to achieve this. We discuss these in the next sections.
 	
 	\subsection{Object Extraction}
+	\label{sec:object_extraction}
 	To detect and extract objects, or in our case, people and their movement, we need to apply several motion detection techniques on the frames we are receiving from the web camera. First of all, to detect changes in some monitored area, we naturally need to have at minimum two images, which we must compare to see what changes occurred. We will try to look into two different approaches in doing this, a simple one, and one that is a bit more complicated and sophisticated, but much more adaptive and flexible.
 	
 	\subsubsection{Simple Background Subtraction Approach}
@@ -119,6 +120,7 @@ The next component in the system architecture is Raspberry Pi computers. These c
 		\label{fig:running_average_example}
 	\end{figure}
 	\subsection{Object Detection}
+	\label{object_detection}
 	Now that we can extract objects using running average technique, we need to be able to actually find them in the resulting image we get after we perform subtraction. For this, we need to apply several key techniques in image processing. 
 	
 	\begin{itemize}
@@ -145,7 +147,7 @@ The next component in the system architecture is Raspberry Pi computers. These c
 	
 	\item Moreover we want to expand the interesting parts of the image and contract smaller pieces, which can be considered noise and managed to slip through, even after we performed thresholding. To do so, we use two fundamental operations in morphological image processing, that is, dilation and erosion. Dilation allows us to expand the shapes contained in the image~\cite{dilation_1}, whereas erosion simply shrinks shapes~\cite{erosion_1}, so that bright regions surrounded by dark regions shrink in size, and dark regions surrounded by bright regions grow in size. When we apply dilation and erosion we get the image shown in Figure~\ref{fig:dilate_erode_1}. 
 	
-	\item Now, to project the detected area onto the original frame, we simply use bounding box technique, which gives us the coordinates of the rectangular border that fully covers the extracted white silhouette~\cite{bounding_box_1} that we got in~\ref{fig:dilate_erode_1}. Then we use these coordinates to draw a simple rectangle, as well as mark it's middle position by a red circle, as illustrated in Figure~\ref{fig:bounding_box_1}.
+	\item Now, to project the detected area onto the original frame, we simply use bounding box technique, which gives us the coordinates of the rectangular border that fully covers the extracted white silhouette~\cite{bounding_box_1} that we got in~\ref{fig:dilate_erode_1}. Then we use these coordinates to draw a simple rectangle around the extracted object, as well as mark it's middle position by a red circle, as illustrated in Figure~\ref{fig:bounding_box_1}.
 	\end{itemize}
 	\begin{figure}[ht]
 		\centering
@@ -177,6 +179,7 @@ The next component in the system architecture is Raspberry Pi computers. These c
 	In conclusion, by applying the steps discussed in this section, we can fairly accurately detect people and their movement in the monitored area.
 	
 	\subsection{Object Differentiation}
+	\label{object_differentiation}
 	There will naturally be cases when multiple people will walk through the monitored area and will be captured by the cameras, therefore we must have a way to differentiate between them. This task becomes rather difficult if people are very close to each other, since they will simply be interpreted as one person. However, as long as people are far enough from each other, the task becomes significantly easier. There are multiple ways of differentiating between objects. 
 	
 	One of them is to simply look at the objects histogram, which gives a graphical representation of the intensity distribution of pixels~\cite{histogram_1}. Since people are usually dressed in different color clothes, we can simply calculate a histogram for every detected person and remember it. Now, every time we receive a new frame and detect a person in it, we go through our previously saved histograms and check whether any of them are the same as our newly detect persons histogram. If there is such histogram, we interpret the person we detected in our new frame as the same person we detected in the last, otherwise, we conclude that we have not detected this person before, thus save his histogram for future reference. The biggest weakness of this approach is that a person's clothes might have different colors from the front and back. Therefore, his histogram calculated while he is facing the camera might be rather different than the histogram of when his back was towards the camera. For this reason, if the person decides to turn around midway, he might be interpreted as a new person - never seen before by the camera - when in fact his frontal or back histogram was already saved. 
