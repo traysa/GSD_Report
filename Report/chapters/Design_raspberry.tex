@@ -1,0 +1,164 @@
+The computers each have at least one web camera attached and are responsible for processing the frames captured by the cameras. The main goal of processing these frames is to detect people in the monitored area and determine their position in that area. There are multiple challenges in object detection, as well as various concepts and techniques that can be used to overcome them. We discuss these in the following sections.
+	
+	\subsection{Object Extraction}
+	\label{sec:object_extraction}
+	To detect and extract objects, or in our case, people and their movement, we need to apply several motion detection techniques on the frames we are receiving from the web camera. First of all, to detect changes in some monitored area, we naturally need to have at minimum two images, which we must compare to see what changes occurred. We will try to look into two different approaches in doing this, a simple one, and one that is a bit more complicated and sophisticated, but much more adaptive and flexible.
+	
+	\subsubsection{Simple Background Subtraction Approach}
+	A simple approach - called Background Subtraction - would be to have a static background image of observed area that was taken prior to the analysis and did not have any people in it. Then, one can simply detect changes and movement in the area by subtracting the static background image from every newly taken image of the monitored area~\cite{background_subtraction_1}. The difference between the two images would then allow us to see if any changes happened, since after subtraction the resulting image would either be almost totally black (Figure~\ref{fig:background_subtraction_1}) - meaning no one walked passed the observed area - or the image would have some resulting bright contours of detected differences (Figure~\ref{fig:background_subtraction_2}).
+	% Background Subtraction with no background changes.
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.82]{background_subtraction/background_subtraction_1}
+		\caption{Background Subtraction with no background changes}
+		\label{fig:background_subtraction_1}
+	\end{figure}
+	% Background subtraction with background changes (lego man appearing).
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.81]{background_subtraction/background_subtraction_2}
+		\caption{Background Subtraction with background change}
+		\label{fig:background_subtraction_2}
+	\end{figure}
+	
+	After doing some research and experimenting with background subtraction technique, one will quickly discover that there are multiple weaknesses to it. 
+	
+	\begin{itemize}	
+	\item First of all, if the initial background image is always static and never changes, this technique will fail in environments where lighting is dynamic. This is perfectly illustrated in Figure~\ref{fig:background_subtraction_3}. We can see that the lighting is much darker in the second image, possibly because the light was turned off in the monitored room, thus after subtracting our static background image from this image, the resulting image is simply a lighter version of the two images, and not the intended black image. The reason why this happens is because the original brighter background image has a much higher intensity, thus the average value of it's pixels are higher than the pixel values of the newly taken darker image. Naturally, this is a big problem, because now even if a person moves through the monitored area (Figure~\ref{fig:background_subtraction_4}), he or she will not be as easily extractable as in Figure~\ref{fig:background_subtraction_2}.
+	% Background subtraction with background changes (lighting changes).
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.82]{background_subtraction/background_subtraction_3}
+		\caption{Background Subtraction with background lighting change}
+		\label{fig:background_subtraction_3}
+	\end{figure}
+	% Background subtraction with background changes (lighting changes + lego figure).
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.81]{background_subtraction/background_subtraction_4}
+		\caption{Background Subtraction with background lighting change and lego figure appearing}
+		\label{fig:background_subtraction_4}
+	\end{figure}
+	
+	\item Another problem with background subtraction approach surfaces when a camera is placed inside an area which has objects that constantly change their original position (chairs, tables, appliances, etc.) by being moved, even small changes in object's location will spoil the resulting image after subtraction. As we can see in Figure~\ref{fig:background_subtraction_5}, the object is displayed twice in the resulting image, even though we were not even interested in it, making it much harder to detect actual people moving in the area. From now on, the resulting image after subtraction will always be corrupt unless the object is placed back in its original position.
+		% Background subtraction with background changes (object changes location).
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.82]{background_subtraction/background_subtraction_5}
+		\caption{Background Subtraction with object changing it's location}
+		\label{fig:background_subtraction_5}
+	\end{figure}
+	\end{itemize}
+	
+	In conclusion, we can see that simple background subtraction approach can work well in static environments, however it falls short in dynamic spaces. Naturally, these mentioned drawbacks of background subtraction approach need to be handled for object detection to work well, which creates additional challenges when implementing the system.
+
+	\subsubsection{Running Average Approach}
+	\label{sec:running_average_approach}
+	A much better approach for movement detection is using a running average method. In this technique we do not need to rely on a static background image of the monitored area taken prior to analysis. Instead, we try to find a new "approximate" background image by interpreting any changes in the background as noise and blurring them out. This is accomplished by taking a training sequence of multiple previously captured frames and performing arithmetic averaging on that sequence~\cite{running_average_approach_1}. This exact approach is illustrated in Figure~\ref{fig:running_average_example}. As we can see, hand motion moving up and down gets blurred out when applying running average method, thus producing an approximate background image (d) that can be used as a basis for subtraction of the test frames. This method of object extraction works very well and has a lot of flexibility. It can adapt to environmental changes in the monitored area, thus eliminating most of the weaknesses that the background subtraction approach has. For these reasons, the running average approach was chosen for our design.
+	% Running average example.
+	% subfigure allows to group figures and put them next to each other.
+	\begin{figure}[ht]
+		\centering
+		\subfigure[Test frame 1]{
+		\includegraphics[scale=0.40]{running_average/running_average_1}
+		\label{fig:running_average_1}}
+		\quad
+		\subfigure[Test frame 2]{
+		\includegraphics[scale=0.40]{running_average/running_average_2}
+		\label{fig:running_average_2}}
+		\subfigure[Test frame 3]{
+		\includegraphics[scale=0.40]{running_average/running_average_3}
+		\label{fig:running_average_3}}
+		\quad
+		\subfigure[Running Average frame]{
+		\includegraphics[scale=0.40]{running_average/running_average_4}
+		\label{fig:running_average_4}}
+		\caption{Example of Running Average technique}
+		\label{fig:running_average_example}
+	\end{figure}
+	\subsection{Object Detection}
+	\label{object_detection}
+	Now that we can extract objects using running average technique, we need to be able to actually find them in the resulting image we get after we perform subtraction. For this, we need to apply several key techniques in image processing. 
+	
+	\begin{enumerate}
+	\item \textit{\textbf{Noise Removal.}} After we capture the initial frame of the monitored area, it will often contain noise and small details that we are not interested in. To deal with this, we must first apply blur or smoothing filter. In blurring technique we calculate weighted averages of areas of pixels in a source image by passing through it~\cite{blur_1}, which helps to reduce image noise and detail, as shown in Figure~\ref{fig:blur_example}.
+	% Blur example.
+	\begin{figure}[ht]
+		\centering
+		\subfigure[Original frame]{
+		\includegraphics[scale=0.40]{blur/blur_1}
+		\label{fig:blur_1}}
+		\quad
+		\subfigure[Frame after blur is applied]{
+		\includegraphics[scale=0.40]{blur/blur_2}
+		\label{fig:blur_2}}
+		\caption{Blur example}
+		\label{fig:blur_example}
+	\end{figure}
+	
+	\item \textit{\textbf{Background Subtraction.}} After we remove the initial noise, we can perform subtraction using running average approach (described in Section~\ref{sec:running_average_approach}). After subtraction we will either get a nearly totally black image, meaning no motion occurred, or an image where some colors stand out, meaning some motion has occurred. 
+	
+	\item \textit{\textbf{Channel Reduction.}} In either case, for further processing of the taken frame, we can choose to convert it to a grayscale image. The reason for this is that the original RGB image we get has three channels, while grayscale image has only one~\cite{grayscale_1}, thus it is easier to work with. This procedure is illustrated in Figures~\ref{fig:grayscale_1},~\ref{fig:grayscale_2} and~\ref{fig:grayscale_3}. 
+	
+	\item \textit{\textbf{Thresholding.}} For further processing of the image, we apply threshold technique, which converts the image to black and white and removes some more unwanted details and noise~\cite{threshold_1}. After threshold is applied we get the image shown in Figure~\ref{fig:threshold_1}. 
+	
+	\item \textit{\textbf{Simplification.}} Moreover we want to expand the interesting parts of the image and contract smaller pieces, which can be considered noise and managed to slip through, even after we performed thresholding. To do so, we use two fundamental operations in morphological image processing, that is, dilation and erosion. Dilation allows us to expand the shapes contained in the image~\cite{dilation_1}, whereas erosion simply shrinks shapes~\cite{erosion_1}, so that bright regions surrounded by dark regions shrink in size, and dark regions surrounded by bright regions grow in size. When we apply dilation and erosion we get the image shown in Figure~\ref{fig:dilate_erode_1}. 
+	
+	\item \textit{\textbf{Bounding Box.}} Now, to project the detected area onto the original frame, we simply use bounding box technique, which gives us the coordinates of the rectangular border that fully covers the extracted white silhouette~\cite{bounding_box_1} that we got in~\ref{fig:dilate_erode_1}. Then we use these coordinates to draw a simple rectangle around the extracted object, as well as mark it's middle position by a red circle, as illustrated in Figure~\ref{fig:bounding_box_1}.
+	\end{enumerate}
+	\begin{figure}[ht]
+		\centering
+		\subfigure[Original frame]{
+		\includegraphics[scale=0.65]{grayscale/grayscale_1}
+		\label{fig:grayscale_1}}
+		\quad
+		\subfigure[After subtraction]{
+		\includegraphics[scale=0.65]{grayscale/grayscale_2}
+		\label{fig:grayscale_2}}
+		\subfigure[After grayscale filter is applied]{
+		\includegraphics[scale=0.65]{grayscale/grayscale_3}
+		\label{fig:grayscale_3}}
+		\quad
+		\subfigure[After threshold is applied]{
+		\includegraphics[scale=0.65]{threshold/threshold_1}
+		\label{fig:threshold_1}}
+		\subfigure[After dilation and erosion]{
+		\includegraphics[scale=0.65]{dilate_erode/dilate_erode_1}
+		\label{fig:dilate_erode_1}}
+		\quad
+		\subfigure[After bounding box is drawn]{
+		\includegraphics[scale=0.65]{bounding_box/bounding_box_1}
+		\label{fig:bounding_box_1}}
+		\caption{Object detection example}
+		\label{fig:object_detection_example}
+	\end{figure}
+	
+	In conclusion, by applying the steps discussed in this section, we can fairly accurately detect people and their movement in the monitored area.
+	
+	\subsection{Object Differentiation}
+	\label{object_differentiation}
+	There will naturally be cases when multiple people will walk through the monitored area and will be captured by the cameras, therefore we must have a way to differentiate between them. This task becomes rather difficult if people are very close to each other, since they will simply be interpreted as one person. However, as long as people are far enough from each other, the task becomes significantly easier. There are multiple ways of differentiating between objects. 
+	
+	One of them is to simply look at the objects histogram, which gives a graphical representation of the intensity distribution of pixels~\cite{histogram_1}. Since people are usually dressed in different color clothes, we can simply calculate a histogram for every detected person and remember it. Now, every time we receive a new frame and detect a person in it, we go through our previously saved histograms and check whether any of them are the same as our newly detect persons histogram. If there is such histogram, we interpret the person we detected in our new frame as the same person we detected in the last, otherwise, we conclude that we have not detected this person before, thus save his histogram for future reference. The biggest weakness of this approach is that a person's clothes might have different colors from the front and back. Therefore, his histogram calculated while he is facing the camera might be rather different than the histogram of when his back was towards the camera. For this reason, if the person decides to turn around midway, he might be interpreted as a new person - never seen before by the camera - when in fact his frontal or back histogram was already saved. 
+	
+	Another approach of differentiating between multiple people, and in fact the approach we used in our design, is to simply use the whole frame as a coordinate system and remember the last coordinate of every single detected person. Now, similarly to histogram approach, whenever we detect a new person in the frame, we simply look throughout previously saved coordinates, and if we find that this new person's coordinates is relatively close to some previously saved person's coordinates, we simply interpret him as the same person we detected a second or or few seconds ago, otherwise we see him as a new person. Naturally, we must regularly clear our previously saved coordinates, so that newly arrived person would not simply, by taking a similar path, be interpreted as a person who is no longer in the monitored area. This approach of differentiating between people is is illustrated in Figure~\ref{fig:object_differentiation_example}.
+	
+\begin{figure}[ht]
+		\centering
+		\subfigure[One person enters the monitored area]{
+		\includegraphics[scale=0.48]{object_differentiation/1}
+		\label{fig:object_differentiation_1}}
+		\quad
+		\subfigure[Second person enters the monitored area]{
+		\includegraphics[scale=0.48]{object_differentiation/2}
+		\label{fig:object_differentiation_2}}
+		\subfigure[Two people continue their walk through the monitored area]{
+		\includegraphics[scale=0.48]{object_differentiation/3}
+		\label{fig:object_differentiation_3}}
+		\quad
+		\subfigure[First person leaves the monitored area]{
+		\includegraphics[scale=0.48]{object_differentiation/4}
+		\label{fig:object_differentiation_4}}
+		\caption{Object differentiation example in the monitored area}
+		\label{fig:object_differentiation_example}
+	\end{figure}

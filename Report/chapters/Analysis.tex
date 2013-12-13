@@ -1,88 +1,11 @@
 \section{Image Analysis}
 \label{sec:analysis_img}
-There are numerous factors that must be considered when designing a surveillance system.
-
-{\bfseries Position of the camera.} Camera's type, position and angle may differ a lot, depending on the requirements of the surveillance application. In our scenario it was determined that the most optimal position of the camera would be the ceiling, making the camera point down to the monitored area. This would provide us with an increased field of view, and would make detection of multiple people walking side by side easier. However, due to resource limitations and difficulties we would face trying to position the camera in such way, decision was made to simply place the camera on a higher floor and point it down to the monitored area in approximately 50-60\si{\degree} angle.
-
-{\bfseries Object Extraction.} As we have already touched a bit in Related Work section, background subtraction plays an important role in detecting people and tracking their movement. There are multiple ways in dealing with background subtraction, but we have mainly covered two - simple background subtraction - where we use a static background image to detect difference in frames - and running average approach - where we gradually create an approximate background image to extract moving objects from the frame. The former approach can work rather poorly and inaccurately in dynamic environments, whereas the latter one deals with the same challenges in a better way, thus have been chosen for our design. This is further discussed in greater detail in Section~\ref{sec:object_extraction}.
-
-{\bfseries Object Detection.} To build up a complete and reliable surveillance system, one must be able to identify whether the detected object is a person, an animal or simply tree leaves moving because of wind. To deal with this, one can possibly apply face detection methods or object's shape recognition techniques. Since these are rather complicating areas in image processing, and our test scenarios mainly dealt with environments where the background is more stable, we did not consider object identification and simply interpreted all changes in the monitored area as human movement. Our object detection approach is explained in more detail in Section~\ref{object_detection}.
-
-{\bfseries Object Differentiation.} Another important part of surveillance is being able to differentiation between multiple people crossing the monitored area. To deal with this challenge, we looked into two approaches, namely histogram approach - where we calculate individual histogram for every person and try to match it next time we detect people in the frame - and last coordinate approach - where we, instead of calculating person's histogram, calculate person's last coordinates in the monitored area. The main problem these both approaches share is that they are not very precise, however, the latter approach was easier to implement, thus was chosen for our design. Further comparison and discussion on object differentiation is provided in Section~\ref{object_differentiation}.
+\input{chapters/Analysis_image}
 
 \section{Prediction}
 \label{sec:analysis_pred}
-In our scenario where occupants enter and exit the room constantly, typically within seconds or minutes of each other, it is somewhat difficult to find the immediate use of predicting an occupant's future actions. However, our partner team from Kenya expressed a need for such a system because they have had issues with thefts. Incorporating such a feature to their surveillance systems could warn a guard whenever suspicious activity might occur. A suspicious activity could involve a person moving too close to a given exit - possibly leading to a restricted area. In order to calculate a somewhat reliable prediction, we need to capture and store data about the behavior of previous occupants. When the data set grows, the prediction gradually becomes smarter and generally more precise. In order to satisfy the prediction requirement, various existing solutions have been considered, namely the \emph{k-nearest neighbors algorithm} and an existing prediction model, the hidden Markov model. The two solutions will be covered briefly. The former assigns a given object to a group depending on the \emph{k} nearest objects. To apply this to our scenario we imagined previously observed occupant positions being separated into groups dependent upon the chosen exit. Given any position we would analyze the \emph{k} neighboring previous positions of distinct occupants and predict the exit to be that of the majority.
-\begin{figure}
-\centering
-\includegraphics{prediction_figures/knn_room}
-\caption{An illustration of the \emph{k-nearest neighbors algorithm}.}
-\label{fig:knn}
-\end{figure}
-Figure~\ref{fig:knn} depicts an example where the center dot is the current position and the squares and triangles are previous occupant positions who chose separate exits. The circle with the solid line resembles a situation where \emph{k=3} which indicates that the occupant at the center is most likely to take the same exit as the occupants previously positioned at the triangle positions. The circle with the dashed line resembles a situation where \emph{k=5}. This yields a different output where the occupant is most likely to choose the same exit as the occupants previously residing at the positions of the squares. The approach has proven to be inefficient on larger data sets~\cite{bhatia}, which can be averted by performing clever data reduction. This, however, deemed the approach out of the scope of this project.
-\begin{figure}
-\centering
-\includegraphics{prediction_figures/markov}
-\caption{An illustration of the hidden Markov model.}
-\label{fig:markov}
-\end{figure}
-
-Figure \ref{fig:markov} depicts the different parameters a hidden Markov model works with. Each \(x\) is a state and each \(y\) is a possible observation, where \(a\) is a state transition probability and \(b\) is an output probability. When translating this to our scenario we need to define what exactly a state and an observation is and how to calculate the different probabilities. Since the ultimate goal is to predict what exit an occupant is going to take, a possible observation could be that an occupant exits a room at a given location. A state could depict a room area where a transition to another room area would have a state transition probability \(a\). Given an occupant resides in any room area, \(b\) is the probability that the person will exit at a given location. Typically, the process is as follows; random probability values are assigned to \(a\) and \(b\) (maybe a ref to jahmm or something else). Gradually, these values are updated to reflect actual observed actions of occupants. Over time, the probabilities are modified and represent how the average occupant is moving given a current location, resulting in more accurate predictions - this process is commonly referred to as training. Even with the inclusion of a training procedure, the predictions will be incredibly unreliable in the beginning until a large enough data set has been collected. (DISCUSS, this might be wrong) Furthermore, imagine a scenario where an even number of occupants move from one exit to another in both directions, evenly split. At any location along the path the probabilities to each exit remain equal, since equally many previous occupants have taken each exit given the current location. In an attempt to partially avoid these issues, or at least produce some more reliable results with lesser data sets, we wanted to establish rule sets and integrate those into the calculations. Thus, we chose to design our own prediction model, heavily inspired by the hidden Markov model, since the original interpretation of states and probabilities as depicted in figure \ref{fig:markov} is maintained. The custom model is explained in detail in Section~\ref{ssub:designcustomprediction}. 
-
-Figure \ref{fig:markov} depicts the different parameters a hidden Markov model works with. Each \(x\) is a state and each \(y\) is a possible observation, where \(a\) is a state transition probability and \(b\) is an output probability. When translating this to our scenario we need to define what exactly a state and an observation is and how to calculate the different probabilities. Since the ultimate goal is to predict what exit an occupant is going to take, a possible observation could be that an occupant exits a room at a given location. A state could depict a room area where a transition to another room area would have a state transition probability \(a\). Given an occupant resides in any room area, \(b\) is the probability that the person will exit at a given location. Typically, the process is as follows; random probability values are assigned to \(a\) and \(b\) (maybe a ref to jahmm or something else). Gradually, these values are updated to reflect actual observed actions of occupants. Over time, the probabilities are modified and represent how the average occupant is moving given a current location, resulting in more accurate predictions - this process is commonly referred to as training. Even with the inclusion of a training procedure, the predictions will be incredibly unreliable in the beginning until a large enough dataset has been collected. (DISCUSS, this might be wrong) Furthermore, imagine a scenario where an even number of occupants move from one exit to another in both directions, evenly split. At any location along the path the probabilities to each exit remain equal, since equally many previous occupants have taken each exit given the current location. In an attempt to partially avoid these issues, or at least produce some more reliable results with lesser data sets, we wanted to establish rule sets and integrate those into the calculations. Thus, we chose to design our own prediction model, heavily inspired by the hidden Markov model, since the original interpretation of states and probabilities as depicted in figure \ref{fig:markov} is maintained. The custom model is explained in detail in section \ref{ssub:designcustomprediction}. 
+\input{chapters/Analysis_prediction}
 
 \section{Communication Model}
-As there is several devices which have to communicate between each other, we have considered two different solutions:
-
-\begin{enumerate}
-\item Client-Server, and
-\item Peer-To-Peer (P2P)
-\end{enumerate}
-
-To decide which solution suited this project the most, each possible solution has been considered from the following perspectives.
-
-\begin{description}
-\item[Storage] When considering storage we consider how easy it will be to store and retrieve data.
-\item[Reliability] When considering reliability we consider how reliable the communication will be between the cameras and the android devices.
-\item[Scalability] When considering scalability we consider how the system will perform with different amount of devices connected.
-\item[Cost] When considering cost we will consider how much it cost mostly in development time due to complexity and to a lesser degree prices of such implementation.
-\end{description}
-
-\subsection{Client-Server}
-The Client-Server model consists of two specialized applications: A client and a server. The server application will provide some shared resources. The client can initiate contact to a server and use the provided resources.
-
-The considered advantages and disadvantages of the Client-Server model are as follows:
-
-\begin{description}
-\item[Storage] Storing data at a central point reduces data flow on the network and availability to old data for all devices. It also makes it easy to backup data.
-
-\item[Reliability] Performs well if there is a heavy load on the network. A server is build to handle a lot of connections and each peer will only have to manage its own connection to the server. If a server is heavily burdened an additional server can be set up and share the load. Also it is only the server that has to be available for all devices which reduces potential problems with different network configurations. A drawback of using a server is that it introduces single point of failure risking that if the server fails the whole system will be down.
-
-\item[Scalability] Performs well with both few and many connections. If the server is overloaded an additional server can be set up increasing the capacity. Does not overload the network with redundant data as the devices only have to send the data once.
-
-\item[Cost] As server and client is more specialized it is easier to develop and maintain each separate application. 
-\end{description}
-
-\subsection{P2P}
-The P2P model is a decentralized and distributed network model. It consists of several devices called "peers". Each peer can acts as both server and client which share or store some resources.
-
-The considered advantages and disadvantages of the P2P model are as follows:
-
-\begin{description}
-\item[Storage] Distributed data storage is possible, but it is very complex and overall space required will be very high due to redundancy.
-
-\item[Reliability] P2P is very reliable as there is no single point of failure. If a peer drops out the data can be provided from another peer. If a Raspbarry PI disconnects its web-camera will of course not be available, but the system will continue working.
-
-\item[Scalability] P2P does not scale very good as the web-camera peers will either have to send to a lot of peers or the peers will get the data delayed. If a peer requests some old data it can be distributed from another peer reducing trafic to the raspberry PIs
-
-\item[Cost] Only one application will be developed and maintained, however, this single application will be very complex.
-\end{description}
-
-\subsection{Comparison}
-
-\item[Storage] Central storage has a lot of advantages compared to distributed. It consumes less overall space and it creates less network traffic. As most data in this system is used for live tracking a distributed data model will lead to a huge amount of redundant data which will only be used once. For these reasons central storage is preferable.
-
-\item[Reliability] Performs well if there is a heavy load on the network. A server is build to handle a lot of connections and each peer will only have to manage its own connection to the server. If a server is heavily burdened an additional server can be set up and share the load. Also it is only the server that has to be available for all devices which reduces potential problems with different network configurations. A drawback of using a server is that it introduces single point of failure risking that if the server fails the whole system will be down.
-
-
-\item[Reliability] P2P is very reliable as there is no single point of failure. If a peer drops out the data can be provided from another peer. If a Raspbarry PI disconnects its web-camera will of course not be available, but the system will continue working.
+\label{sec:analysis_communication}
+\input{chapters/Analysis_server}
