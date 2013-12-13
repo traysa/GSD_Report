@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.21)  13 DEC 2013 19:58
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.21)  13 DEC 2013 15:40
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.21)  13 DEC 2013 21:18
 entering extended mode
 **Occupancy*Analyzer*Report.tex
 ("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.tex"
@@ -1077,11 +1073,7 @@ Chapter 2.
 
 ])
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Analysis_prediction.tex
-<<<<<<< HEAD
-<images/prediction_figures/knn_room.pdf, id=489, 149.00668pt x 89.936pt>
-=======
 <images/prediction_figures/knn_room.pdf, id=485, 149.00668pt x 89.936pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/prediction_figures/knn_room.pdf Graphic file (type pdf)
 
 <use images/prediction_figures/knn_room.pdf>
@@ -1104,11 +1096,7 @@ igures/markov.pdf>]
 Chapter 3.
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design.tex
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_system.tex
-<<<<<<< HEAD
-<images/system_overview/system_overview_tomas.png, id=537, 524.1984pt x 205.969
-=======
 <images/system_overview/system_overview_tomas.png, id=534, 524.1984pt x 205.969
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 5pt>
 File: images/system_overview/system_overview_tomas.png Graphic file (type png)
  <use images/system_overview/system_overview_tomas.png>
@@ -1121,11 +1109,7 @@ on input line 16.
 
  <C:/Users/Tomas/Documents/GSD_Report/Report/images/system_overview/system_over
 view_tomas.png>]
-<<<<<<< HEAD
-<images/camera_placement/camera_top.pdf, id=550, 567.14388pt x 242.25293pt>
-=======
 <images/camera_placement/camera_top.pdf, id=547, 567.14388pt x 242.25293pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/camera_placement/camera_top.pdf Graphic file (type pdf)
 
 <use images/camera_placement/camera_top.pdf>
@@ -1133,11 +1117,7 @@ Package pdftex.def Info: images/camera_placement/camera_top.pdf used on input l
 ine 7.
 (pdftex.def)             Requested size: 465.06099pt x 198.64868pt.
 
-<<<<<<< HEAD
-<images/camera_placement/camera_corner.pdf, id=551, 567.14388pt x 242.25293pt>
-=======
 <images/camera_placement/camera_corner.pdf, id=548, 567.14388pt x 242.25293pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/camera_placement/camera_corner.pdf Graphic file (type pdf)
 
 <use images/camera_placement/camera_corner.pdf>
@@ -1148,11 +1128,7 @@ t line 15.
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_raspberry.tex
 [16 <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_placement/camera_
 top.pdf>]
-<<<<<<< HEAD
-<images/background_subtraction/background_subtraction_1.png, id=623, 569.12625p
-=======
 <images/background_subtraction/background_subtraction_1.png, id=620, 569.12625p
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 t x 129.48375pt>
 File: images/background_subtraction/background_subtraction_1.png Graphic file (
 type png)
@@ -1162,11 +1138,7 @@ Package pdftex.def Info: images/background_subtraction/background_subtraction_1
 .png used on input line 12.
 (pdftex.def)             Requested size: 466.68655pt x 106.17734pt.
 
-<<<<<<< HEAD
-<images/background_subtraction/background_subtraction_2.png, id=625, 574.145pt 
-=======
 <images/background_subtraction/background_subtraction_2.png, id=622, 574.145pt 
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 x 127.47626pt>
 File: images/background_subtraction/background_subtraction_2.png Graphic file (
 type png)
@@ -1183,11 +1155,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-<<<<<<< HEAD
-<images/background_subtraction/background_subtraction_3.png, id=629, 569.12625p
-=======
 <images/background_subtraction/background_subtraction_3.png, id=626, 569.12625p
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 t x 127.47626pt>
 File: images/background_subtraction/background_subtraction_3.png Graphic file (
 type png)
@@ -1197,11 +1165,7 @@ Package pdftex.def Info: images/background_subtraction/background_subtraction_3
 .png used on input line 31.
 (pdftex.def)             Requested size: 466.68655pt x 104.53119pt.
 
-<<<<<<< HEAD
-<images/background_subtraction/background_subtraction_4.png, id=630, 577.15625p
-=======
 <images/background_subtraction/background_subtraction_4.png, id=627, 577.15625p
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 t x 127.47626pt>
 File: images/background_subtraction/background_subtraction_4.png Graphic file (
 type png)
@@ -1212,11 +1176,7 @@ Package pdftex.def Info: images/background_subtraction/background_subtraction_4
 (pdftex.def)             Requested size: 467.494pt x 103.25519pt.
  [17 <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_placement/camera
 _corner.pdf>]
-<<<<<<< HEAD
-<images/background_subtraction/background_subtraction_5.png, id=712, 569.12625p
-=======
 <images/background_subtraction/background_subtraction_5.png, id=709, 569.12625p
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 t x 127.47626pt>
 File: images/background_subtraction/background_subtraction_5.png Graphic file (
 type png)
@@ -1230,11 +1190,7 @@ background_subtraction_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/image
 s/background_subtraction/background_subtraction_2.png> <C:/Users/Tomas/Document
 s/GSD_Report/Report/images/background_subtraction/background_subtraction_3.png>
 ]
-<<<<<<< HEAD
-<images/running_average/running_average_1.png, id=724, 481.8pt x 361.35pt>
-=======
 <images/running_average/running_average_1.png, id=721, 481.8pt x 361.35pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/running_average/running_average_1.png Graphic file (type png)
 
 <use images/running_average/running_average_1.png>
@@ -1242,11 +1198,7 @@ Package pdftex.def Info: images/running_average/running_average_1.png used on i
 nput line 64.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<<<<<<< HEAD
-<images/running_average/running_average_2.png, id=725, 481.8pt x 361.35pt>
-=======
 <images/running_average/running_average_2.png, id=722, 481.8pt x 361.35pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/running_average/running_average_2.png Graphic file (type png)
 
 <use images/running_average/running_average_2.png>
@@ -1254,11 +1206,7 @@ Package pdftex.def Info: images/running_average/running_average_2.png used on i
 nput line 68.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<<<<<<< HEAD
-<images/running_average/running_average_3.png, id=726, 481.8pt x 361.35pt>
-=======
 <images/running_average/running_average_3.png, id=723, 481.8pt x 361.35pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/running_average/running_average_3.png Graphic file (type png)
 
 <use images/running_average/running_average_3.png>
@@ -1266,11 +1214,7 @@ Package pdftex.def Info: images/running_average/running_average_3.png used on i
 nput line 71.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<<<<<<< HEAD
-<images/running_average/running_average_4.png, id=727, 481.8pt x 361.35pt>
-=======
 <images/running_average/running_average_4.png, id=724, 481.8pt x 361.35pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/running_average/running_average_4.png Graphic file (type png)
 
 <use images/running_average/running_average_4.png>
@@ -1280,22 +1224,14 @@ nput line 75.
  [19 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/
 background_subtraction_4.png> <C:/Users/Tomas/Documents/GSD_Report/Report/image
 s/background_subtraction/background_subtraction_5.png>]
-<<<<<<< HEAD
-<images/blur/blur_1.png, id=737, 481.8pt x 361.35pt>
-=======
 <images/blur/blur_1.png, id=734, 481.8pt x 361.35pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/blur/blur_1.png Graphic file (type png)
 
 <use images/blur/blur_1.png>
 Package pdftex.def Info: images/blur/blur_1.png used on input line 90.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<<<<<<< HEAD
-<images/blur/blur_2.png, id=738, 481.8pt x 361.35pt>
-=======
 <images/blur/blur_2.png, id=735, 481.8pt x 361.35pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/blur/blur_2.png Graphic file (type png)
 
 <use images/blur/blur_2.png>
@@ -1308,11 +1244,7 @@ unning_average/running_average_3.png> <C:/Users/Tomas/Documents/GSD_Report/Repo
 rt/images/running_average/running_average_4.png>]
 [21 <C:/Users/Tomas/Documents/GSD_Report/Report/images/blur/blur_1.png> <C:/Use
 rs/Tomas/Documents/GSD_Report/Report/images/blur/blur_2.png>]
-<<<<<<< HEAD
-<images/grayscale/grayscale_1.png, id=789, 305.64188pt x 226.59656pt>
-=======
 <images/grayscale/grayscale_1.png, id=788, 305.64188pt x 226.59656pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/grayscale/grayscale_1.png Graphic file (type png)
 
 <use images/grayscale/grayscale_1.png>
@@ -1320,11 +1252,7 @@ Package pdftex.def Info: images/grayscale/grayscale_1.png used on input line 11
 3.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<<<<<<< HEAD
-<images/grayscale/grayscale_2.png, id=790, 305.64188pt x 226.59656pt>
-=======
 <images/grayscale/grayscale_2.png, id=789, 305.64188pt x 226.59656pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/grayscale/grayscale_2.png Graphic file (type png)
 
 <use images/grayscale/grayscale_2.png>
@@ -1332,11 +1260,7 @@ Package pdftex.def Info: images/grayscale/grayscale_2.png used on input line 11
 7.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<<<<<<< HEAD
-<images/grayscale/grayscale_3.png, id=791, 305.64188pt x 226.59656pt>
-=======
 <images/grayscale/grayscale_3.png, id=790, 305.64188pt x 226.59656pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/grayscale/grayscale_3.png Graphic file (type png)
 
 <use images/grayscale/grayscale_3.png>
@@ -1344,11 +1268,7 @@ Package pdftex.def Info: images/grayscale/grayscale_3.png used on input line 12
 0.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<<<<<<< HEAD
-<images/threshold/threshold_1.png, id=792, 305.64188pt x 226.59656pt>
-=======
 <images/threshold/threshold_1.png, id=791, 305.64188pt x 226.59656pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/threshold/threshold_1.png Graphic file (type png)
 
 <use images/threshold/threshold_1.png>
@@ -1356,11 +1276,7 @@ Package pdftex.def Info: images/threshold/threshold_1.png used on input line 12
 4.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<<<<<<< HEAD
-<images/dilate_erode/dilate_erode_1.png, id=793, 305.64188pt x 226.59656pt>
-=======
 <images/dilate_erode/dilate_erode_1.png, id=792, 305.64188pt x 226.59656pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/dilate_erode/dilate_erode_1.png Graphic file (type png)
 
 <use images/dilate_erode/dilate_erode_1.png>
@@ -1368,24 +1284,15 @@ Package pdftex.def Info: images/dilate_erode/dilate_erode_1.png used on input l
 ine 127.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<<<<<<< HEAD
-<images/bounding_box/bounding_box_1.png, id=794, 305.64188pt x 226.59656pt>
-=======
 <images/bounding_box/bounding_box_1.png, id=793, 305.64188pt x 226.59656pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/bounding_box/bounding_box_1.png Graphic file (type png)
 
 <use images/bounding_box/bounding_box_1.png>
 Package pdftex.def Info: images/bounding_box/bounding_box_1.png used on input l
 ine 131.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
-<<<<<<< HEAD
- [22]
-<images/object_differentiation/1.png, id=807, 453.19313pt x 339.51843pt>
-=======
 
 <images/object_differentiation/1.png, id=796, 453.19313pt x 339.51843pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/object_differentiation/1.png Graphic file (type png)
 
 <use images/object_differentiation/1.png>
@@ -1393,11 +1300,7 @@ Package pdftex.def Info: images/object_differentiation/1.png used on input line
  150.
 (pdftex.def)             Requested size: 217.53023pt x 162.96698pt.
 
-<<<<<<< HEAD
-<images/object_differentiation/2.png, id=808, 453.19313pt x 339.51843pt>
-=======
 <images/object_differentiation/2.png, id=797, 453.19313pt x 339.51843pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/object_differentiation/2.png Graphic file (type png)
 
 <use images/object_differentiation/2.png>
@@ -1405,11 +1308,7 @@ Package pdftex.def Info: images/object_differentiation/2.png used on input line
  154.
 (pdftex.def)             Requested size: 217.53023pt x 162.96698pt.
 
-<<<<<<< HEAD
-<images/object_differentiation/3.png, id=809, 453.19313pt x 340.27126pt>
-=======
 <images/object_differentiation/3.png, id=798, 453.19313pt x 340.27126pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/object_differentiation/3.png Graphic file (type png)
 
 <use images/object_differentiation/3.png>
@@ -1417,11 +1316,7 @@ Package pdftex.def Info: images/object_differentiation/3.png used on input line
  157.
 (pdftex.def)             Requested size: 217.53023pt x 163.32834pt.
 
-<<<<<<< HEAD
-<images/object_differentiation/4.png, id=810, 453.19313pt x 340.27126pt>
-=======
 <images/object_differentiation/4.png, id=799, 453.19313pt x 340.27126pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/object_differentiation/4.png Graphic file (type png)
 
 <use images/object_differentiation/4.png>
@@ -1429,20 +1324,9 @@ Package pdftex.def Info: images/object_differentiation/4.png used on input line
  161.
 (pdftex.def)             Requested size: 217.53023pt x 163.32834pt.
 )
-<<<<<<< HEAD
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_server.tex)
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_prediction.tex
-[23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-<images/prediction_figures/custom.pdf, id=826, 256.96pt x 192.74509pt>
-=======
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_server.tex [22])
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_prediction.tex
 [23] <images/prediction_figures/custom.pdf, id=816, 256.96pt x 192.74509pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/prediction_figures/custom.pdf Graphic file (type pdf)
 
 <use images/prediction_figures/custom.pdf>
@@ -1450,25 +1334,6 @@ Package pdftex.def Info: images/prediction_figures/custom.pdf used on input lin
 e 18.
 (pdftex.def)             Requested size: 256.95937pt x 192.7446pt.
 )
-<<<<<<< HEAD
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_android.tex))
-[25] [26 <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/grayscale
-_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/grayscale_
-2.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/grayscale_3
-.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/threshold/threshold_1.
-png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/dilate_erode/dilate_ero
-de_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/bounding_box/bound
-ing_box_1.png>] [27 <C:/Users/Tomas/Documents/GSD_Report/Report/images/object_d
-ifferentiation/1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/object
-_differentiation/2.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/obje
-ct_differentiation/3.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/ob
-ject_differentiation/4.png>] [28 <C:/Users/Tomas/Documents/GSD_Report/Report/im
-ages/prediction_figures/custom.pdf>]
-Chapter 4.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation.tex
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation_image.tex
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
-=======
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_android.tex
 [24])) [25] [26 <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/gr
 ayscale_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/gra
@@ -1484,66 +1349,47 @@ ages/object_differentiation/4.png>] [28 <C:/Users/Tomas/Documents/GSD_Report/Re
 port/images/prediction_figures/custom.pdf>]
 Chapter 4.
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation.tex
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
+(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation_image.tex
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [29
 
 ]
-<<<<<<< HEAD
-<images/benchmark/benchmark_1.pdf, id=889, 406.51395pt x 233.37067pt>
-=======
 <images/benchmark/benchmark_1.pdf, id=877, 406.51875pt x 233.37187pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/benchmark/benchmark_1.pdf Graphic file (type pdf)
 
 <use images/benchmark/benchmark_1.pdf>
-Package pdftex.def Info: images/benchmark/benchmark_1.pdf used on input line 23
+Package pdftex.def Info: images/benchmark/benchmark_1.pdf used on input line 21
 .
 (pdftex.def)             Requested size: 386.19061pt x 221.70201pt.
 
-<<<<<<< HEAD
-<images/benchmark/benchmark_2.pdf, id=890, 406.51395pt x 233.37067pt>
-=======
 <images/benchmark/benchmark_2.pdf, id=878, 406.51875pt x 233.37187pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/benchmark/benchmark_2.pdf Graphic file (type pdf)
 
 <use images/benchmark/benchmark_2.pdf>
-Package pdftex.def Info: images/benchmark/benchmark_2.pdf used on input line 27
+Package pdftex.def Info: images/benchmark/benchmark_2.pdf used on input line 25
 .
 (pdftex.def)             Requested size: 386.19061pt x 221.70201pt.
 
-<<<<<<< HEAD
-<images/benchmark/benchmark_3.pdf, id=895, 406.51875pt x 233.37187pt>
-=======
 <images/benchmark/benchmark_3.pdf, id=883, 406.51875pt x 233.37187pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/benchmark/benchmark_3.pdf Graphic file (type pdf)
 
 <use images/benchmark/benchmark_3.pdf>
-Package pdftex.def Info: images/benchmark/benchmark_3.pdf used on input line 40
+Package pdftex.def Info: images/benchmark/benchmark_3.pdf used on input line 38
 .
 (pdftex.def)             Requested size: 386.19061pt x 221.70201pt.
 
-<<<<<<< HEAD
-<images/benchmark/benchmark_4.pdf, id=896, 406.51875pt x 233.37187pt>
-=======
 <images/benchmark/benchmark_4.pdf, id=884, 406.51875pt x 233.37187pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/benchmark/benchmark_4.pdf Graphic file (type pdf)
 
 <use images/benchmark/benchmark_4.pdf>
-Package pdftex.def Info: images/benchmark/benchmark_4.pdf used on input line 44
+Package pdftex.def Info: images/benchmark/benchmark_4.pdf used on input line 42
 .
 (pdftex.def)             Requested size: 386.19061pt x 221.70201pt.
-<<<<<<< HEAD
 )
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation_server.tex)
-=======
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 ) [30] [31] [32 <C:/Users/Tomas/Documents/GSD_Report/Report/images/benchmark/be
 nchmark_1.pdf> <C:/Users/Tomas/Documents/GSD_Report/Report/images/benchmark/ben
 chmark_2.pdf
@@ -1704,22 +1550,14 @@ LaTeX Warning: Marginpar on page 38 moved.
 LaTeX Warning: Marginpar on page 39 moved.
 
 [39]
-<<<<<<< HEAD
-<images/collaboration/Milestones_table.png, id=1018, 426.09187pt x 136.25906pt>
-=======
 <images/collaboration/Milestones_table.png, id=1007, 426.09187pt x 136.25906pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/collaboration/Milestones_table.png Graphic file (type png)
 <use images/collaboration/Milestones_table.png>
 Package pdftex.def Info: images/collaboration/Milestones_table.png used on inpu
 t line 118.
 (pdftex.def)             Requested size: 426.09082pt x 136.25871pt.
 
-<<<<<<< HEAD
-<images/collaboration/Milestones.pdf, id=1020, 690.32906pt x 216.81pt>
-=======
 <images/collaboration/Milestones.pdf, id=1009, 690.32906pt x 216.81pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/collaboration/Milestones.pdf Graphic file (type pdf)
 
 <use images/collaboration/Milestones.pdf>
@@ -1738,11 +1576,7 @@ LaTeX Warning: Marginpar on page 41 moved.
 
 [41 <C:/Users/Tomas/Documents/GSD_Report/Report/images/collaboration/Milestones
 .pdf>]
-<<<<<<< HEAD
-<images/collaboration/Global_meetings.png, id=1060, 406.51875pt x 151.3153pt>
-=======
 <images/collaboration/Global_meetings.png, id=1049, 406.51875pt x 151.3153pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/collaboration/Global_meetings.png Graphic file (type png)
 
 <use images/collaboration/Global_meetings.png>
@@ -1765,20 +1599,12 @@ Chapter 9.
 
 ]
 Appendix A.
-<<<<<<< HEAD
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/AppendixA.tex) [49
-=======
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/AppendixA.tex) [48
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 
 ]
 Appendix B.
 (C:\Users\Tomas\Documents\GSD_Report\Report\chapters/AppendixB.tex
-<<<<<<< HEAD
-<appendix/MemberProfile_Ann.pdf, id=1113, 597.55246pt x 845.07718pt>
-=======
 <appendix/MemberProfile_Ann.pdf, id=1097, 597.55246pt x 845.07718pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_Ann.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Ann.pdf>
@@ -1792,11 +1618,7 @@ Package pdftex.def Info: appendix/MemberProfile_Ann.pdf used on input line 3.
 [49
 
 ]
-<<<<<<< HEAD
-<appendix/MemberProfile_Ann.pdf, id=1120, page=1, 597.55246pt x 845.07718pt>
-=======
 <appendix/MemberProfile_Ann.pdf, id=1104, page=1, 597.55246pt x 845.07718pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_Ann.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Ann.pdf, page 1>
@@ -1827,15 +1649,9 @@ File: appendix/MemberProfile_Ann.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_Ann.pdf, page1 used on input li
 ne 3.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
-<<<<<<< HEAD
- [51 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Ann.pdf
->]
-<appendix/MemberProfile_Cecil.pdf, id=1155, 597.432pt x 845.07718pt>
-=======
  [50 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Ann.pdf
 >]
 <appendix/MemberProfile_Cecil.pdf, id=1139, 597.432pt x 845.07718pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_Cecil.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Cecil.pdf>
@@ -1848,11 +1664,7 @@ Package pdftex.def Info: appendix/MemberProfile_Cecil.pdf used on input line 4.
 
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 
-<<<<<<< HEAD
-<appendix/MemberProfile_Cecil.pdf, id=1158, page=1, 597.432pt x 845.07718pt>
-=======
 <appendix/MemberProfile_Cecil.pdf, id=1142, page=1, 597.432pt x 845.07718pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_Cecil.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Cecil.pdf, page 1>
@@ -1883,15 +1695,9 @@ File: appendix/MemberProfile_Cecil.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_Cecil.pdf, page1 used on input 
 line 4.
 (pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
-<<<<<<< HEAD
- [52 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Cecil.p
-df>]
-<appendix/MemberProfile_Wayua.pdf, id=1184, 597.23125pt x 845.1575pt>
-=======
  [51 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Cecil.p
 df>]
 <appendix/MemberProfile_Wayua.pdf, id=1168, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Wayua.pdf>
@@ -1904,11 +1710,7 @@ Package pdftex.def Info: appendix/MemberProfile_Wayua.pdf used on input line 5.
 
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<<<<<<< HEAD
-<appendix/MemberProfile_Wayua.pdf, id=1187, page=1, 597.23125pt x 845.1575pt>
-=======
 <appendix/MemberProfile_Wayua.pdf, id=1171, page=1, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Wayua.pdf, page 1>
@@ -1939,15 +1741,9 @@ File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_Wayua.pdf, page1 used on input 
 line 5.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [53 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Wayua.p
-df>]
-<appendix/MemberProfile_Wayua.pdf, id=1235, page=2, 597.23125pt x 845.1575pt>
-=======
  [52 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Wayua.p
 df>]
 <appendix/MemberProfile_Wayua.pdf, id=1218, page=2, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Wayua.pdf, page 2>
@@ -1966,15 +1762,9 @@ File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_Wayua.pdf, page2 used on input 
 line 5.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [54 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Wayua.p
-df>]
-<appendix/MemberProfile_CWIL.pdf, id=1240, 597.23125pt x 844.15375pt>
-=======
  [53 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Wayua.p
 df>]
 <appendix/MemberProfile_CWIL.pdf, id=1224, 597.23125pt x 844.15375pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_CWIL.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_CWIL.pdf>
@@ -1985,11 +1775,7 @@ File: appendix/MemberProfile_CWIL.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_CWIL.pdf used on input line 6.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 
-<<<<<<< HEAD
-<appendix/MemberProfile_CWIL.pdf, id=1243, page=1, 597.23125pt x 844.15375pt>
-=======
 <appendix/MemberProfile_CWIL.pdf, id=1227, page=1, 597.23125pt x 844.15375pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_CWIL.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_CWIL.pdf, page 1>
@@ -2020,21 +1806,13 @@ File: appendix/MemberProfile_CWIL.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_CWIL.pdf, page1 used on input l
 ine 6.
 (pdftex.def)             Requested size: 562.52745pt x 795.10185pt.
-<<<<<<< HEAD
- [55 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_CWIL.pd
-=======
  [54 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_CWIL.pd
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 f
 
 pdfTeX warning: pdflatex (file C:/Users/Tomas/Documents/GSD_Report/Report/appen
 dix/MemberProfile_CWIL.pdf): PDF inclusion: invalid other resource which is no 
 dict (key 'ProcSets', type <array>); ignored.
-<<<<<<< HEAD
->] <appendix/MemberProfile_JRRA.pdf, id=1264, 597.55246pt x 845.07718pt>
-=======
 >] <appendix/MemberProfile_JRRA.pdf, id=1248, 597.55246pt x 845.07718pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_JRRA.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_JRRA.pdf>
@@ -2045,11 +1823,7 @@ File: appendix/MemberProfile_JRRA.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_JRRA.pdf used on input line 7.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<<<<<<< HEAD
-<appendix/MemberProfile_JRRA.pdf, id=1267, page=1, 597.55246pt x 845.07718pt>
-=======
 <appendix/MemberProfile_JRRA.pdf, id=1251, page=1, 597.55246pt x 845.07718pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_JRRA.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_JRRA.pdf, page 1>
@@ -2080,15 +1854,9 @@ File: appendix/MemberProfile_JRRA.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_JRRA.pdf, page1 used on input l
 ine 7.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
-<<<<<<< HEAD
- [56 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_JRRA.pd
-f>]
-<appendix/MemberProfile_TEBR.pdf, id=1301, 597.23125pt x 845.1575pt>
-=======
  [55 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_JRRA.pd
 f>]
 <appendix/MemberProfile_TEBR.pdf, id=1285, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_TEBR.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_TEBR.pdf>
@@ -2099,11 +1867,7 @@ File: appendix/MemberProfile_TEBR.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_TEBR.pdf used on input line 8.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<<<<<<< HEAD
-<appendix/MemberProfile_TEBR.pdf, id=1304, page=1, 597.23125pt x 845.1575pt>
-=======
 <appendix/MemberProfile_TEBR.pdf, id=1288, page=1, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_TEBR.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_TEBR.pdf, page 1>
@@ -2134,15 +1898,9 @@ File: appendix/MemberProfile_TEBR.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_TEBR.pdf, page1 used on input l
 ine 8.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [57 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_TEBR.pd
-f>]
-<appendix/MemberProfile_TMIS.pdf, id=1327, 597.55246pt x 845.07718pt>
-=======
  [56 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_TEBR.pd
 f>]
 <appendix/MemberProfile_TMIS.pdf, id=1311, 597.55246pt x 845.07718pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_TMIS.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_TMIS.pdf>
@@ -2153,11 +1911,7 @@ File: appendix/MemberProfile_TMIS.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_TMIS.pdf used on input line 9.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<<<<<<< HEAD
-<appendix/MemberProfile_TMIS.pdf, id=1330, page=1, 597.55246pt x 845.07718pt>
-=======
 <appendix/MemberProfile_TMIS.pdf, id=1314, page=1, 597.55246pt x 845.07718pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/MemberProfile_TMIS.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_TMIS.pdf, page 1>
@@ -2188,15 +1942,9 @@ File: appendix/MemberProfile_TMIS.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_TMIS.pdf, page1 used on input l
 ine 9.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
-<<<<<<< HEAD
- [58 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_TMIS.pd
-f>]
-<images/appendix/Skill_Preference_Sheet.pdf, id=1365, 845.1575pt x 597.23125pt>
-=======
  [57 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_TMIS.pd
 f>]
 <images/appendix/Skill_Preference_Sheet.pdf, id=1349, 845.1575pt x 597.23125pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/appendix/Skill_Preference_Sheet.pdf Graphic file (type pdf)
 <use images/appendix/Skill_Preference_Sheet.pdf>
 Package pdftex.def Info: images/appendix/Skill_Preference_Sheet.pdf used on inp
@@ -2206,15 +1954,9 @@ ut line 12.
 Overfull \vbox (56.85283pt too high) has occurred while \output is active []
 
 
-<<<<<<< HEAD
-[60 <C:/Users/Tomas/Documents/GSD_Report/Report/images/appendix/Skill_Preferenc
-e_Sheet.pdf, page is rotated 90 degrees>]
-<images/appendix/Motivation_Sheet.pdf, id=1383, 597.23125pt x 421.575pt>
-=======
 [59 <C:/Users/Tomas/Documents/GSD_Report/Report/images/appendix/Skill_Preferenc
 e_Sheet.pdf, page is rotated 90 degrees>]
 <images/appendix/Motivation_Sheet.pdf, id=1367, 597.23125pt x 421.575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/appendix/Motivation_Sheet.pdf Graphic file (type pdf)
 
 <use images/appendix/Motivation_Sheet.pdf>
@@ -2222,32 +1964,20 @@ Package pdftex.def Info: images/appendix/Motivation_Sheet.pdf used on input lin
 e 16.
 (pdftex.def)             Requested size: 567.36647pt x 400.49397pt.
 
-<<<<<<< HEAD
-<images/appendix/Calendar.pdf, id=1384, 845.1575pt x 597.23125pt>
-=======
 <images/appendix/Calendar.pdf, id=1368, 845.1575pt x 597.23125pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: images/appendix/Calendar.pdf Graphic file (type pdf)
 
 <use images/appendix/Calendar.pdf>
 Package pdftex.def Info: images/appendix/Calendar.pdf used on input line 20.
 (pdftex.def)             Requested size: 591.60622pt x 418.05902pt.
-<<<<<<< HEAD
- [61 <C:/Users/Tomas/Documents/GSD_Report/Report/images/appendix/Motivation_She
-=======
  [60 <C:/Users/Tomas/Documents/GSD_Report/Report/images/appendix/Motivation_She
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 et.pdf, page is rotated 90 degrees>]
 Overfull \vbox (14.59247pt too high) has occurred while \output is active []
 
 
 [61 <C:/Users/Tomas/Documents/GSD_Report/Report/images/appendix/Calendar.pdf, p
 age is rotated 90 degrees>]
-<<<<<<< HEAD
-<appendix/GlobalMeetingReport_20131001.pdf, id=1410, 597.23125pt x 845.1575pt>
-=======
 <appendix/GlobalMeetingReport_20131001.pdf, id=1394, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131001.pdf>
@@ -2260,13 +1990,8 @@ File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131001.pdf used on inpu
 t line 23.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<<<<<<< HEAD
- [63]
-<appendix/GlobalMeetingReport_20131001.pdf, id=1417, page=1, 597.23125pt x 845.
-=======
  [62]
 <appendix/GlobalMeetingReport_20131001.pdf, id=1401, page=1, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131001.pdf, page 1>
@@ -2297,15 +2022,9 @@ File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131001.pdf, page1 used 
 on input line 23.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [64 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131001.pdf>]
-<appendix/GlobalMeetingReport_20131001.pdf, id=1446, page=2, 597.23125pt x 845.
-=======
  [63 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131001.pdf>]
 <appendix/GlobalMeetingReport_20131001.pdf, id=1430, page=2, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131001.pdf, page 2>
@@ -2324,15 +2043,9 @@ File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131001.pdf, page2 used 
 on input line 23.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [65 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131001.pdf>]
-<appendix/GlobalMeetingReport_20131024.pdf, id=1453, 597.23125pt x 845.1575pt>
-=======
  [64 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131001.pdf>]
 <appendix/GlobalMeetingReport_20131024.pdf, id=1436, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131024.pdf>
@@ -2346,11 +2059,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131024.pdf used on inpu
 t line 24.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<<<<<<< HEAD
-<appendix/GlobalMeetingReport_20131024.pdf, id=1456, page=1, 597.23125pt x 845.
-=======
 <appendix/GlobalMeetingReport_20131024.pdf, id=1439, page=1, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131024.pdf, page 1>
@@ -2381,15 +2090,9 @@ File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131024.pdf, page1 used 
 on input line 24.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [66 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131024.pdf>]
-<appendix/GlobalMeetingReport_20131024.pdf, id=1487, page=2, 597.23125pt x 845.
-=======
  [65 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131024.pdf>]
 <appendix/GlobalMeetingReport_20131024.pdf, id=1471, page=2, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131024.pdf, page 2>
@@ -2408,15 +2111,9 @@ File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131024.pdf, page2 used 
 on input line 24.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [67 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131024.pdf>]
-<appendix/GlobalMeetingReport_20131031.pdf, id=1493, 597.23125pt x 845.1575pt>
-=======
  [66 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131024.pdf>]
 <appendix/GlobalMeetingReport_20131031.pdf, id=1477, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131031.pdf>
@@ -2430,11 +2127,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131031.pdf used on inpu
 t line 25.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<<<<<<< HEAD
-<appendix/GlobalMeetingReport_20131031.pdf, id=1496, page=1, 597.23125pt x 845.
-=======
 <appendix/GlobalMeetingReport_20131031.pdf, id=1480, page=1, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131031.pdf, page 1>
@@ -2465,15 +2158,9 @@ File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131031.pdf, page1 used 
 on input line 25.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [68 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131031.pdf>]
-<appendix/GlobalMeetingReport_20131031.pdf, id=1526, page=2, 597.23125pt x 845.
-=======
  [67 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131031.pdf>]
 <appendix/GlobalMeetingReport_20131031.pdf, id=1510, page=2, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131031.pdf, page 2>
@@ -2492,15 +2179,9 @@ File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131031.pdf, page2 used 
 on input line 25.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [69 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131031.pdf>]
-<appendix/GlobalMeetingReport_20131031.pdf, id=1535, page=3, 597.23125pt x 845.
-=======
  [68 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131031.pdf>]
 <appendix/GlobalMeetingReport_20131031.pdf, id=1519, page=3, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131031.pdf, page 3>
@@ -2519,15 +2200,9 @@ File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131031.pdf, page3 used 
 on input line 25.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [70 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131031.pdf>]
-<appendix/GlobalMeetingReport_20131112.pdf, id=1541, 597.23125pt x 845.1575pt>
-=======
  [69 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131031.pdf>]
 <appendix/GlobalMeetingReport_20131112.pdf, id=1525, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131112.pdf>
@@ -2541,11 +2216,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf used on inpu
 t line 26.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<<<<<<< HEAD
-<appendix/GlobalMeetingReport_20131112.pdf, id=1544, page=1, 597.23125pt x 845.
-=======
 <appendix/GlobalMeetingReport_20131112.pdf, id=1528, page=1, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131112.pdf, page 1>
@@ -2576,15 +2247,9 @@ File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf, page1 used 
 on input line 26.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [71 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131112.pdf>]
-<appendix/GlobalMeetingReport_20131112.pdf, id=1575, page=2, 597.23125pt x 845.
-=======
  [70 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131112.pdf>]
 <appendix/GlobalMeetingReport_20131112.pdf, id=1558, page=2, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131112.pdf, page 2>
@@ -2603,15 +2268,9 @@ File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf, page2 used 
 on input line 26.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [72 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131112.pdf>]
-<appendix/GlobalMeetingReport_20131112.pdf, id=1580, page=3, 597.23125pt x 845.
-=======
  [71 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131112.pdf>]
 <appendix/GlobalMeetingReport_20131112.pdf, id=1564, page=3, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131112.pdf, page 3>
@@ -2630,15 +2289,9 @@ File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf, page3 used 
 on input line 26.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [73 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131112.pdf>]
-<appendix/GlobalMeetingReport_20131112.pdf, id=1586, page=4, 597.23125pt x 845.
-=======
  [72 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131112.pdf>]
 <appendix/GlobalMeetingReport_20131112.pdf, id=1570, page=4, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131112.pdf, page 4>
@@ -2657,15 +2310,9 @@ File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf, page4 used 
 on input line 26.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [74 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131112.pdf>]
-<appendix/GlobalMeetingReport_20131119.pdf, id=1595, 597.23125pt x 845.1575pt>
-=======
  [73 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131112.pdf>]
 <appendix/GlobalMeetingReport_20131119.pdf, id=1579, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131119.pdf>
@@ -2679,11 +2326,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf used on inpu
 t line 27.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<<<<<<< HEAD
-<appendix/GlobalMeetingReport_20131119.pdf, id=1598, page=1, 597.23125pt x 845.
-=======
 <appendix/GlobalMeetingReport_20131119.pdf, id=1582, page=1, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131119.pdf, page 1>
@@ -2714,15 +2357,9 @@ File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf, page1 used 
 on input line 27.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [75 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131119.pdf>]
-<appendix/GlobalMeetingReport_20131119.pdf, id=1628, page=2, 597.23125pt x 845.
-=======
  [74 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131119.pdf>]
 <appendix/GlobalMeetingReport_20131119.pdf, id=1612, page=2, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131119.pdf, page 2>
@@ -2741,15 +2378,9 @@ File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf, page2 used 
 on input line 27.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [76 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131119.pdf>]
-<appendix/GlobalMeetingReport_20131119.pdf, id=1636, page=3, 597.23125pt x 845.
-=======
  [75 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131119.pdf>]
 <appendix/GlobalMeetingReport_20131119.pdf, id=1620, page=3, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131119.pdf, page 3>
@@ -2768,15 +2399,9 @@ File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf, page3 used 
 on input line 27.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [77 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131119.pdf>]
-<appendix/GlobalMeetingReport_20131119.pdf, id=1643, page=4, 597.23125pt x 845.
-=======
  [76 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131119.pdf>]
 <appendix/GlobalMeetingReport_20131119.pdf, id=1626, page=4, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131119.pdf, page 4>
@@ -2795,15 +2420,9 @@ File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf, page4 used 
 on input line 27.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [78 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131119.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1649, 597.23125pt x 845.1575pt>
-=======
  [77 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131119.pdf>]
 <appendix/GlobalMeetingReport_20131126.pdf, id=1633, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131126.pdf>
@@ -2817,11 +2436,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf used on inpu
 t line 28.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<<<<<<< HEAD
-<appendix/GlobalMeetingReport_20131126.pdf, id=1652, page=1, 597.23125pt x 845.
-=======
 <appendix/GlobalMeetingReport_20131126.pdf, id=1636, page=1, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 1>
@@ -2852,15 +2467,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page1 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [79 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1681, page=2, 597.23125pt x 845.
-=======
  [78 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131126.pdf>]
 <appendix/GlobalMeetingReport_20131126.pdf, id=1665, page=2, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 2>
@@ -2879,15 +2488,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page2 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [80 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1689, page=3, 597.23125pt x 845.
-=======
  [79 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131126.pdf>]
 <appendix/GlobalMeetingReport_20131126.pdf, id=1673, page=3, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 3>
@@ -2906,15 +2509,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page3 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [81 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1696, page=4, 597.23125pt x 845.
-=======
  [80 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131126.pdf>]
 <appendix/GlobalMeetingReport_20131126.pdf, id=1680, page=4, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 4>
@@ -2933,15 +2530,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page4 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [82 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1702, page=5, 597.23125pt x 845.
-=======
  [81 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131126.pdf>]
 <appendix/GlobalMeetingReport_20131126.pdf, id=1686, page=5, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 5>
@@ -2960,15 +2551,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page5 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [83 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131203.pdf, id=1709, 597.23125pt x 845.1575pt>
-=======
  [82 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131126.pdf>]
 <appendix/GlobalMeetingReport_20131203.pdf, id=1692, 597.23125pt x 845.1575pt>
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131203.pdf>
@@ -2982,11 +2567,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf used on inpu
 t line 29.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<<<<<<< HEAD
-<appendix/GlobalMeetingReport_20131203.pdf, id=1712, page=1, 597.23125pt x 845.
-=======
 <appendix/GlobalMeetingReport_20131203.pdf, id=1695, page=1, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131203.pdf, page 1>
@@ -3017,15 +2598,9 @@ File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf, page1 used 
 on input line 29.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [84 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131203.pdf>]
-<appendix/GlobalMeetingReport_20131203.pdf, id=1742, page=2, 597.23125pt x 845.
-=======
  [83 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131203.pdf>]
 <appendix/GlobalMeetingReport_20131203.pdf, id=1726, page=2, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131203.pdf, page 2>
@@ -3044,15 +2619,9 @@ File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf, page2 used 
 on input line 29.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [85 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131203.pdf>]
-<appendix/GlobalMeetingReport_20131203.pdf, id=1749, page=3, 597.23125pt x 845.
-=======
  [84 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131203.pdf>]
 <appendix/GlobalMeetingReport_20131203.pdf, id=1733, page=3, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131203.pdf, page 3>
@@ -3071,15 +2640,9 @@ File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf, page3 used 
 on input line 29.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [86 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131203.pdf>]
-<appendix/GlobalMeetingReport_20131203.pdf, id=1765, page=4, 597.23125pt x 845.
-=======
  [85 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131203.pdf>]
 <appendix/GlobalMeetingReport_20131203.pdf, id=1749, page=4, 597.23125pt x 845.
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 1575pt>
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131203.pdf, page 4>
@@ -3098,13 +2661,8 @@ File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf, page4 used 
 on input line 29.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-<<<<<<< HEAD
- [87 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131203.pdf>]) [88]
-=======
  [86 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
 0131203.pdf>]) [87]
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 ("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.tdo")
 \tf@tdo=\write6
 
@@ -3151,20 +2709,13 @@ ed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 24289 strings out of 493921
- 481585 string characters out of 3144875
- 504391 words of memory out of 3000000
- 26682 multiletter control sequences out of 15000+200000
-=======
- 24269 strings out of 493921
- 481124 string characters out of 3144875
+ 24275 strings out of 493921
+ 481471 string characters out of 3144875
  504362 words of memory out of 3000000
  26681 multiletter control sequences out of 15000+200000
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
  21225 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 63i,18n,80p,1610b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,18n,80p,2317b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ectt1000.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi600\ectt1200.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
@@ -3183,27 +2734,14 @@ X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Tomas\AppData\L
 ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Tomas
 \AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
-<<<<<<< HEAD
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Occupancy Analyzer Report.pdf" (92 pages, 11090300 bytes).
-PDF statistics:
- 2506 PDF objects out of 2984 (max. 8388607)
- 320 named destinations out of 1000 (max. 500000)
-=======
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Occupancy Analyzer Report.pdf" (91 pages, 11078721 bytes).
+Output written on "Occupancy Analyzer Report.pdf" (91 pages, 11078974 bytes).
 PDF statistics:
  2479 PDF objects out of 2487 (max. 8388607)
  307 named destinations out of 1000 (max. 500000)
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
  1221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

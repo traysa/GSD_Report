@@ -23,15 +23,9 @@
 \contentsline {section}{\numberline {3.4}The Server}{23}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Data Input API}{23}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Data Output API}{23}{subsection.3.4.2}
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {3.4.3}Storage}{24}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Prediction}{24}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Gathering statistical data}{24}{subsection.3.5.1}
-=======
 \contentsline {subsection}{\numberline {3.4.3}Storage}{23}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Prediction}{23}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Gathering statistical data}{23}{subsection.3.5.1}
->>>>>>> 596175c918d2b07d05ab8ecfc333362b1d922ced
 \contentsline {subsection}{\numberline {3.5.2}Custom prediction model based on HMM}{24}{subsection.3.5.2}
 \contentsline {section}{\numberline {3.6}Android Application}{25}{section.3.6}
 \contentsline {chapter}{\numberline {4}Implementation}{29}{chapter.4}
