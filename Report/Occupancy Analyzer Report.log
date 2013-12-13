@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.9)  13 DEC 2013 18:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.9)  13 DEC 2013 19:06
 entering extended mode
 **Occupancy*Analyzer*Report.tex
 
@@ -1056,7 +1056,7 @@ alyzer Report.toc"pdfTeX warning (ext4): destination with the same identifier (
 name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 ....2}Object Detection}{17}{subsection.3.3.2}
+l.21 ....2}Object Detection}{20}{subsection.3.3.2}
                                                    [1
 
 ] [2] [3])
@@ -2744,16 +2744,12 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `Occupancy*Analyzer*Report.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
  24274 strings out of 493921
  482442 string characters out of 3144876
- 504362 words of memory out of 3000000
+ 504360 words of memory out of 3000000
  26681 multiletter control sequences out of 15000+200000
  21225 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -2782,7 +2778,7 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Occupancy Analyzer Report.pdf" (91 pages, 11088335 bytes).
+Output written on "Occupancy Analyzer Report.pdf" (91 pages, 11088267 bytes).
 PDF statistics:
  2482 PDF objects out of 2487 (max. 8388607)
  312 named destinations out of 1000 (max. 500000)
