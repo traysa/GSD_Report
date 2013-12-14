@@ -20,7 +20,7 @@ This report contains the product result, design of the product, details of the p
 
 
 \section{Problem}
-
+\label{sub:problem}
 %given the context
 %What is the specific problem you are looking at? At this point this won't be clear to you and that is okay. Spend some time thinking about what the system you are building could be used for and write down something that makes sense (notice that this is the reverse approach: what do we want to do -> what does this solve).This makes you think about the problem and gives us something to discuss. Later on we will revise it. 
 %Describe the problem you are facing.
@@ -39,7 +39,7 @@ The question of how the collected data can be used, has to be considered. Buildi
 Besides the design and implementation of an occupancy analyzer, another task is the collaboration of students from two different universities. Cultural differences, difference in time, spatial distance and locally related influences have to be overcome. Different perspectives have to be combined and compromises have to be made.
 
 \section{Related Work}
-
+\label{sub:related}
 %given the poblem
 %What have other people done that is relevant to your problem and what can we learn from them. Start by writing a list of paragraphs. Each should describe one related work, where it did well in respect to your specific problem and where it falls short of solving this. 
 %Looking back, what have others done that is relevant to the problem?
@@ -85,10 +85,14 @@ Ashbrook \& Starner~\cite{ashbrook} demonstrated how locations of significance c
 %To give a summary of how you did things.
 %How do you propose to solve the problem? Or at least, how do you propose to take a step towards a solution for the problem?
 %Aim for 1 page.
+Given the problems listed in section \ref{sub:problem} and the related work listed in section \ref{sub:related}, we propose a system consisting of three webcams, three Raspberry Pis, a single server and an android application. Each webcam is placed in a seperate room recording occupant activity. The webcam is connected to a Raspberry Pi performing analysis on the images received from the cameras. The analysis is made to detect occupants within the image and the information is sent and stored on the server. The android application can request information about the locations of each occupant and predictions about a single occupant. A prediction is essentially a guess about where an occupant will exit a room based on historical data. At any point during the presence of an occupant a prediction can be requested. \\
+Due to the limited computation capabilities of the Raspberry Pis we have to perform benchmarks to find the appropriate programming language and framework for image analysis. For occupant detection, we gradually build up an approximate background image of the monitored area by smoothing and blurring out the areas with activity. The background image is compared to a given image where the difference displays where exactly activity has taken place. \\
+We choose to follow a client-server approach where all communication from and to the devices and database goes through the server. The prediction logic is stored on the server as well and will be based on the approach laid out by Gellert \& Vintan\cite{gellert}. Instead of transitions between office rooms we split the image into sections and calculate probabilities of transitioning to other image sections. Our prediction approach is derived from the hidden Markov Models where we use historical data the past amount of activity in each image section in the calculations. \\
+The design and implementation of the android application is assigned to the Kenyan team with whom we will come to mutual agreements about the data sent from the server and what prediction information can be requested. These decisions will be agreed upon during weekly meetings and regular email correspondences.
 
 \section{Report Structure}
-
 %This is one easy paragraph that you write the last week.
 %How is the report structured?
 %Give a quick hint of the layout of the report
 %For each top-level section write a sentence describing the section. Make sure those sentences are linked.
+Section \ref{analysis} analyses the problems presented in section \ref{sub:problem} and presents and discusses various solutions. Based on the discussions, section \ref{design} presents the final system design. Any implementation specific details about the system that are deemed not immediately obvious will be covered in section \ref{implementation}. Section \ref{evaluation} evaluates the results from tests of the final system. The whole project process including management, issues and collaboration with the Kenyans is covered in section \ref{collaboration}. Finally, the system and project process will be concluded in section \ref{conclusion}.
