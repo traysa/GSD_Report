@@ -2,13 +2,13 @@ To evaluate the final system, we did a quantitative evaluation based on experime
 
 \section{Scenario 1}
 \label{sec:scen1}
-The purpose of this scenario is to test if the Raspberry Pi analyses the image and sends the correct data to the server. 
+The purpose of this scenario is to test if the Raspberry Pi correctly analyses the image and sends the correct data to the server. 
 
-Three webcameras are each connected to a Raspberry Pi and records the Atrium of ITU. 
+For this experiment's setup, we have set up three web cameras, each connected to a Raspberry Pi and recording the Atrium of ITU. 
 
-A person walks across the monitored areas. 
+Then, a single person walks across the monitored areas.
 
-First, three exit areas are manually set in one area by sending requests to the server containing the coordinates of the desired exit points. We perform a probability request by providing a room id and the id of an occupant stored in the database. The Raspberry Pi sends data about the person's position and room to the server which stores it in the database. 
+First, three exit areas are manually set in one area by sending requests to the server containing the coordinates of the desired exit points. We perform a probability request by providing a room id and the id of an occupant stored in the database. The Raspberry Pi sends data about the person's position and room to the server which stores it in the database.
 
 \begin{enumerate}
 \item The coordinates of the person are calculated and stored correctly while the id of the object is mistranslated and is stored incorrectly. 
@@ -26,18 +26,25 @@ Multiple people enter and exit the monitored area.
 
 \begin{enumerate}
 \item Several people are moving while a keeping a distance of 2 or more meters of each other and are interpreted as seperate occupants with different ids.
-\item Several people are moving while a keeping a distance of less than 2 meters of each other and are interpreted as one occupant with the same id.
+\item Several people are moving while a keeping a distance of less than 2 meters of each other and are interpreted as one occupant with the same id (Figure~\ref{fig:evaluation_1}).
 \item Two people are entering the monitored area and are initially interpreted as seperate occupants. They intersect and split and are interpreted as new occupants.
 \end{enumerate}
 
 The outcome of result 2 and 3 is partly due to the camera placement and because the differentiation of the occupants is only based on the positions. 
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.82]{evaluation/evaluation_1}
+	\caption{Problem of two people walking too close to each other}
+	\label{fig:evaluation_1}
+\end{figure}
 
 \section{Prediction model}
 \label{eval_prediction}
 Due to the issue mentioned in section \ref{sec:scen1}, we continued the testing of the prediction model in a separate program allowing for easy setup of a desired scenario testing various aspects of the prediction model. The program is implemented in C\# and uses the same logic as the Java implementation. Figure \ref{fig:pred_c} shows an image of the program where each cell is marked with the activity value. The purpose of this setup is to test whether the implemented rule sets have an effect.
 \begin{figure}[htb]
 	\centering
-	\includegraphics{prediction_figures/prediction_csharp}
+	\includegraphics[scale=0.82]{prediction_figures/prediction_csharp}
 	\caption{Screenshot of the prediction test program.}
 	\label{fig:pred_c}
 \end{figure}
