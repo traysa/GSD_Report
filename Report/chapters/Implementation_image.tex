@@ -14,7 +14,7 @@ Since the project dealt with a real-time vision application that had to process 
 
 In conclusion, as it was expected Java convincingly won the first benchmark.
 
-\begin{figure}[ht]
+\begin{figure}[htb]
 		\centering
 		\subfigure[Time (in seconds) needed to multiply two $300 \times 300$ size matrices in Java and Python on a laptop]{
 		\includegraphics[scale=0.95]{benchmark/benchmark_1}
@@ -31,7 +31,7 @@ In conclusion, as it was expected Java convincingly won the first benchmark.
 
 As we can see in Figure~\ref{fig:benchmark_image_processing}, the difference between Java and Python in this benchmark was rather small on both, laptop~\ref{fig:benchmark_3} and Raspberry Pi computer~\ref{fig:benchmark_4}. This was rather surprising at first, since Java had a big edge in the first benchmark. One can speculate that Python's interface to OpenCV library has been implemented in a more efficient and optimized way than Java's, thus the outcome. In general, the difference was only in terms of a few milliseconds, however, it was a good enough reason for us to choose Python's interface to OpenCV library for image processing part in this project.
 
-\begin{figure}[ht]
+\begin{figure}[htb]
 		\centering
 		\subfigure[Time (in seconds) needed to process images in Java and Python on a laptop]{
 		\includegraphics[scale=0.95]{benchmark/benchmark_3}
