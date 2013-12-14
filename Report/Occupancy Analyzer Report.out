@@ -35,47 +35,56 @@
 \BOOKMARK [2][-]{subsection.4.2.2}{Commands}{section.4.2}% 35
 \BOOKMARK [2][-]{subsection.4.2.3}{Storage}{section.4.2}% 36
 \BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 37
-\BOOKMARK [1][-]{section.5.1}{Verification}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.2}{Benchmarks}{chapter.5}% 39
-\BOOKMARK [0][-]{chapter.6}{Collaboration}{}% 40
-\BOOKMARK [1][-]{section.6.1}{Theory}{chapter.6}% 41
-\BOOKMARK [2][-]{subsection.6.1.1}{Project management}{section.6.1}% 42
-\BOOKMARK [2][-]{subsection.6.1.2}{Global collaboration}{section.6.1}% 43
-\BOOKMARK [1][-]{section.6.2}{Background information of the Project Team}{chapter.6}% 44
-\BOOKMARK [2][-]{subsection.6.2.1}{Team ITU}{section.6.2}% 45
-\BOOKMARK [2][-]{subsection.6.2.2}{Team Kenya}{section.6.2}% 46
-\BOOKMARK [1][-]{section.6.3}{Project Management}{chapter.6}% 47
-\BOOKMARK [2][-]{subsection.6.3.1}{Approach}{section.6.3}% 48
-\BOOKMARK [2][-]{subsection.6.3.2}{Project Organization}{section.6.3}% 49
-\BOOKMARK [3][-]{subsubsection.6.3.2.1}{Timeline}{subsection.6.3.2}% 50
-\BOOKMARK [3][-]{subsubsection.6.3.2.2}{Project Team and Roles}{subsection.6.3.2}% 51
-\BOOKMARK [2][-]{subsection.6.3.3}{Project Management Tools and Methods}{section.6.3}% 52
-\BOOKMARK [3][-]{subsubsection.6.3.3.1}{Member profiles}{subsection.6.3.3}% 53
-\BOOKMARK [3][-]{subsubsection.6.3.3.2}{Introduction and Kick-Off meeting}{subsection.6.3.3}% 54
-\BOOKMARK [3][-]{subsubsection.6.3.3.3}{Skill-/Preference- and Motivation-Sheet}{subsection.6.3.3}% 55
-\BOOKMARK [3][-]{subsubsection.6.3.3.4}{"Out-of-Office"-Calendar}{subsection.6.3.3}% 56
-\BOOKMARK [3][-]{subsubsection.6.3.3.5}{Milestone plan}{subsection.6.3.3}% 57
-\BOOKMARK [3][-]{subsubsection.6.3.3.6}{Internal weekly meeting \(Jour-Fixe\)}{subsection.6.3.3}% 58
-\BOOKMARK [3][-]{subsubsection.6.3.3.7}{Global weekly meeting \(Jour-Fixe\)}{subsection.6.3.3}% 59
-\BOOKMARK [3][-]{subsubsection.6.3.3.8}{Meeting reports}{subsection.6.3.3}% 60
-\BOOKMARK [3][-]{subsubsection.6.3.3.9}{Time recording}{subsection.6.3.3}% 61
-\BOOKMARK [3][-]{subsubsection.6.3.3.10}{Surveys}{subsection.6.3.3}% 62
-\BOOKMARK [2][-]{subsection.6.3.4}{Collaboration Tools}{section.6.3}% 63
-\BOOKMARK [3][-]{subsubsection.6.3.4.1}{Communication}{subsection.6.3.4}% 64
-\BOOKMARK [3][-]{subsubsection.6.3.4.2}{Sharing}{subsection.6.3.4}% 65
-\BOOKMARK [3][-]{subsubsection.6.3.4.3}{Time recording}{subsection.6.3.4}% 66
-\BOOKMARK [1][-]{section.6.4}{Project Issues}{chapter.6}% 67
-\BOOKMARK [2][-]{subsection.6.4.1}{Collaboration Issues}{section.6.4}% 68
-\BOOKMARK [1][-]{section.6.5}{Hypothetical Scenarios}{chapter.6}% 69
-\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 70
-\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 71
-\BOOKMARK [0][-]{chapter.9}{References}{}% 72
-\BOOKMARK [0][-]{appendix.A}{Appendix A}{}% 73
-\BOOKMARK [0][-]{appendix.B}{Appendix B}{}% 74
-\BOOKMARK [1][-]{section.B.1}{Member Profiles}{appendix.B}% 75
-\BOOKMARK [1][-]{section.B.2}{Skill-/Preference-Sheet}{appendix.B}% 76
-\BOOKMARK [1][-]{section.B.3}{Motivation-Sheet}{appendix.B}% 77
-\BOOKMARK [1][-]{section.B.4}{"Out-of-Office"-Calendar}{appendix.B}% 78
-\BOOKMARK [1][-]{section.B.5}{Global Meeting Reports}{appendix.B}% 79
-\BOOKMARK [1][-]{section.B.6}{Emails}{appendix.B}% 80
-\BOOKMARK [1][-]{section.B.7}{Survey}{appendix.B}% 81
+\BOOKMARK [1][-]{section.5.1}{Scenario 1}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.2}{Scenario 2}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.3}{Prediction model}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{Collaboration}{}% 41
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 42
+\BOOKMARK [2][-]{subsection.6.1.1}{Project management}{section.6.1}% 43
+\BOOKMARK [2][-]{subsection.6.1.2}{Global collaboration}{section.6.1}% 44
+\BOOKMARK [1][-]{section.6.2}{Background information of the Project Team}{chapter.6}% 45
+\BOOKMARK [2][-]{subsection.6.2.1}{Team ITU}{section.6.2}% 46
+\BOOKMARK [2][-]{subsection.6.2.2}{Team Kenya}{section.6.2}% 47
+\BOOKMARK [1][-]{section.6.3}{Project Management}{chapter.6}% 48
+\BOOKMARK [2][-]{subsection.6.3.1}{Approach}{section.6.3}% 49
+\BOOKMARK [2][-]{subsection.6.3.2}{Project Organization}{section.6.3}% 50
+\BOOKMARK [3][-]{subsubsection.6.3.2.1}{Timeline}{subsection.6.3.2}% 51
+\BOOKMARK [3][-]{subsubsection.6.3.2.2}{Project Team and Roles}{subsection.6.3.2}% 52
+\BOOKMARK [2][-]{subsection.6.3.3}{Project Management Tools}{section.6.3}% 53
+\BOOKMARK [3][-]{subsubsection.6.3.3.1}{Member profiles}{subsection.6.3.3}% 54
+\BOOKMARK [3][-]{subsubsection.6.3.3.2}{Introduction and Kick-Off meeting}{subsection.6.3.3}% 55
+\BOOKMARK [3][-]{subsubsection.6.3.3.3}{Skill-/Preference- and Motivation-Sheet}{subsection.6.3.3}% 56
+\BOOKMARK [3][-]{subsubsection.6.3.3.4}{"Out-of-Office"-Calendar}{subsection.6.3.3}% 57
+\BOOKMARK [3][-]{subsubsection.6.3.3.5}{Milestone plan}{subsection.6.3.3}% 58
+\BOOKMARK [3][-]{subsubsection.6.3.3.6}{Internal weekly meeting \(Jour-Fixe\)}{subsection.6.3.3}% 59
+\BOOKMARK [3][-]{subsubsection.6.3.3.7}{Global weekly meeting \(Jour-Fixe\)}{subsection.6.3.3}% 60
+\BOOKMARK [3][-]{subsubsection.6.3.3.8}{Meeting reports}{subsection.6.3.3}% 61
+\BOOKMARK [3][-]{subsubsection.6.3.3.9}{Time recording}{subsection.6.3.3}% 62
+\BOOKMARK [3][-]{subsubsection.6.3.3.10}{Surveys}{subsection.6.3.3}% 63
+\BOOKMARK [2][-]{subsection.6.3.4}{Collaboration Software Tools}{section.6.3}% 64
+\BOOKMARK [3][-]{subsubsection.6.3.4.1}{Communication}{subsection.6.3.4}% 65
+\BOOKMARK [3][-]{subsubsection.6.3.4.2}{Sharing}{subsection.6.3.4}% 66
+\BOOKMARK [3][-]{subsubsection.6.3.4.3}{Time recording}{subsection.6.3.4}% 67
+\BOOKMARK [1][-]{section.6.4}{Collaboration Issues}{chapter.6}% 68
+\BOOKMARK [2][-]{subsection.6.4.1}{Lack of Communication}{section.6.4}% 69
+\BOOKMARK [2][-]{subsection.6.4.2}{Misconception of the project work and project team}{section.6.4}% 70
+\BOOKMARK [2][-]{subsection.6.4.3}{Different priorities}{section.6.4}% 71
+\BOOKMARK [2][-]{subsection.6.4.4}{Lack of Cooperation}{section.6.4}% 72
+\BOOKMARK [2][-]{subsection.6.4.5}{Lack of Skills}{section.6.4}% 73
+\BOOKMARK [2][-]{subsection.6.4.6}{Lack of Initiative}{section.6.4}% 74
+\BOOKMARK [2][-]{subsection.6.4.7}{Prejudices}{section.6.4}% 75
+\BOOKMARK [2][-]{subsection.6.4.8}{Other issues}{section.6.4}% 76
+\BOOKMARK [2][-]{subsection.6.4.9}{Feedback from Team Kenya}{section.6.4}% 77
+\BOOKMARK [1][-]{section.6.5}{Hypothetical Scenarios}{chapter.6}% 78
+\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 79
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 80
+\BOOKMARK [0][-]{chapter.9}{References}{}% 81
+\BOOKMARK [0][-]{appendix.A}{Appendix A}{}% 82
+\BOOKMARK [0][-]{appendix.B}{Appendix B}{}% 83
+\BOOKMARK [1][-]{section.B.1}{Member Profiles}{appendix.B}% 84
+\BOOKMARK [1][-]{section.B.2}{Skill-/Preference-Sheet}{appendix.B}% 85
+\BOOKMARK [1][-]{section.B.3}{Motivation-Sheet}{appendix.B}% 86
+\BOOKMARK [1][-]{section.B.4}{"Out-of-Office"-Calendar}{appendix.B}% 87
+\BOOKMARK [1][-]{section.B.5}{Global Meeting Reports}{appendix.B}% 88
+\BOOKMARK [1][-]{section.B.6}{Emails}{appendix.B}% 89
+\BOOKMARK [1][-]{section.B.7}{Survey}{appendix.B}% 90

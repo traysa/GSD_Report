@@ -10,8 +10,8 @@ A person walks across the monitored areas.
 First, three exit areas are manually set in one area by sending requests to the server containing the coordinates of the desired exit points. We perform a probability request by providing a room id and the id of an occupant stored in the database. The Raspberry Pi sends data about the person's position and room to the server which stores it in the database. 
 
 \begin{enumerate}
-The coordinates of the person are calculated and stored correctly while the id of the object is mistranslated and is stored incorrectly. 
-The server returns a set of probabilities to each exit. 
+\item The coordinates of the person are calculated and stored correctly while the id of the object is mistranslated and is stored incorrectly. 
+\item The server returns a set of probabilities to each exit. 
 \end{enumerate}
 
 The outcome of result 1 indicates that the server does not maintain a link between each coordinate, thus, the complete path of the person is not stored. This is crucial since data about a person's path is essential in calculating probabilities. This is shown in the outcome of result 2 containing inaccurate probabilities. This is because the lack of path information prevents the probability calculations from using the previous position of an occupant, as well as the entrance area of the occupant. Ultimately, this made us choose to test the prediction model in a seperate environment. The tests are described in section \ref{eval_prediction}.
@@ -24,9 +24,9 @@ A webcamera is connected to a Raspberry Pi and records the Atrium of ITU.
 Multiple people enter and exit the monitored area.
 
 \begin{enumerate}
-Several people are moving while a keeping a distance of 2 or more meters of each other and are interpreted as seperate occupants with different ids.
-Several people are moving while a keeping a distance of less than 2 meters of each other and are interpreted as one occupant with the same id.
-Two people are entering the monitored area and are initially interpreted as seperate occupants. They intersect and split and are interpreted as new occupants.
+\item Several people are moving while a keeping a distance of 2 or more meters of each other and are interpreted as seperate occupants with different ids.
+\item Several people are moving while a keeping a distance of less than 2 meters of each other and are interpreted as one occupant with the same id.
+\item Two people are entering the monitored area and are initially interpreted as seperate occupants. They intersect and split and are interpreted as new occupants.
 \end{enumerate}
 
 The outcome of result 2 and 3 is partly due to the camera placement and because the differentiation of the occupants is only based on the positions. 

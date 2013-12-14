@@ -135,30 +135,32 @@ The computers each have at least one web camera attached and are responsible for
 	
 	In conclusion, by applying the steps discussed in this section, we can fairly accurately detect people and their movement in the monitored area.
 	
-	\subsection{Object Differentiation}
-	\label{object_differentiation}
-	There will naturally be cases when multiple people will walk through the monitored area and will be captured by the cameras, therefore we must have a way to differentiate between them. This task becomes rather difficult if people are very close to each other, since they will simply be interpreted as one person. However, as long as people are far enough from each other, the task becomes significantly easier. There are multiple ways of differentiating between objects. 
-	
-	One of them is to simply look at the objects histogram, which gives a graphical representation of the intensity distribution of pixels~\cite{histogram_1}. Since people are usually dressed in different color clothes, we can simply calculate a histogram for every detected person and remember it. Now, every time we receive a new frame and detect a person in it, we go through our previously saved histograms and check whether any of them are the same as our newly detect persons histogram. If there is such histogram, we interpret the person we detected in our new frame as the same person we detected in the last, otherwise, we conclude that we have not detected this person before, thus save his histogram for future reference. The biggest weakness of this approach is that a person's clothes might have different colors from the front and back. Therefore, his histogram calculated while he is facing the camera might be rather different than the histogram of when his back was towards the camera. For this reason, if the person decides to turn around midway, he might be interpreted as a new person - never seen before by the camera - when in fact his frontal or back histogram was already saved. 
-	
-	Another approach of differentiating between multiple people, and in fact the approach we used in our design, is to simply use the whole frame as a coordinate system and remember the last coordinate of every single detected person. Now, similarly to histogram approach, whenever we detect a new person in the frame, we simply look throughout previously saved coordinates, and if we find that this new person's coordinates is relatively close to some previously saved person's coordinates, we simply interpret him as the same person we detected a second or or few seconds ago, otherwise we see him as a new person. Naturally, we must regularly clear our previously saved coordinates, so that newly arrived person would not simply, by taking a similar path, be interpreted as a person who is no longer in the monitored area. This approach of differentiating between people is is illustrated in Figure~\ref{fig:object_differentiation_example}.
+\subsection{Object Differentiation}
+\label{object_differentiation}
+There will naturally be situations when multiple people will walk through the monitored area and be captured by the cameras, therefore we must have a way to differentiate between them. This task becomes rather difficult if people are very close to each other, since they will simply be interpreted as one person. However, as long as people are far enough from each other, the task remains easy. There are multiple ways of differentiating between objects. Of these we will look into two: histogram-based and distance-based.
+
+\begin{enumerate}
+\item \textit{\textbf{Histogram-based.}} One of them is to simply look at the objects histogram, which gives a graphical representation of the intensity distribution of pixels~\cite{histogram_1}. Since people are usually dressed in different color clothes, we can simply calculate a histogram for every detected person and remember it. Now, every time we receive a new frame and detect a person in it, we go through our previously saved histograms and check whether any of them are close to our newly detected persons histogram. If there is such histogram, we interpret the person we detected in our new frame as the same person we detected in the last, otherwise, we conclude that we have not detected this person before, thus save his histogram for future reference. The biggest weakness of this approach is that a person's clothes might have different colors from the front and back. For example, a person might have a backpack that is of different color than his clothes. Therefore, his histogram calculated while he is facing the camera might be rather different than the histogram of when his back was towards the camera. For this reason, if the person decides to turn around midway, he might be interpreted as a new person - never seen before by the camera - when in fact his histogram from the opposite direction was already saved. 
+
+\item \textit{\textbf{Distance-based.}} Another approach of differentiating between multiple people, and in fact the approach we used in our design, is to simply use the whole frame as a coordinate system and remember the last coordinate of every single detected person. We have chosen this approach as it was easy to implement it, and in most cases it worked quite well. In this approach, similarly to the histogram approach, whenever we detect a new person in the frame, we simply look throughout previously saved coordinates, and if we find that this new person's coordinates is relatively close to some previously saved person's coordinates, we simply interpret him as the same person we detected a moment ago, otherwise we see him as a new person. Naturally, we must regularly clear our previously saved coordinates, so that newly arrived person would not simply, by taking a similar path, be interpreted as a person who is no longer in the monitored area. The result of this approach of differentiating between people is is illustrated in Figure~\ref{fig:object_differentiation_example}.
+\end{enumerate}
 	
 \begin{figure}[htb]
-		\centering
-		\subfigure[One person enters the monitored area]{
-		\includegraphics[scale=0.48]{object_differentiation/1}
-		\label{fig:object_differentiation_1}}
-		\quad
-		\subfigure[Second person enters the monitored area]{
-		\includegraphics[scale=0.48]{object_differentiation/2}
-		\label{fig:object_differentiation_2}}
-		\subfigure[Two people continue their walk through the monitored area]{
-		\includegraphics[scale=0.48]{object_differentiation/3}
-		\label{fig:object_differentiation_3}}
-		\quad
-		\subfigure[First person leaves the monitored area]{
-		\includegraphics[scale=0.48]{object_differentiation/4}
-		\label{fig:object_differentiation_4}}
-		\caption{Object differentiation example in the monitored area}
-		\label{fig:object_differentiation_example}
-	\end{figure}
+	\centering
+	\subfigure[One person enters the monitored area]{
+	\includegraphics[scale=0.48]{object_differentiation/1}
+	\label{fig:object_differentiation_1}}
+	\quad
+	\subfigure[Second person enters the monitored area]{
+	\includegraphics[scale=0.48]{object_differentiation/2}
+	\label{fig:object_differentiation_2}}
+	\subfigure[Two people continue their walk through the monitored area]{
+	\includegraphics[scale=0.48]{object_differentiation/3}
+	\label{fig:object_differentiation_3}}
+	\quad
+	\subfigure[First person leaves the monitored area]{
+	\includegraphics[scale=0.48]{object_differentiation/4}
+	\label{fig:object_differentiation_4}}
+	\caption{Object differentiation example in the monitored area}
+	\label{fig:object_differentiation_example}
+\end{figure}
