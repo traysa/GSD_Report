@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.21)  13 DEC 2013 21:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.30)  14 DEC 2013 14:20
 entering extended mode
 **Occupancy*Analyzer*Report.tex
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.tex"
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\Occupancy Analyzer Report.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -63,11 +65,11 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
 Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -86,7 +88,7 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count91
 \calc@Cskip=\skip46
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
 Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
@@ -96,7 +98,7 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -113,7 +115,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box26
@@ -121,7 +123,7 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count92
 \AM@templatesizebox=\box27
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\todonotes\todonotes.sty
 Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
 
@@ -134,35 +136,40 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 \XKV@depth=\count93
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
-x"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
+mmon.tex
 \pgfutil@everybye=\toks18
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
-"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-la
+tex.def
 \pgfutil@abb=\box28
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+ (C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.cod
+e.tex
 Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
 Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
-"
+
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.c
+ode.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
-"
+
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
+de.tex
 \pgfkeys@pathtoks=\toks19
 \pgfkeys@temptoks=\toks20
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
-ode.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfil
+tered.code.tex
 \pgfkeys@tmptoks=\toks21
 ))
 \pgf@x=\dimen107
@@ -180,37 +187,41 @@ ode.tex"
 \c@pgf@countc=\count96
 \c@pgf@countd=\count97
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
-ef"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-p
+dftex.def
 File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
-df.def"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-c
+ommon-pdf.def
 File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
-code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysso
+ftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count98
 \pgfsyssoftpath@bigbuffer@items=\count99
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
-code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyspr
+otocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
-"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.c
+ode.tex
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
-"
+
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
+x
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.cod
+e.tex
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.cod
+e.tex)
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.c
+ode.tex
 \pgfmath@dimen=\dimen115
 \pgfmath@count=\count100
 \pgfmath@box=\box29
@@ -218,27 +229,28 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks23
 \pgfmath@stack@operation=\toks24
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
-tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
-.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
-nometric.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
-m.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
-rison.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
-code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
-.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
-code.tex")))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.code.tex
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.basic.code.tex)
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.trigonometric.code.tex)
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.random.code.tex)
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.comparison.code.tex)
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.base.code.tex)
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.round.code.tex)
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.misc.code.tex)))
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.co
+de.tex
 \c@pgfmathroundto@lastzeros=\count101
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
-de.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepo
+ints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@picminx=\dimen116
 \pgf@picmaxx=\dimen117
@@ -255,117 +267,118 @@ File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@zx=\dimen128
 \pgf@zy=\dimen129
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
-ruct.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
 \pgf@path@lastx=\dimen130
 \pgf@path@lasty=\dimen131
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
-.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 \pgf@shorten@end@additional=\dimen132
 \pgf@shorten@start@additional=\dimen133
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
-de.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresc
+opes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box30
 \pgf@hbox=\box31
 \pgf@layerbox@main=\box32
 \pgf@picture@serial@count=\count102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
-ate.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregr
+aphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
 \pgflinewidth=\dimen134
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
-ations.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
+ansformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
 \pgf@pt@x=\dimen135
 \pgf@pt@y=\dimen136
 \pgf@pt@temp=\dimen137
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
-e.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequ
+ick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
-ode.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreob
+jects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
-ssing.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
-de.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorear
+rows.code.tex
 File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
-e.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresh
+ade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen138
 \pgf@sys@shading@range@num=\count103
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
-e.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreim
+age.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
-code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreex
+ternal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
 \pgfexternal@startupbox=\box33
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
-de.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorela
+yers.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
-ncy.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
+ansparency.code.tex
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
-code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+tterns.code.tex
 File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
-e.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesha
+pes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
 \pgfnodeparttextbox=\box34
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
-tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleplo
+t.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
--0-65.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-
+version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen139
 \pgf@nodesepend=\dimen140
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
--1-18.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-
+version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.te
-x"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
+de.tex))
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.cod
+e.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen141
 \pgffor@skip=\dimen142
 \pgffor@stack=\toks25
 \pgffor@toks=\toks26
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
-e.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\t
+ikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
-dlers.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrary
+plothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count104
 \pgfplotmarksize=\dimen143
@@ -383,8 +396,8 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikznumberofcurrentchild=\count107
 \tikz@fig@count=\count108
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
-e.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulemat
+rix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 \pgfmatrixcurrentrow=\count109
 \pgfmatrixcurrentcolumn=\count110
@@ -392,17 +405,17 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 )
 \tikz@expandcount=\count112
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
-s\tikzlibrarytopaths.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\l
+ibraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
-s\tikzlibrarypositioning.code.tex"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\l
+ibraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 )
 \c@@todonotes@numberoftodonotes=\count113
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip47
 \subfigcapskip=\skip48
@@ -418,11 +431,11 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip51
 \subfig@bottom=\skip52
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\tocbibind\tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
@@ -543,11 +556,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\footnoterange\footnoterange.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\footnoterange\footnoterang
+e.sty
 Package: footnoterange 2012/02/17 v1.0a References to ranges of footnotes (HMM)
 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
@@ -557,7 +570,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box37
 \beforetitleunit=\skip54
@@ -569,7 +582,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen159
 \titlewidthfirst=\dimen160
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 \c@blindtext=\count128
 \c@Blindtext=\count129
@@ -590,69 +603,68 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 \c@blind@pangramcount=\count144
 \c@blind@pangrammax=\count145
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3names.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3bootstrap.sty"
-Package: l3bootstrap 2013/07/28 v4581 L3 Experimental bootstrap code
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\siunitx\siunitx.sty
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3names.sty
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3bootstrap.sty
+Package: l3bootstrap 2013/01/08 v4420 L3 Experimental bootstrap code
 )
 Package: l3names 2012/12/07 v4346 L3 Namespace for primitives
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count146
 )
-Package: expl3 2013/10/13 v4597 L3 Experimental code bundle wrapper
+Package: expl3 2013/03/14 v4469 L3 Experimental code bundle wrapper
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3basics.sty"
-Package: l3basics 2013/07/28 v4581 L3 Basic definitions
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3basics.sty
+Package: l3basics 2013/01/10 v4428 L3 Basic definitions
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3expan.sty"
-Package: l3expan 2013/08/17 v4584 L3 Argument expansion
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3expan.sty
+Package: l3expan 2013/02/03 v4458 L3 Argument expansion
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3tl.sty"
-Package: l3tl 2013/09/16 v4592 L3 Token lists
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3tl.sty
+Package: l3tl 2013/01/08 v4415 L3 Token lists
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3seq.sty"
-Package: l3seq 2013/07/28 v4581 L3 Sequences and stacks
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3seq.sty
+Package: l3seq 2013/01/12 v4434 L3 Sequences and stacks
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3int.sty"
-Package: l3int 2013/08/02 v4583 L3 Integers
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3int.sty
+Package: l3int 2013/01/13 v4444 L3 Integers
 \c_max_int=\count147
 \l_tmpa_int=\count148
 \l_tmpb_int=\count149
 \g_tmpa_int=\count150
 \g_tmpb_int=\count151
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3quark.sty"
-Package: l3quark 2013/07/21 v4564 L3 Quarks
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3quark.sty
+Package: l3quark 2012/11/04 v4268 L3 Quarks
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3prg.sty"
-Package: l3prg 2013/08/25 v4587 L3 Control structures
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3prg.sty
+Package: l3prg 2013/02/13 v4459 L3 Control structures
 \g__prg_map_int=\count152
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3clist.sty"
-Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3clist.sty
+Package: l3clist 2013/01/08 v4414 L3 Comma separated lists
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3token.sty"
-Package: l3token 2013/08/25 v4587 L3 Experimental token manipulation
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3token.sty
+Package: l3token 2013/01/10 v4428 L3 Experimental token manipulation
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3prop.sty"
-Package: l3prop 2013/07/28 v4581 L3 Property lists
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3prop.sty
+Package: l3prop 2013/01/09 v4423 L3 Property lists
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3msg.sty"
-Package: l3msg 2013/07/28 v4581 L3 Messages
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3msg.sty
+Package: l3msg 2013/01/08 v4412 L3 Messages
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3file.sty"
-Package: l3file 2013/10/13 v4596 L3 File and I/O operations
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3file.sty
+Package: l3file 2013/01/14 v4446 L3 File and I/O operations
 \l_iow_line_count_int=\count153
 \l__iow_target_count_int=\count154
 \l__iow_current_line_int=\count155
 \l__iow_current_word_int=\count156
 \l__iow_current_indentation_int=\count157
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3skip.sty"
-Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3skip.sty
+Package: l3skip 2013/01/13 v4444 L3 Dimensions and skips
 \c_zero_dim=\dimen161
 \c_max_dim=\dimen162
 \l_tmpa_dim=\dimen163
@@ -672,13 +684,13 @@ Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3keys.sty"
-Package: l3keys 2013/07/28 v4581 L3 Experimental key-value interfaces
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3keys.sty
+Package: l3keys 2013/02/24 v4461 L3 Experimental key-value interfaces
 \g__keyval_level_int=\count158
 \l_keys_choice_int=\count159
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3fp.sty"
-Package: l3fp 2013/07/09 v4521 L3 Floating points
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3fp.sty
+Package: l3fp 2013/01/19 v4449 L3 Floating points
 \c__fp_leading_shift_int=\count160
 \c__fp_middle_shift_int=\count161
 \c__fp_trailing_shift_int=\count162
@@ -689,15 +701,15 @@ Package: l3fp 2013/07/09 v4521 L3 Floating points
 \c__fp_Bigg_middle_shift_int=\count167
 \c__fp_Bigg_trailing_shift_int=\count168
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3box.sty"
-Package: l3box 2013/07/28 v4581 L3 Experimental boxes
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3box.sty
+Package: l3box 2013/01/08 v4411 L3 Experimental boxes
 \c_empty_box=\box38
 \l_tmpa_box=\box39
 \l_tmpb_box=\box40
 \g_tmpa_box=\box41
 \g_tmpb_box=\box42
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3coffins.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3coffins.sty
 Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
 \l__coffin_internal_box=\box43
 \l__coffin_internal_dim=\dimen167
@@ -719,16 +731,16 @@ Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
 \l__coffin_display_x_dim=\dimen175
 \l__coffin_display_y_dim=\dimen176
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3color.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3color.sty
 Package: l3color 2012/08/29 v4156 L3 Experimental color support
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3luatex.sty"
-Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3luatex.sty
+Package: l3luatex 2012/08/03 v4049 L3 Experimental LuaTeX-specific functions
 \g__cctab_allocate_int=\count169
 \g__cctab_stack_int=\count170
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3candidates.sty"
-Package: l3candidates 2013/07/24 v4576 L3 Experimental additions to l3kernel
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3candidates.sty
+Package: l3candidates 2013/03/14 v4468 L3 Experimental additions to l3kernel
 \l__box_top_dim=\dimen177
 \l__box_bottom_dim=\dimen178
 \l__box_left_dim=\dimen179
@@ -746,8 +758,9 @@ Package: l3candidates 2013/07/24 v4576 L3 Experimental additions to l3kernel
 \l__coffin_scaled_total_height_dim=\dimen190
 \l__coffin_scaled_width_dim=\dimen191
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
-Package: xparse 2013/10/13 v4597 L3 Experimental document command parser
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.s
+ty
+Package: xparse 2013/03/12 v4467 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count171
 \l__xparse_m_args_int=\count172
 \l__xparse_mandatory_args_int=\count173
@@ -755,8 +768,7 @@ Package: xparse 2013/10/13 v4597 L3 Experimental document command parser
 \l__xparse_v_nesting_int=\count175
 )
 Package: siunitx 2013/07/31 v2.5s A comprehensive (SI) units package
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
@@ -772,8 +784,9 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip62
 \backup@length=\skip63
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
-Package: l3keys2e 2013/10/13 v4597 LaTeX2e option processing using LaTeX3 keys
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\l3keys2e\l3keys
+2e.sty
+Package: l3keys2e 2013/03/12 v4467 LaTeX2e option processing using LaTeX3 keys
 )
 Variant \tl_if_blank:VTF already defined; not changing it on line 50
 \l__siunitx_tmp_box=\box53
@@ -953,47 +966,56 @@ Normal \dimen register pool exhausted, switching to extended pool.
 .................................................
 \g__file_internal_ior=\read2
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\translator\translator
-.sty"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tra
+nslator.sty
 Package: translator 2010/06/12 ver 1.10
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\translator\translator
--language-mappings.tex")))
-\c@includepdfpage=\count193
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tra
+nslator-language-mappings.tex)))
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\tabulary\tabulary.sty
+Package: tabulary 2008/12/01 v0.9 tabulary package (DPC)
+\TY@count=\count193
+\TY@linewidth=\dimen261
+\tymin=\dimen262
+\tymax=\dimen263
+\TY@tablewidth=\dimen264
+)
+\c@includepdfpage=\count194
 
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\Occupancy Analyzer Report.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
-\scratchdimen=\dimen261
+\scratchcounter=\count195
+\scratchdimen=\dimen265
 \scratchbox=\box60
-\nofMPsegments=\count195
-\nofMParguments=\count196
+\nofMPsegments=\count196
+\nofMParguments=\count197
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count197
-\MPscratchDim=\dimen262
-\MPnumerator=\count198
-\makeMPintoPDFobject=\count199
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen266
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count200
 \everyMPtoPDFconversion=\toks31
 )
 \AtBeginShipoutBox=\box61
  ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 37.
+Package hyperref Info: Link coloring OFF on input line 38.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1001,35 +1023,38 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count200
+\c@section@level=\count201
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.out")
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.out")
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\Occupancy Analyzer Report.out")
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\Occupancy Analyzer Report.out")
 \@outlinefile=\write4
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\tran
-slator-basic-dictionary\translator-basic-dictionary-English.dict"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dic
+ts\translator-basic-dictionary\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\siunitx\config\siunitx-abbreviati
-ons.cfg"
+(C:\Users\Jacob\AppData\Roaming\MiKTeX\2.9\tex\latex\siunitx\config\siunitx-abb
+reviations.cfg
 File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count201
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 37.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 37.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 37.
 Normal \count register pool exhausted, switching to extended pool.
-\c__siunitx_mathtt_int=\count277
- (C:\Users\Tomas\Documents\GSD_Report\Report\titlepage.tex
-<images/other/ITU_logo.pdf, id=330, 373.395pt x 274.02374pt>
+\c__siunitx_mathsf_int=\count277
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 38.
+\c__siunitx_mathtt_int=\count278
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\titlepage.tex" <images/other/ITU_logo.pdf, id=330, 373.395pt x 274.02374pt>
 File: images/other/ITU_logo.pdf Graphic file (type pdf)
 
 <use images/other/ITU_logo.pdf>
@@ -1037,43 +1062,47 @@ Package pdftex.def Info: images/other/ITU_logo.pdf used on input line 25.
 (pdftex.def)             Requested size: 187.89914pt x 137.89377pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Tomas/Documents/
-GSD_Report/Report/images/other/ITU_logo.pdf>])pdfTeX warning (ext4): destinatio
-n with the same identifier (name{page.1}) has been already used, duplicate igno
-red
+{C:/Users/Jacob/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Ja
+cob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/other
+/ITU_logo.pdf>])pdfTeX warning (ext4): destination with the same identifier (na
+me{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 \end{abstract}
+l.46 \end{abstract}
                     [1]
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.toc"pdfT
-eX warning (ext4): destination with the same identifier (name{page.1}) has been
- already used, duplicate ignored
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\Occupancy Analyzer Report.toc"pdfTeX warning (ext4): destination with the same
+ identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 ....2}Object Detection}{20}{subsection.3.3.2}
+l.21 ....2}Object Detection}{18}{subsection.3.3.2}
                                                    [1
 
 ] [2] [3])
 \tf@toc=\write5
  [4]
 Chapter 1.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/introduction.tex [5
 
-]
-[6]
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/introduction.tex" [5
+
+] [6]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 71.
- [7]) [8]
+ [7]) [8] [9]
 Chapter 2.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Analysis.tex
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Analysis_image.tex
-[9
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Analysis.tex"
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Analysis_image.tex" [10
 
 ])
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Analysis_prediction.tex
-<images/prediction_figures/knn_room.pdf, id=485, 149.00668pt x 89.936pt>
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Analysis_prediction.tex"
+<images/prediction_figures/knn_room.pdf, id=499, 149.00668pt x 89.936pt>
 File: images/prediction_figures/knn_room.pdf Graphic file (type pdf)
 
 <use images/prediction_figures/knn_room.pdf>
@@ -1081,22 +1110,26 @@ Package pdftex.def Info: images/prediction_figures/knn_room.pdf used on input l
 ine 4.
 (pdftex.def)             Requested size: 149.0063pt x 89.93578pt.
 
-<images/prediction_figures/markov.pdf, id=488, 180.6812pt x 87.7613pt>
+<images/prediction_figures/markov.pdf, id=502, 180.6812pt x 87.7613pt>
 File: images/prediction_figures/markov.pdf Graphic file (type pdf)
 
 <use images/prediction_figures/markov.pdf>
 Package pdftex.def Info: images/prediction_figures/markov.pdf used on input lin
 e 11.
 (pdftex.def)             Requested size: 180.68076pt x 87.76108pt.
- [10 <C:/Users/Tomas/Documents/GSD_Report/Report/images/prediction_figures/knn_
-room.pdf>]) [11 <C:/Users/Tomas/Documents/GSD_Report/Report/images/prediction_f
-igures/markov.pdf>]
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Analysis_server.tex
-[12] [13])) [14]
+ [11 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/images/prediction_figures/knn_room.pdf>]) [12 <C:/Users/Jacob/Documents/My
+ Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/prediction_figures/ma
+rkov.pdf>]
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Analysis_server.tex" [13] [14])) [15]
 Chapter 3.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design.tex
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_system.tex
-<images/system_overview/system_overview_tomas.png, id=534, 524.1984pt x 205.969
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Design.tex"
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Design_system.tex"
+<images/system_overview/system_overview_tomas.png, id=548, 524.1984pt x 205.969
 5pt>
 File: images/system_overview/system_overview_tomas.png Graphic file (type png)
  <use images/system_overview/system_overview_tomas.png>
@@ -1104,12 +1137,12 @@ Package pdftex.def Info: images/system_overview/system_overview_tomas.png used
 on input line 16.
 (pdftex.def)             Requested size: 466.53511pt x 183.31226pt.
 )
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_cameras.tex
-[15
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Design_cameras.tex" [16
 
- <C:/Users/Tomas/Documents/GSD_Report/Report/images/system_overview/system_over
-view_tomas.png>]
-<images/camera_placement/camera_top.pdf, id=547, 567.14388pt x 242.25293pt>
+ <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report
+/images/system_overview/system_overview_tomas.png>]
+<images/camera_placement/camera_top.pdf, id=561, 567.14388pt x 242.25293pt>
 File: images/camera_placement/camera_top.pdf Graphic file (type pdf)
 
 <use images/camera_placement/camera_top.pdf>
@@ -1117,7 +1150,7 @@ Package pdftex.def Info: images/camera_placement/camera_top.pdf used on input l
 ine 7.
 (pdftex.def)             Requested size: 465.06099pt x 198.64868pt.
 
-<images/camera_placement/camera_corner.pdf, id=548, 567.14388pt x 242.25293pt>
+<images/camera_placement/camera_corner.pdf, id=562, 567.14388pt x 242.25293pt>
 File: images/camera_placement/camera_corner.pdf Graphic file (type pdf)
 
 <use images/camera_placement/camera_corner.pdf>
@@ -1125,10 +1158,10 @@ Package pdftex.def Info: images/camera_placement/camera_corner.pdf used on inpu
 t line 15.
 (pdftex.def)             Requested size: 465.06099pt x 198.64868pt.
 )
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_raspberry.tex
-[16 <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_placement/camera_
-top.pdf>]
-<images/background_subtraction/background_subtraction_1.png, id=620, 569.12625p
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Design_raspberry.tex" [17 <C:/Users/Jacob/Documents/My Dropbox/Dokume
+nter/Kandidat/GSD/GSD_Report/Report/images/camera_placement/camera_top.pdf>]
+<images/background_subtraction/background_subtraction_1.png, id=635, 569.12625p
 t x 129.48375pt>
 File: images/background_subtraction/background_subtraction_1.png Graphic file (
 type png)
@@ -1138,7 +1171,7 @@ Package pdftex.def Info: images/background_subtraction/background_subtraction_1
 .png used on input line 12.
 (pdftex.def)             Requested size: 466.68655pt x 106.17734pt.
 
-<images/background_subtraction/background_subtraction_2.png, id=622, 574.145pt 
+<images/background_subtraction/background_subtraction_2.png, id=637, 574.145pt 
 x 127.47626pt>
 File: images/background_subtraction/background_subtraction_2.png Graphic file (
 type png)
@@ -1155,7 +1188,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-<images/background_subtraction/background_subtraction_3.png, id=626, 569.12625p
+<images/background_subtraction/background_subtraction_3.png, id=641, 569.12625p
 t x 127.47626pt>
 File: images/background_subtraction/background_subtraction_3.png Graphic file (
 type png)
@@ -1165,7 +1198,7 @@ Package pdftex.def Info: images/background_subtraction/background_subtraction_3
 .png used on input line 31.
 (pdftex.def)             Requested size: 466.68655pt x 104.53119pt.
 
-<images/background_subtraction/background_subtraction_4.png, id=627, 577.15625p
+<images/background_subtraction/background_subtraction_4.png, id=642, 577.15625p
 t x 127.47626pt>
 File: images/background_subtraction/background_subtraction_4.png Graphic file (
 type png)
@@ -1174,9 +1207,9 @@ type png)
 Package pdftex.def Info: images/background_subtraction/background_subtraction_4
 .png used on input line 38.
 (pdftex.def)             Requested size: 467.494pt x 103.25519pt.
- [17 <C:/Users/Tomas/Documents/GSD_Report/Report/images/camera_placement/camera
-_corner.pdf>]
-<images/background_subtraction/background_subtraction_5.png, id=709, 569.12625p
+ [18 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/images/camera_placement/camera_corner.pdf>]
+<images/background_subtraction/background_subtraction_5.png, id=723, 569.12625p
 t x 127.47626pt>
 File: images/background_subtraction/background_subtraction_5.png Graphic file (
 type png)
@@ -1185,12 +1218,13 @@ type png)
 Package pdftex.def Info: images/background_subtraction/background_subtraction_5
 .png used on input line 47.
 (pdftex.def)             Requested size: 466.68655pt x 104.53119pt.
- [18 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/
-background_subtraction_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/image
-s/background_subtraction/background_subtraction_2.png> <C:/Users/Tomas/Document
-s/GSD_Report/Report/images/background_subtraction/background_subtraction_3.png>
-]
-<images/running_average/running_average_1.png, id=721, 481.8pt x 361.35pt>
+ [19 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/images/background_subtraction/background_subtraction_1.png> <C:/Users/Jaco
+b/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/backgro
+und_subtraction/background_subtraction_2.png> <C:/Users/Jacob/Documents/My Drop
+box/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/background_subtraction/bac
+kground_subtraction_3.png>]
+<images/running_average/running_average_1.png, id=735, 481.8pt x 361.35pt>
 File: images/running_average/running_average_1.png Graphic file (type png)
 
 <use images/running_average/running_average_1.png>
@@ -1198,7 +1232,7 @@ Package pdftex.def Info: images/running_average/running_average_1.png used on i
 nput line 64.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<images/running_average/running_average_2.png, id=722, 481.8pt x 361.35pt>
+<images/running_average/running_average_2.png, id=736, 481.8pt x 361.35pt>
 File: images/running_average/running_average_2.png Graphic file (type png)
 
 <use images/running_average/running_average_2.png>
@@ -1206,7 +1240,7 @@ Package pdftex.def Info: images/running_average/running_average_2.png used on i
 nput line 68.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<images/running_average/running_average_3.png, id=723, 481.8pt x 361.35pt>
+<images/running_average/running_average_3.png, id=737, 481.8pt x 361.35pt>
 File: images/running_average/running_average_3.png Graphic file (type png)
 
 <use images/running_average/running_average_3.png>
@@ -1214,37 +1248,41 @@ Package pdftex.def Info: images/running_average/running_average_3.png used on i
 nput line 71.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<images/running_average/running_average_4.png, id=724, 481.8pt x 361.35pt>
+<images/running_average/running_average_4.png, id=738, 481.8pt x 361.35pt>
 File: images/running_average/running_average_4.png Graphic file (type png)
 
 <use images/running_average/running_average_4.png>
 Package pdftex.def Info: images/running_average/running_average_4.png used on i
 nput line 75.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
- [19 <C:/Users/Tomas/Documents/GSD_Report/Report/images/background_subtraction/
-background_subtraction_4.png> <C:/Users/Tomas/Documents/GSD_Report/Report/image
-s/background_subtraction/background_subtraction_5.png>]
-<images/blur/blur_1.png, id=734, 481.8pt x 361.35pt>
+ [20 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/images/background_subtraction/background_subtraction_4.png> <C:/Users/Jaco
+b/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/backgro
+und_subtraction/background_subtraction_5.png>] <images/blur/blur_1.png, id=748,
+ 481.8pt x 361.35pt>
 File: images/blur/blur_1.png Graphic file (type png)
 
 <use images/blur/blur_1.png>
 Package pdftex.def Info: images/blur/blur_1.png used on input line 90.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<images/blur/blur_2.png, id=735, 481.8pt x 361.35pt>
+<images/blur/blur_2.png, id=749, 481.8pt x 361.35pt>
 File: images/blur/blur_2.png Graphic file (type png)
 
 <use images/blur/blur_2.png>
 Package pdftex.def Info: images/blur/blur_2.png used on input line 94.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
- [20 <C:/Users/Tomas/Documents/GSD_Report/Report/images/running_average/running
-_average_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/running_aver
-age/running_average_2.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/r
-unning_average/running_average_3.png> <C:/Users/Tomas/Documents/GSD_Report/Repo
-rt/images/running_average/running_average_4.png>]
-[21 <C:/Users/Tomas/Documents/GSD_Report/Report/images/blur/blur_1.png> <C:/Use
-rs/Tomas/Documents/GSD_Report/Report/images/blur/blur_2.png>]
-<images/grayscale/grayscale_1.png, id=788, 305.64188pt x 226.59656pt>
+ [21 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/images/running_average/running_average_1.png> <C:/Users/Jacob/Documents/My
+ Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/running_average/runni
+ng_average_2.png> <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/
+GSD_Report/Report/images/running_average/running_average_3.png> <C:/Users/Jacob
+/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/running_
+average/running_average_4.png>] [22 <C:/Users/Jacob/Documents/My Dropbox/Dokume
+nter/Kandidat/GSD/GSD_Report/Report/images/blur/blur_1.png> <C:/Users/Jacob/Doc
+uments/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/blur/blur_2.
+png>]
+<images/grayscale/grayscale_1.png, id=802, 305.64188pt x 226.59656pt>
 File: images/grayscale/grayscale_1.png Graphic file (type png)
 
 <use images/grayscale/grayscale_1.png>
@@ -1252,7 +1290,7 @@ Package pdftex.def Info: images/grayscale/grayscale_1.png used on input line 11
 3.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/grayscale/grayscale_2.png, id=789, 305.64188pt x 226.59656pt>
+<images/grayscale/grayscale_2.png, id=803, 305.64188pt x 226.59656pt>
 File: images/grayscale/grayscale_2.png Graphic file (type png)
 
 <use images/grayscale/grayscale_2.png>
@@ -1260,7 +1298,7 @@ Package pdftex.def Info: images/grayscale/grayscale_2.png used on input line 11
 7.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/grayscale/grayscale_3.png, id=790, 305.64188pt x 226.59656pt>
+<images/grayscale/grayscale_3.png, id=804, 305.64188pt x 226.59656pt>
 File: images/grayscale/grayscale_3.png Graphic file (type png)
 
 <use images/grayscale/grayscale_3.png>
@@ -1268,7 +1306,7 @@ Package pdftex.def Info: images/grayscale/grayscale_3.png used on input line 12
 0.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/threshold/threshold_1.png, id=791, 305.64188pt x 226.59656pt>
+<images/threshold/threshold_1.png, id=805, 305.64188pt x 226.59656pt>
 File: images/threshold/threshold_1.png Graphic file (type png)
 
 <use images/threshold/threshold_1.png>
@@ -1276,7 +1314,7 @@ Package pdftex.def Info: images/threshold/threshold_1.png used on input line 12
 4.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/dilate_erode/dilate_erode_1.png, id=792, 305.64188pt x 226.59656pt>
+<images/dilate_erode/dilate_erode_1.png, id=806, 305.64188pt x 226.59656pt>
 File: images/dilate_erode/dilate_erode_1.png Graphic file (type png)
 
 <use images/dilate_erode/dilate_erode_1.png>
@@ -1284,7 +1322,7 @@ Package pdftex.def Info: images/dilate_erode/dilate_erode_1.png used on input l
 ine 127.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/bounding_box/bounding_box_1.png, id=793, 305.64188pt x 226.59656pt>
+<images/bounding_box/bounding_box_1.png, id=807, 305.64188pt x 226.59656pt>
 File: images/bounding_box/bounding_box_1.png Graphic file (type png)
 
 <use images/bounding_box/bounding_box_1.png>
@@ -1292,7 +1330,7 @@ Package pdftex.def Info: images/bounding_box/bounding_box_1.png used on input l
 ine 131.
 (pdftex.def)             Requested size: 198.66486pt x 147.28601pt.
 
-<images/object_differentiation/1.png, id=796, 453.19313pt x 339.51843pt>
+<images/object_differentiation/1.png, id=810, 453.19313pt x 339.51843pt>
 File: images/object_differentiation/1.png Graphic file (type png)
 
 <use images/object_differentiation/1.png>
@@ -1300,7 +1338,7 @@ Package pdftex.def Info: images/object_differentiation/1.png used on input line
  150.
 (pdftex.def)             Requested size: 217.53023pt x 162.96698pt.
 
-<images/object_differentiation/2.png, id=797, 453.19313pt x 339.51843pt>
+<images/object_differentiation/2.png, id=811, 453.19313pt x 339.51843pt>
 File: images/object_differentiation/2.png Graphic file (type png)
 
 <use images/object_differentiation/2.png>
@@ -1308,7 +1346,7 @@ Package pdftex.def Info: images/object_differentiation/2.png used on input line
  154.
 (pdftex.def)             Requested size: 217.53023pt x 162.96698pt.
 
-<images/object_differentiation/3.png, id=798, 453.19313pt x 340.27126pt>
+<images/object_differentiation/3.png, id=812, 453.19313pt x 340.27126pt>
 File: images/object_differentiation/3.png Graphic file (type png)
 
 <use images/object_differentiation/3.png>
@@ -1316,7 +1354,7 @@ Package pdftex.def Info: images/object_differentiation/3.png used on input line
  157.
 (pdftex.def)             Requested size: 217.53023pt x 163.32834pt.
 
-<images/object_differentiation/4.png, id=799, 453.19313pt x 340.27126pt>
+<images/object_differentiation/4.png, id=813, 453.19313pt x 340.27126pt>
 File: images/object_differentiation/4.png Graphic file (type png)
 
 <use images/object_differentiation/4.png>
@@ -1324,9 +1362,11 @@ Package pdftex.def Info: images/object_differentiation/4.png used on input line
  161.
 (pdftex.def)             Requested size: 217.53023pt x 163.32834pt.
 )
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_server.tex [22])
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_prediction.tex
-[23] <images/prediction_figures/custom.pdf, id=816, 256.96pt x 192.74509pt>
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Design_server.tex" [23])
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Design_prediction.tex" [24]
+<images/prediction_figures/custom.pdf, id=830, 256.96pt x 192.74509pt>
 File: images/prediction_figures/custom.pdf Graphic file (type pdf)
 
 <use images/prediction_figures/custom.pdf>
@@ -1334,30 +1374,38 @@ Package pdftex.def Info: images/prediction_figures/custom.pdf used on input lin
 e 18.
 (pdftex.def)             Requested size: 256.95937pt x 192.7446pt.
 )
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Design_android.tex
-[24])) [25] [26 <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/gr
-ayscale_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/gra
-yscale_2.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/grayscale/gray
-scale_3.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/threshold/thres
-hold_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/dilate_erode/dil
-ate_erode_1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images/bounding_bo
-x/bounding_box_1.png>] [27 <C:/Users/Tomas/Documents/GSD_Report/Report/images/o
-bject_differentiation/1.png> <C:/Users/Tomas/Documents/GSD_Report/Report/images
-/object_differentiation/2.png> <C:/Users/Tomas/Documents/GSD_Report/Report/imag
-es/object_differentiation/3.png> <C:/Users/Tomas/Documents/GSD_Report/Report/im
-ages/object_differentiation/4.png>] [28 <C:/Users/Tomas/Documents/GSD_Report/Re
-port/images/prediction_figures/custom.pdf>]
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Design_android.tex" [25])) [26] [27 <C:/Users/Jacob/Documents/My Drop
+box/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/grayscale/grayscale_1.png>
+ <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report
+/images/grayscale/grayscale_2.png> <C:/Users/Jacob/Documents/My Dropbox/Dokumen
+ter/Kandidat/GSD/GSD_Report/Report/images/grayscale/grayscale_3.png> <C:/Users/
+Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/thr
+eshold/threshold_1.png> <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandida
+t/GSD/GSD_Report/Report/images/dilate_erode/dilate_erode_1.png> <C:/Users/Jacob
+/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/bounding
+_box/bounding_box_1.png>] [28 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/K
+andidat/GSD/GSD_Report/Report/images/object_differentiation/1.png> <C:/Users/Ja
+cob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/objec
+t_differentiation/2.png> <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandid
+at/GSD/GSD_Report/Report/images/object_differentiation/3.png> <C:/Users/Jacob/D
+ocuments/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/object_dif
+ferentiation/4.png>] [29 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandid
+at/GSD/GSD_Report/Report/images/prediction_figures/custom.pdf>]
 Chapter 4.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation.tex
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation_image.tex
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Implementation.tex"
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Implementation_image.tex"
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [29
+) [30
 
 ]
-<images/benchmark/benchmark_1.pdf, id=877, 406.51875pt x 233.37187pt>
+<images/benchmark/benchmark_1.pdf, id=891, 406.51875pt x 233.37187pt>
 File: images/benchmark/benchmark_1.pdf Graphic file (type pdf)
 
 <use images/benchmark/benchmark_1.pdf>
@@ -1365,7 +1413,7 @@ Package pdftex.def Info: images/benchmark/benchmark_1.pdf used on input line 21
 .
 (pdftex.def)             Requested size: 386.19061pt x 221.70201pt.
 
-<images/benchmark/benchmark_2.pdf, id=878, 406.51875pt x 233.37187pt>
+<images/benchmark/benchmark_2.pdf, id=892, 406.51875pt x 233.37187pt>
 File: images/benchmark/benchmark_2.pdf Graphic file (type pdf)
 
 <use images/benchmark/benchmark_2.pdf>
@@ -1373,7 +1421,7 @@ Package pdftex.def Info: images/benchmark/benchmark_2.pdf used on input line 25
 .
 (pdftex.def)             Requested size: 386.19061pt x 221.70201pt.
 
-<images/benchmark/benchmark_3.pdf, id=883, 406.51875pt x 233.37187pt>
+<images/benchmark/benchmark_3.pdf, id=897, 406.51875pt x 233.37187pt>
 File: images/benchmark/benchmark_3.pdf Graphic file (type pdf)
 
 <use images/benchmark/benchmark_3.pdf>
@@ -1381,7 +1429,7 @@ Package pdftex.def Info: images/benchmark/benchmark_3.pdf used on input line 38
 .
 (pdftex.def)             Requested size: 386.19061pt x 221.70201pt.
 
-<images/benchmark/benchmark_4.pdf, id=884, 406.51875pt x 233.37187pt>
+<images/benchmark/benchmark_4.pdf, id=898, 406.51875pt x 233.37187pt>
 File: images/benchmark/benchmark_4.pdf Graphic file (type pdf)
 
 <use images/benchmark/benchmark_4.pdf>
@@ -1389,28 +1437,33 @@ Package pdftex.def Info: images/benchmark/benchmark_4.pdf used on input line 42
 .
 (pdftex.def)             Requested size: 386.19061pt x 221.70201pt.
 )
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Implementation_server.tex)
-) [30] [31] [32 <C:/Users/Tomas/Documents/GSD_Report/Report/images/benchmark/be
-nchmark_1.pdf> <C:/Users/Tomas/Documents/GSD_Report/Report/images/benchmark/ben
-chmark_2.pdf
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Implementation_server.tex")) [31] [32] [33 <C:/Users/Jacob/Documents/
+My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Report/images/benchmark/benchmark
+_1.pdf> <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report
+/Report/images/benchmark/benchmark_2.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Tomas/Documents/GSD_Report/Report/image
-s/benchmark/benchmark_2.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
->] [33 <C:/Users/Tomas/Documents/GSD_Report/Report/images/benchmark/benchmark_3
-.pdf> <C:/Users/Tomas/Documents/GSD_Report/Report/images/benchmark/benchmark_4.
-pdf
+pdfTeX warning: pdflatex (file C:/Users/Jacob/Documents/My Dropbox/Dokumenter/K
+andidat/GSD/GSD_Report/Report/images/benchmark/benchmark_2.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] [34 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/
+Report/images/benchmark/benchmark_3.pdf> <C:/Users/Jacob/Documents/My Dropbox/D
+okumenter/Kandidat/GSD/GSD_Report/Report/images/benchmark/benchmark_4.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Tomas/Documents/GSD_Report/Report/image
-s/benchmark/benchmark_4.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
+pdfTeX warning: pdflatex (file C:/Users/Jacob/Documents/My Dropbox/Dokumenter/K
+andidat/GSD/GSD_Report/Report/images/benchmark/benchmark_4.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
 >]
 Chapter 5.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Evaluation.tex) [34
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Evaluation.tex") [35
 
 ]
 Chapter 6.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Collaboration.tex
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Collaboration.tex"
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 11.
 
@@ -1454,7 +1507,7 @@ Overfull \hbox (0.99342pt too wide) in paragraph at lines 13--13
  []
 
 
-LaTeX Warning: Marginpar on page 35 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
 
 Overfull \hbox (0.99342pt too wide) in paragraph at lines 15--15
@@ -1477,7 +1530,7 @@ Overfull \hbox (0.99342pt too wide) in paragraph at lines 15--15
  []
 
 
-LaTeX Warning: Marginpar on page 35 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
 
 Overfull \hbox (0.99342pt too wide) in paragraph at lines 17--17
@@ -1499,112 +1552,155 @@ Overfull \hbox (0.99342pt too wide) in paragraph at lines 17--17
 [][][][]\T1/cmr/m/n/12 TODO  
  []
 
-[35
 
-] [36]
-Overfull \hbox (33.45908pt too wide) in paragraph at lines 51--51
+Overfull \hbox (8.14058pt too wide) in paragraph at lines 20--21
+[]\T1/cmr/m/n/12 In the pa-per “-Manag-ing cross-cultural com-mu-ni-ca-tion i
+n mul-ti-cul-tural con-struc-tion project
+ []
+
+[36
+
+] [37]
+Overfull \hbox (33.45908pt too wide) in paragraph at lines 54--54
 \T1/cmr/m/n/12 Introduction- 
  []
 
 
-Overfull \hbox (6.37964pt too wide) in paragraph at lines 51--51
+Overfull \hbox (6.37964pt too wide) in paragraph at lines 54--54
 \T1/cmr/m/n/12 Context 
  []
 
 
-Overfull \hbox (33.45908pt too wide) in paragraph at lines 51--51
+Overfull \hbox (33.45908pt too wide) in paragraph at lines 54--54
 \T1/cmr/m/n/12 Introduction- 
  []
 
 
-Overfull \hbox (6.37964pt too wide) in paragraph at lines 51--51
+Overfull \hbox (6.37964pt too wide) in paragraph at lines 54--54
 \T1/cmr/m/n/12 Context 
  []
 
 
-Overfull \hbox (33.45908pt too wide) in paragraph at lines 51--51
+Overfull \hbox (33.45908pt too wide) in paragraph at lines 54--54
 \T1/cmr/m/n/12 Introduction- 
  []
 
 
-Overfull \hbox (6.37964pt too wide) in paragraph at lines 51--51
+Overfull \hbox (6.37964pt too wide) in paragraph at lines 54--54
 \T1/cmr/m/n/12 Context 
  []
 
 
-Overfull \hbox (33.45908pt too wide) in paragraph at lines 51--51
+Overfull \hbox (33.45908pt too wide) in paragraph at lines 54--54
 \T1/cmr/m/n/12 Introduction- 
  []
 
 
-Overfull \hbox (6.37964pt too wide) in paragraph at lines 51--51
+Overfull \hbox (6.37964pt too wide) in paragraph at lines 54--54
 \T1/cmr/m/n/12 Context 
  []
 
-[37]
+[38] [39] [40]
+Overfull \hbox (1.30882pt too wide) in paragraph at lines 109--110
+\T1/cmr/m/n/12 ITU came up with a Skill-/Preference-Sheet and Motivation-Sheet.
+ The Skill- and Preference-
+ []
 
-LaTeX Warning: Marginpar on page 38 moved.
 
-[38]
+LaTeX Warning: Marginpar on page 41 moved.
 
-LaTeX Warning: Marginpar on page 39 moved.
+[41]
+Underfull \hbox (badness 2165) in paragraph at lines 134--134
+\T1/cmr/m/n/12 to-gether and split-ting up the
+ []
 
-[39]
-<images/collaboration/Milestones_table.png, id=1007, 426.09187pt x 136.25906pt>
-File: images/collaboration/Milestones_table.png Graphic file (type png)
-<use images/collaboration/Milestones_table.png>
-Package pdftex.def Info: images/collaboration/Milestones_table.png used on inpu
-t line 118.
-(pdftex.def)             Requested size: 426.09082pt x 136.25871pt.
 
-<images/collaboration/Milestones.pdf, id=1009, 690.32906pt x 216.81pt>
+Underfull \hbox (badness 3199) in paragraph at lines 135--135
+[]|\T1/cmr/m/n/12 A com-plete pro-to-type of the
+ []
+
+[42] <images/collaboration/Milestones.pdf, id=1037, 690.32906pt x 216.81pt>
 File: images/collaboration/Milestones.pdf Graphic file (type pdf)
 
 <use images/collaboration/Milestones.pdf>
 Package pdftex.def Info: images/collaboration/Milestones.pdf used on input line
- 127.
+ 150.
 (pdftex.def)             Requested size: 483.22705pt x 151.76596pt.
 
-Overfull \hbox (13.47203pt too wide) in paragraph at lines 127--128
+Overfull \hbox (13.47203pt too wide) in paragraph at lines 150--151
  [][] 
  []
 
-[40 <C:/Users/Tomas/Documents/GSD_Report/Report/images/collaboration/Milestones
-_table.png>]
 
-LaTeX Warning: Marginpar on page 41 moved.
+LaTeX Warning: Marginpar on page 43 moved.
 
-[41 <C:/Users/Tomas/Documents/GSD_Report/Report/images/collaboration/Milestones
-.pdf>]
-<images/collaboration/Global_meetings.png, id=1049, 406.51875pt x 151.3153pt>
-File: images/collaboration/Global_meetings.png Graphic file (type png)
+[43 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Rep
+ort/images/collaboration/Milestones.pdf>] [44]
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/12 Attendance
+ []
 
-<use images/collaboration/Global_meetings.png>
-Package pdftex.def Info: images/collaboration/Global_meetings.png used on input
- line 177.
-(pdftex.def)             Requested size: 406.51775pt x 151.31493pt.
- [42] [43 <C:/Users/Tomas/Documents/GSD_Report/Report/images/collaboration/Glob
-al_meetings.png>]) [44]
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/12 Attendance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\T1/cmr/m/n/12 up-date Team
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\T1/cmr/m/n/12 up-date Team
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[]|\T1/cmr/m/n/12 Lectures/Advisory
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 245--245
+[]|\T1/cmr/m/n/12 Global Col-lab-o-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]|\T1/cmr/m/n/12 Implementation
+ []
+
+[46] [47]) [48]
 Chapter 7.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Discussion.tex) [45
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Discussion.tex") [49
 
 ]
 Chapter 8.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/Conclusion.tex)
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/References.tex [46
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/Conclusion.tex")
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/References.tex" [50
 
 ]
 Chapter 9.
-) [47
+) [51
 
 ]
 Appendix A.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/AppendixA.tex) [48
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/AppendixA.tex") [52
+
 
 ]
 Appendix B.
-(C:\Users\Tomas\Documents\GSD_Report\Report\chapters/AppendixB.tex
-<appendix/MemberProfile_Ann.pdf, id=1097, 597.55246pt x 845.07718pt>
+
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\chapters/AppendixB.tex"
+<appendix/MemberProfile_Ann.pdf, id=1128, 597.55246pt x 845.07718pt>
 File: appendix/MemberProfile_Ann.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Ann.pdf>
@@ -1615,10 +1711,10 @@ File: appendix/MemberProfile_Ann.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_Ann.pdf used on input line 3.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-[49
+[53
 
 ]
-<appendix/MemberProfile_Ann.pdf, id=1104, page=1, 597.55246pt x 845.07718pt>
+<appendix/MemberProfile_Ann.pdf, id=1136, page=1, 597.55246pt x 845.07718pt>
 File: appendix/MemberProfile_Ann.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Ann.pdf, page 1>
@@ -1649,9 +1745,9 @@ File: appendix/MemberProfile_Ann.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_Ann.pdf, page1 used on input li
 ne 3.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
- [50 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Ann.pdf
->]
-<appendix/MemberProfile_Cecil.pdf, id=1139, 597.432pt x 845.07718pt>
+ [54 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/MemberProfile_Ann.pdf>] <appendix/MemberProfile_Cecil.pdf, id=117
+1, 597.432pt x 845.07718pt>
 File: appendix/MemberProfile_Cecil.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Cecil.pdf>
@@ -1664,7 +1760,7 @@ Package pdftex.def Info: appendix/MemberProfile_Cecil.pdf used on input line 4.
 
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 
-<appendix/MemberProfile_Cecil.pdf, id=1142, page=1, 597.432pt x 845.07718pt>
+<appendix/MemberProfile_Cecil.pdf, id=1174, page=1, 597.432pt x 845.07718pt>
 File: appendix/MemberProfile_Cecil.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Cecil.pdf, page 1>
@@ -1695,9 +1791,9 @@ File: appendix/MemberProfile_Cecil.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_Cecil.pdf, page1 used on input 
 line 4.
 (pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
- [51 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Cecil.p
-df>]
-<appendix/MemberProfile_Wayua.pdf, id=1168, 597.23125pt x 845.1575pt>
+ [55 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/MemberProfile_Cecil.pdf>] <appendix/MemberProfile_Wayua.pdf, id=1
+200, 597.23125pt x 845.1575pt>
 File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Wayua.pdf>
@@ -1710,7 +1806,7 @@ Package pdftex.def Info: appendix/MemberProfile_Wayua.pdf used on input line 5.
 
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<appendix/MemberProfile_Wayua.pdf, id=1171, page=1, 597.23125pt x 845.1575pt>
+<appendix/MemberProfile_Wayua.pdf, id=1203, page=1, 597.23125pt x 845.1575pt>
 File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Wayua.pdf, page 1>
@@ -1741,9 +1837,9 @@ File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_Wayua.pdf, page1 used on input 
 line 5.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [52 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Wayua.p
-df>]
-<appendix/MemberProfile_Wayua.pdf, id=1218, page=2, 597.23125pt x 845.1575pt>
+ [56 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/MemberProfile_Wayua.pdf>]
+<appendix/MemberProfile_Wayua.pdf, id=1250, page=2, 597.23125pt x 845.1575pt>
 File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_Wayua.pdf, page 2>
@@ -1762,9 +1858,9 @@ File: appendix/MemberProfile_Wayua.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_Wayua.pdf, page2 used on input 
 line 5.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [53 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_Wayua.p
-df>]
-<appendix/MemberProfile_CWIL.pdf, id=1224, 597.23125pt x 844.15375pt>
+ [57 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/MemberProfile_Wayua.pdf>] <appendix/MemberProfile_CWIL.pdf, id=12
+55, 597.23125pt x 844.15375pt>
 File: appendix/MemberProfile_CWIL.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_CWIL.pdf>
@@ -1775,7 +1871,7 @@ File: appendix/MemberProfile_CWIL.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_CWIL.pdf used on input line 6.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 
-<appendix/MemberProfile_CWIL.pdf, id=1227, page=1, 597.23125pt x 844.15375pt>
+<appendix/MemberProfile_CWIL.pdf, id=1258, page=1, 597.23125pt x 844.15375pt>
 File: appendix/MemberProfile_CWIL.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_CWIL.pdf, page 1>
@@ -1806,13 +1902,14 @@ File: appendix/MemberProfile_CWIL.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_CWIL.pdf, page1 used on input l
 ine 6.
 (pdftex.def)             Requested size: 562.52745pt x 795.10185pt.
- [54 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_CWIL.pd
-f
+ [58 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/MemberProfile_CWIL.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Tomas/Documents/GSD_Report/Report/appen
-dix/MemberProfile_CWIL.pdf): PDF inclusion: invalid other resource which is no 
-dict (key 'ProcSets', type <array>); ignored.
->] <appendix/MemberProfile_JRRA.pdf, id=1248, 597.55246pt x 845.07718pt>
+pdfTeX warning: pdflatex (file C:/Users/Jacob/Documents/My Dropbox/Dokumenter/K
+andidat/GSD/GSD_Report/Report/appendix/MemberProfile_CWIL.pdf): PDF inclusion: 
+invalid other resource which is no dict (key 'ProcSets', type <array>); ignored
+.
+>] <appendix/MemberProfile_JRRA.pdf, id=1279, 597.55246pt x 845.07718pt>
 File: appendix/MemberProfile_JRRA.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_JRRA.pdf>
@@ -1823,7 +1920,7 @@ File: appendix/MemberProfile_JRRA.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_JRRA.pdf used on input line 7.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<appendix/MemberProfile_JRRA.pdf, id=1251, page=1, 597.55246pt x 845.07718pt>
+<appendix/MemberProfile_JRRA.pdf, id=1282, page=1, 597.55246pt x 845.07718pt>
 File: appendix/MemberProfile_JRRA.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_JRRA.pdf, page 1>
@@ -1854,9 +1951,9 @@ File: appendix/MemberProfile_JRRA.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_JRRA.pdf, page1 used on input l
 ine 7.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
- [55 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_JRRA.pd
-f>]
-<appendix/MemberProfile_TEBR.pdf, id=1285, 597.23125pt x 845.1575pt>
+ [59 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/MemberProfile_JRRA.pdf>] <appendix/MemberProfile_TEBR.pdf, id=131
+7, 597.23125pt x 845.1575pt>
 File: appendix/MemberProfile_TEBR.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_TEBR.pdf>
@@ -1867,7 +1964,7 @@ File: appendix/MemberProfile_TEBR.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_TEBR.pdf used on input line 8.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<appendix/MemberProfile_TEBR.pdf, id=1288, page=1, 597.23125pt x 845.1575pt>
+<appendix/MemberProfile_TEBR.pdf, id=1320, page=1, 597.23125pt x 845.1575pt>
 File: appendix/MemberProfile_TEBR.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_TEBR.pdf, page 1>
@@ -1898,9 +1995,9 @@ File: appendix/MemberProfile_TEBR.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_TEBR.pdf, page1 used on input l
 ine 8.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [56 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_TEBR.pd
-f>]
-<appendix/MemberProfile_TMIS.pdf, id=1311, 597.55246pt x 845.07718pt>
+ [60 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/MemberProfile_TEBR.pdf>] <appendix/MemberProfile_TMIS.pdf, id=134
+3, 597.55246pt x 845.07718pt>
 File: appendix/MemberProfile_TMIS.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_TMIS.pdf>
@@ -1911,7 +2008,7 @@ File: appendix/MemberProfile_TMIS.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_TMIS.pdf used on input line 9.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<appendix/MemberProfile_TMIS.pdf, id=1314, page=1, 597.55246pt x 845.07718pt>
+<appendix/MemberProfile_TMIS.pdf, id=1346, page=1, 597.55246pt x 845.07718pt>
 File: appendix/MemberProfile_TMIS.pdf Graphic file (type pdf)
 
 <use appendix/MemberProfile_TMIS.pdf, page 1>
@@ -1942,21 +2039,21 @@ File: appendix/MemberProfile_TMIS.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/MemberProfile_TMIS.pdf, page1 used on input l
 ine 9.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
- [57 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/MemberProfile_TMIS.pd
-f>]
-<images/appendix/Skill_Preference_Sheet.pdf, id=1349, 845.1575pt x 597.23125pt>
+ [61 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/MemberProfile_TMIS.pdf>]
+<images/appendix/Skill_Preference_Sheet.pdf, id=1381, 845.1575pt x 597.23125pt>
 File: images/appendix/Skill_Preference_Sheet.pdf Graphic file (type pdf)
 <use images/appendix/Skill_Preference_Sheet.pdf>
 Package pdftex.def Info: images/appendix/Skill_Preference_Sheet.pdf used on inp
 ut line 12.
 (pdftex.def)             Requested size: 633.86658pt x 447.92233pt.
- [58]
+ [62]
 Overfull \vbox (56.85283pt too high) has occurred while \output is active []
 
 
-[59 <C:/Users/Tomas/Documents/GSD_Report/Report/images/appendix/Skill_Preferenc
-e_Sheet.pdf, page is rotated 90 degrees>]
-<images/appendix/Motivation_Sheet.pdf, id=1367, 597.23125pt x 421.575pt>
+[63 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Rep
+ort/images/appendix/Skill_Preference_Sheet.pdf, page is rotated 90 degrees>]
+<images/appendix/Motivation_Sheet.pdf, id=1398, 597.23125pt x 421.575pt>
 File: images/appendix/Motivation_Sheet.pdf Graphic file (type pdf)
 
 <use images/appendix/Motivation_Sheet.pdf>
@@ -1964,20 +2061,20 @@ Package pdftex.def Info: images/appendix/Motivation_Sheet.pdf used on input lin
 e 16.
 (pdftex.def)             Requested size: 567.36647pt x 400.49397pt.
 
-<images/appendix/Calendar.pdf, id=1368, 845.1575pt x 597.23125pt>
+<images/appendix/Calendar.pdf, id=1399, 845.1575pt x 597.23125pt>
 File: images/appendix/Calendar.pdf Graphic file (type pdf)
 
 <use images/appendix/Calendar.pdf>
 Package pdftex.def Info: images/appendix/Calendar.pdf used on input line 20.
 (pdftex.def)             Requested size: 591.60622pt x 418.05902pt.
- [60 <C:/Users/Tomas/Documents/GSD_Report/Report/images/appendix/Motivation_She
-et.pdf, page is rotated 90 degrees>]
+ [64 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/images/appendix/Motivation_Sheet.pdf, page is rotated 90 degrees>]
 Overfull \vbox (14.59247pt too high) has occurred while \output is active []
 
 
-[61 <C:/Users/Tomas/Documents/GSD_Report/Report/images/appendix/Calendar.pdf, p
-age is rotated 90 degrees>]
-<appendix/GlobalMeetingReport_20131001.pdf, id=1394, 597.23125pt x 845.1575pt>
+[65 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Rep
+ort/images/appendix/Calendar.pdf, page is rotated 90 degrees>]
+<appendix/GlobalMeetingReport_20131001.pdf, id=1426, 597.23125pt x 845.1575pt>
 File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131001.pdf>
@@ -1990,8 +2087,8 @@ File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131001.pdf used on inpu
 t line 23.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [62]
-<appendix/GlobalMeetingReport_20131001.pdf, id=1401, page=1, 597.23125pt x 845.
+ [66]
+<appendix/GlobalMeetingReport_20131001.pdf, id=1433, page=1, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131001.pdf, page 1>
@@ -2022,9 +2119,9 @@ File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131001.pdf, page1 used 
 on input line 23.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [63 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131001.pdf>]
-<appendix/GlobalMeetingReport_20131001.pdf, id=1430, page=2, 597.23125pt x 845.
+ [67 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131001.pdf>]
+<appendix/GlobalMeetingReport_20131001.pdf, id=1462, page=2, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131001.pdf, page 2>
@@ -2043,9 +2140,9 @@ File: appendix/GlobalMeetingReport_20131001.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131001.pdf, page2 used 
 on input line 23.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [64 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131001.pdf>]
-<appendix/GlobalMeetingReport_20131024.pdf, id=1436, 597.23125pt x 845.1575pt>
+ [68 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131001.pdf>]
+<appendix/GlobalMeetingReport_20131024.pdf, id=1468, 597.23125pt x 845.1575pt>
 File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131024.pdf>
@@ -2059,7 +2156,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131024.pdf used on inpu
 t line 24.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<appendix/GlobalMeetingReport_20131024.pdf, id=1439, page=1, 597.23125pt x 845.
+<appendix/GlobalMeetingReport_20131024.pdf, id=1471, page=1, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131024.pdf, page 1>
@@ -2090,9 +2187,9 @@ File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131024.pdf, page1 used 
 on input line 24.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [65 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131024.pdf>]
-<appendix/GlobalMeetingReport_20131024.pdf, id=1471, page=2, 597.23125pt x 845.
+ [69 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131024.pdf>]
+<appendix/GlobalMeetingReport_20131024.pdf, id=1502, page=2, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131024.pdf, page 2>
@@ -2111,9 +2208,9 @@ File: appendix/GlobalMeetingReport_20131024.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131024.pdf, page2 used 
 on input line 24.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [66 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131024.pdf>]
-<appendix/GlobalMeetingReport_20131031.pdf, id=1477, 597.23125pt x 845.1575pt>
+ [70 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131024.pdf>]
+<appendix/GlobalMeetingReport_20131031.pdf, id=1508, 597.23125pt x 845.1575pt>
 File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131031.pdf>
@@ -2127,7 +2224,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131031.pdf used on inpu
 t line 25.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<appendix/GlobalMeetingReport_20131031.pdf, id=1480, page=1, 597.23125pt x 845.
+<appendix/GlobalMeetingReport_20131031.pdf, id=1511, page=1, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131031.pdf, page 1>
@@ -2158,9 +2255,9 @@ File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131031.pdf, page1 used 
 on input line 25.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [67 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131031.pdf>]
-<appendix/GlobalMeetingReport_20131031.pdf, id=1510, page=2, 597.23125pt x 845.
+ [71 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131031.pdf>]
+<appendix/GlobalMeetingReport_20131031.pdf, id=1542, page=2, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131031.pdf, page 2>
@@ -2179,9 +2276,9 @@ File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131031.pdf, page2 used 
 on input line 25.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [68 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131031.pdf>]
-<appendix/GlobalMeetingReport_20131031.pdf, id=1519, page=3, 597.23125pt x 845.
+ [72 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131031.pdf>]
+<appendix/GlobalMeetingReport_20131031.pdf, id=1551, page=3, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131031.pdf, page 3>
@@ -2200,9 +2297,9 @@ File: appendix/GlobalMeetingReport_20131031.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131031.pdf, page3 used 
 on input line 25.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [69 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131031.pdf>]
-<appendix/GlobalMeetingReport_20131112.pdf, id=1525, 597.23125pt x 845.1575pt>
+ [73 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131031.pdf>]
+<appendix/GlobalMeetingReport_20131112.pdf, id=1557, 597.23125pt x 845.1575pt>
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131112.pdf>
@@ -2216,7 +2313,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf used on inpu
 t line 26.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<appendix/GlobalMeetingReport_20131112.pdf, id=1528, page=1, 597.23125pt x 845.
+<appendix/GlobalMeetingReport_20131112.pdf, id=1560, page=1, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131112.pdf, page 1>
@@ -2247,9 +2344,9 @@ File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf, page1 used 
 on input line 26.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [70 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131112.pdf>]
-<appendix/GlobalMeetingReport_20131112.pdf, id=1558, page=2, 597.23125pt x 845.
+ [74 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131112.pdf>]
+<appendix/GlobalMeetingReport_20131112.pdf, id=1590, page=2, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131112.pdf, page 2>
@@ -2268,9 +2365,9 @@ File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf, page2 used 
 on input line 26.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [71 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131112.pdf>]
-<appendix/GlobalMeetingReport_20131112.pdf, id=1564, page=3, 597.23125pt x 845.
+ [75 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131112.pdf>]
+<appendix/GlobalMeetingReport_20131112.pdf, id=1595, page=3, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131112.pdf, page 3>
@@ -2289,9 +2386,9 @@ File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf, page3 used 
 on input line 26.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [72 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131112.pdf>]
-<appendix/GlobalMeetingReport_20131112.pdf, id=1570, page=4, 597.23125pt x 845.
+ [76 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131112.pdf>]
+<appendix/GlobalMeetingReport_20131112.pdf, id=1601, page=4, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131112.pdf, page 4>
@@ -2310,9 +2407,9 @@ File: appendix/GlobalMeetingReport_20131112.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131112.pdf, page4 used 
 on input line 26.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [73 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131112.pdf>]
-<appendix/GlobalMeetingReport_20131119.pdf, id=1579, 597.23125pt x 845.1575pt>
+ [77 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131112.pdf>]
+<appendix/GlobalMeetingReport_20131119.pdf, id=1611, 597.23125pt x 845.1575pt>
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131119.pdf>
@@ -2326,7 +2423,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf used on inpu
 t line 27.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<appendix/GlobalMeetingReport_20131119.pdf, id=1582, page=1, 597.23125pt x 845.
+<appendix/GlobalMeetingReport_20131119.pdf, id=1614, page=1, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131119.pdf, page 1>
@@ -2357,9 +2454,9 @@ File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf, page1 used 
 on input line 27.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [74 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131119.pdf>]
-<appendix/GlobalMeetingReport_20131119.pdf, id=1612, page=2, 597.23125pt x 845.
+ [78 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131119.pdf>]
+<appendix/GlobalMeetingReport_20131119.pdf, id=1644, page=2, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131119.pdf, page 2>
@@ -2378,9 +2475,9 @@ File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf, page2 used 
 on input line 27.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [75 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131119.pdf>]
-<appendix/GlobalMeetingReport_20131119.pdf, id=1620, page=3, 597.23125pt x 845.
+ [79 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131119.pdf>]
+<appendix/GlobalMeetingReport_20131119.pdf, id=1652, page=3, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131119.pdf, page 3>
@@ -2399,9 +2496,9 @@ File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf, page3 used 
 on input line 27.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [76 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131119.pdf>]
-<appendix/GlobalMeetingReport_20131119.pdf, id=1626, page=4, 597.23125pt x 845.
+ [80 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131119.pdf>]
+<appendix/GlobalMeetingReport_20131119.pdf, id=1658, page=4, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131119.pdf, page 4>
@@ -2420,9 +2517,9 @@ File: appendix/GlobalMeetingReport_20131119.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131119.pdf, page4 used 
 on input line 27.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [77 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131119.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1633, 597.23125pt x 845.1575pt>
+ [81 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131119.pdf>]
+<appendix/GlobalMeetingReport_20131126.pdf, id=1664, 597.23125pt x 845.1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131126.pdf>
@@ -2436,7 +2533,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf used on inpu
 t line 28.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<appendix/GlobalMeetingReport_20131126.pdf, id=1636, page=1, 597.23125pt x 845.
+<appendix/GlobalMeetingReport_20131126.pdf, id=1667, page=1, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 1>
@@ -2467,9 +2564,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page1 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [78 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1665, page=2, 597.23125pt x 845.
+ [82 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131126.pdf>]
+<appendix/GlobalMeetingReport_20131126.pdf, id=1696, page=2, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 2>
@@ -2488,9 +2585,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page2 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [79 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1673, page=3, 597.23125pt x 845.
+ [83 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131126.pdf>]
+<appendix/GlobalMeetingReport_20131126.pdf, id=1705, page=3, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 3>
@@ -2509,9 +2606,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page3 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [80 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1680, page=4, 597.23125pt x 845.
+ [84 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131126.pdf>]
+<appendix/GlobalMeetingReport_20131126.pdf, id=1712, page=4, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 4>
@@ -2530,9 +2627,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page4 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [81 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131126.pdf, id=1686, page=5, 597.23125pt x 845.
+ [85 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131126.pdf>]
+<appendix/GlobalMeetingReport_20131126.pdf, id=1718, page=5, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131126.pdf, page 5>
@@ -2551,9 +2648,9 @@ File: appendix/GlobalMeetingReport_20131126.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131126.pdf, page5 used 
 on input line 28.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [82 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131126.pdf>]
-<appendix/GlobalMeetingReport_20131203.pdf, id=1692, 597.23125pt x 845.1575pt>
+ [86 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131126.pdf>]
+<appendix/GlobalMeetingReport_20131203.pdf, id=1724, 597.23125pt x 845.1575pt>
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 
 <use appendix/GlobalMeetingReport_20131203.pdf>
@@ -2567,7 +2664,7 @@ Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf used on inpu
 t line 29.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<appendix/GlobalMeetingReport_20131203.pdf, id=1695, page=1, 597.23125pt x 845.
+<appendix/GlobalMeetingReport_20131203.pdf, id=1727, page=1, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131203.pdf, page 1>
@@ -2598,9 +2695,9 @@ File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf, page1 used 
 on input line 29.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [83 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131203.pdf>]
-<appendix/GlobalMeetingReport_20131203.pdf, id=1726, page=2, 597.23125pt x 845.
+ [87 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131203.pdf>]
+<appendix/GlobalMeetingReport_20131203.pdf, id=1757, page=2, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131203.pdf, page 2>
@@ -2619,9 +2716,9 @@ File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf, page2 used 
 on input line 29.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [84 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131203.pdf>]
-<appendix/GlobalMeetingReport_20131203.pdf, id=1733, page=3, 597.23125pt x 845.
+ [88 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131203.pdf>]
+<appendix/GlobalMeetingReport_20131203.pdf, id=1764, page=3, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131203.pdf, page 3>
@@ -2640,9 +2737,9 @@ File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf, page3 used 
 on input line 29.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [85 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131203.pdf>]
-<appendix/GlobalMeetingReport_20131203.pdf, id=1749, page=4, 597.23125pt x 845.
+ [89 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131203.pdf>]
+<appendix/GlobalMeetingReport_20131203.pdf, id=1781, page=4, 597.23125pt x 845.
 1575pt>
 File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
  <use appendix/GlobalMeetingReport_20131203.pdf, page 4>
@@ -2661,77 +2758,83 @@ File: appendix/GlobalMeetingReport_20131203.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendix/GlobalMeetingReport_20131203.pdf, page4 used 
 on input line 29.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [86 <C:/Users/Tomas/Documents/GSD_Report/Report/appendix/GlobalMeetingReport_2
-0131203.pdf>]) [87]
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.tdo")
+ [90 <C:/Users/Jacob/Documents/My Dropbox/Dokumenter/Kandidat/GSD/GSD_Report/Re
+port/appendix/GlobalMeetingReport_20131203.pdf>]) [91]
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\Occupancy Analyzer Report.tdo")
 \tf@tdo=\write6
 
-Overfull \hbox (7.35442pt too wide) in paragraph at lines 91--91
+Overfull \hbox (7.35442pt too wide) in paragraph at lines 100--100
 [][][][]\T1/cmr/m/n/12 Another 
  []
 
 
-Overfull \hbox (7.35442pt too wide) in paragraph at lines 91--91
+Overfull \hbox (7.35442pt too wide) in paragraph at lines 100--100
 [][][][]\T1/cmr/m/n/12 Another 
  []
 
 
-Overfull \hbox (7.35442pt too wide) in paragraph at lines 91--91
+Overfull \hbox (7.35442pt too wide) in paragraph at lines 100--100
 [][][][]\T1/cmr/m/n/12 Another 
  []
 
 
-Overfull \hbox (7.35442pt too wide) in paragraph at lines 91--91
+Overfull \hbox (7.35442pt too wide) in paragraph at lines 100--100
 [][][][]\T1/cmr/m/n/12 Another 
  []
 
 
-LaTeX Warning: Marginpar on page 88 moved.
+LaTeX Warning: Marginpar on page 92 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-[88
+[92
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
- [89]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
+ [93]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
 
-("C:\Users\Tomas\Documents\GSD_Report\Report\Occupancy Analyzer Report.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+("C:\Users\Jacob\Documents\My Dropbox\Dokumenter\Kandidat\GSD\GSD_Report\Report
+\Occupancy Analyzer Report.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
 Package rerunfilecheck Info: File `Occupancy*Analyzer*Report.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 24275 strings out of 493921
- 481471 string characters out of 3144875
- 504362 words of memory out of 3000000
- 26681 multiletter control sequences out of 15000+200000
+ 24706 strings out of 493921
+ 506730 string characters out of 3144876
+ 503494 words of memory out of 3000000
+ 27103 multiletter control sequences out of 15000+200000
  21225 words of font info for 52 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  63i,18n,80p,2317b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ectt1000.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ectt1200.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Tomas\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Tomas\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Tomas\
+ <C:\Users\Jacob\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ectt1000.pk> <C:\Users\Jacob\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ectt1200.pk> <C:\Users\Jacob\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\Jacob\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Jacob\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Jacob\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Jacob\
 AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Us
-ers\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.
-pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1728.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecrm1200.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Tomas\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Tomas\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Tomas\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Tomas
+ers\Jacob\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.
+pk> <C:\Users\Jacob\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecbx1728.pk> <C:\Users\Jacob\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecrm1200.pk> <C:\Users\Jacob\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Jacob\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Jacob\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Jacob\AppData\L
+ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Jacob
 \AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
@@ -2739,9 +2842,9 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Occupancy Analyzer Report.pdf" (91 pages, 11078974 bytes).
+Output written on "Occupancy Analyzer Report.pdf" (95 pages, 11093912 bytes).
 PDF statistics:
- 2479 PDF objects out of 2487 (max. 8388607)
- 307 named destinations out of 1000 (max. 500000)
- 1221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2518 PDF objects out of 2984 (max. 8388607)
+ 314 named destinations out of 1000 (max. 500000)
+ 1211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
