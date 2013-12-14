@@ -13,12 +13,12 @@ We have chosen to build our own prediction model heavily inspired by the hidden 
 \item An occupant is more likely to move to the adjacent cell with the highest amount of previous activity.
 \item The likelihood of an occupant exiting at a given exit (unless it also serves as the occupant's entrance) is inversely proportional to the direct distance to the given exit, producing a magnet-like effect.
 \end{enumerate}
-Item 1 is handled by inferring an occupant's entrance cell by looking at the occupant's first coordinate in the stored path. During calculations, the value of an entrance cell is significantly lowered by a modifier. Item 2 is handled by inferring an occupant's previously visited cell by scanning the path from the end until a coordinate residing in a different cell is found. The value of this cell is significantly lowered by a modifier while the value of the cell on the direct opposite side of the current cell is raised by another modifier. Item 3 is supported by the adjacent cell with the most activity simply having a greater base value. Item 4 is supported by using the following function to modify the value of a cell: \\
+Item 1 is handled by inferring an occupant's entrance cell by looking at the occupant's first coordinate in the stored path. During calculations, the value of an entrance cell is significantly lowered by a modifier. Item 2 is handled by inferring an occupant's previously visited cell by scanning the path from the end until a coordinate residing in a different cell is found. The value of this cell is significantly lowered by a modifier while the value of the cell on the direct opposite side of the current cell is raised by another modifier. Item 3 is supported by the adjacent cell with the most activity simply having a greater base value. Item 4 is supported by using the following function to modify the value of a cell: 
 \begin{equation}
 v = \frac{v}{k^d}
 \end{equation}
-\\
-where \(v\) is the value of a cell, \(k\) is some constant and \(d\) is the distance in some unit. \\
+where \(v\) is the value of a cell, \(k\) is some constant and \(d\) is the distance in some unit. 
+
 Adjusting \(k\) will increase or decrease the impact the distance has on the value. The higher \(d\) is, the lower \(v\) becomes. Using the modifiers, all of these factors have a significant influence on the final value or weight of a cell or exit, which is used when calculating each probability. The higher the value, the greater probability. The sum of the probabilities of an occupant moving to each individual exit or each adjacent cell given a current cell is 1. The cell with the highest probability will be the predicted cell.
 \begin{figure}[htb]
 \centering
