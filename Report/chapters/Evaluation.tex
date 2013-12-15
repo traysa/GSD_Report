@@ -45,7 +45,9 @@ The experiment starts with multiple people entering and exiting the monitored ar
 
 \textit{\textbf{Interpretation.}} The outcome of result 2 and 3 is partly due to the camera placement and because the differentiation of the occupants is only based on the positions. 
 
-\textit{\textbf{Solutions.}} In order to handle the problem mentioned in the result 2, we could possibly change our current approach of detecting people to using human body shape or face recognition techniques. These approaches are more complicated to implement, however they could produce better results when trying to detect, track and differentiation between multiple people walking in the monitored area.
+\textit{\textbf{Solutions.}} In order to handle the problems mentioned in the result 2 and 3, we could possibly change the web camera's position by placing it on the ceiling and facing it down towards the monitored area. In this way, as we have already discussed in the earlier chapters, the camera's field of view would be increased and this would make detection of multiple people walking side by side easier.
+
+However, if we leave the web cameras in the same position, in order to handle the problem, we could possibly change our current approach of detecting people to using human body shape or face recognition techniques. These approaches are more complicated to implement, however they could produce better results when trying to detect, track and differentiation between multiple people walking in the monitored area.
 
 The problem mentioned in the result 3 could possibly be handled by investigating the parameters of the resulting bounding box that was shown in Figure~\ref{fig:evaluation_1}. By finding the average size of a bounding box of one person, we could define a threshold parameter. By comparing the size of person's bounding box with the threshold, we can then have the following situations:
 
