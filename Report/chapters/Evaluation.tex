@@ -23,9 +23,11 @@ The experiment starts with a single person walking across the monitored areas. W
 \item The server returns a set of probabilities to each exit, which are not very accurate.
 \end{enumerate}
 
-\textit{\textbf{Interpretation.}} 
-We have found that the outcome of result 1 is due to the server does not maintaining a link between each coordinate, thus, the complete path of the person is not stored.
-This is crucial since the data about a person's path is essential in calculating probabilities. This is shown in the outcome of result 2 containing inaccurate probabilities. This is because the lack of path information prevents the probability calculations from using the previous position, as well as the entrance area of the occupant. Ultimately, this made us choose to test the prediction model in a separate environment. The tests are described in Section~\ref{eval_prediction}.
+\textit{\textbf{Interpretation.}}
+We have found that the outcome of result 1 is due to the server not maintaining a link between each coordinate, thus, the complete path of the person is not stored.
+This is crucial since the data about the person's path is essential in calculating probabilities. This is shown in the outcome of result 2 containing inaccurate probabilities. This is because the lack of path information prevents the probability calculations from using the previous position, as well as the entrance area of the occupant. Ultimately, this made us choose to test the prediction model in a separate environment. The tests are described in Section~\ref{eval_prediction}.
+
+\textit{\textbf{Solutions.}} The results in these cases are due to an implementation bug on the server side that was discovered way too late into the project to be fixed. Furthermore, the problem described in the result 2 is the consequence of the result's 1 problem, thus fixing the latter would fix the former one as well.
 
 \section{Scenario 2}
 \textit{\textbf{Purpose.}} The purpose of this scenario is to test the image analysis when multiple people are present in the monitored area.
@@ -41,7 +43,16 @@ The experiment starts with multiple people entering and exiting the monitored ar
 \item Two people are entering the monitored area and are initially interpreted as separate occupants. They intersect and split and are interpreted as new occupants.
 \end{enumerate}
 
-\textit{\textbf{Interpretation.}} The outcome of result 2 and 3 is partly due to the camera placement and because the differentiation of the occupants is only based on the positions.
+\textit{\textbf{Interpretation.}} The outcome of result 2 and 3 is partly due to the camera placement and because the differentiation of the occupants is only based on the positions. 
+
+\textit{\textbf{Solutions.}} In order to handle the problem mentioned in the result 2, we could possibly change our current approach of detecting people to using human body shape or face recognition techniques. These approaches are more complicated to implement, however they could produce better results when trying to detect, track and differentiation between multiple people walking in the monitored area.
+
+The problem mentioned in the result 3 could possibly be handled by investigating the parameters of the resulting bounding box that was shown in Figure~\ref{fig:evaluation_1}. By finding the average size of a bounding box of one person, we could define a threshold parameter. By comparing the size of person's bounding box with the threshold, we can then have the following situations:
+
+\begin{enumerate}
+\item If the resulting bounding box is slightly bigger than the threshold, we can assume that it contains two people. Now, if our assumption turns out to be correct, we can simply go through the list of previously detected people and find two, who are closest to the center of our new bounding box. Finally, to draw two bounding boxes around both occupants, we can examine their shape and try to approximately split them in half. Naturally, this approach is not perfect, as there still be situations of two people being identified as one, if they stand very close to each other, but their bounding box is smaller than the threshold. Furthermore, some people are significantly taller and/or bigger than the average person, thus this algorithm might interpret those people as them being two occupants walking close to each other.
+\item In the other situation we might get a bounding box, which is significantly bigger than the threshold. This would possible mean that there are more than two people gathered really closely. Naturally, this situation is even harder to handle, as it is difficult to make a guess on how many people there are in the monitored area, as well as find the previously detected people who were close to this large bounding box.
+\end{enumerate}
 
 \begin{figure}[htb]
 	\centering
