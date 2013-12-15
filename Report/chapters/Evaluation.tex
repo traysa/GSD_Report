@@ -23,7 +23,9 @@ The experiment starts with a single person walking across the monitored areas. W
 \item The server returns a set of probabilities to each exit, which are not very accurate.
 \end{enumerate}
 
-\textit{\textbf{Interpretation.}} The outcome of result 1 indicates that the server does not maintain a link between each coordinate, thus, the complete path of the person is not stored. This is crucial since the data about a person's path is essential in calculating probabilities. This is shown in the outcome of result 2 containing inaccurate probabilities. This is because the lack of path information prevents the probability calculations from using the previous position of an occupant, as well as the entrance area of the occupant. Ultimately, this made us choose to test the prediction model in a separate environment. The tests are described in Section~\ref{eval_prediction}.
+\textit{\textbf{Interpretation.}} 
+We have found that the outcome of result 1 is due to the server does not maintaining a link between each coordinate, thus, the complete path of the person is not stored.
+This is crucial since the data about a person's path is essential in calculating probabilities. This is shown in the outcome of result 2 containing inaccurate probabilities. This is because the lack of path information prevents the probability calculations from using the previous position, as well as the entrance area of the occupant. Ultimately, this made us choose to test the prediction model in a separate environment. The tests are described in Section~\ref{eval_prediction}.
 
 \section{Scenario 2}
 \textit{\textbf{Purpose.}} The purpose of this scenario is to test the image analysis when multiple people are present in the monitored area.
