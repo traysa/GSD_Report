@@ -1,3 +1,5 @@
+\subsection{Communication}
+
 To reduce possible platform limitations the server communicates with all other devices through the TCP protocol, structuring the data in a JSON string. This is done for both receiving and interpreting commands as well as sending responses back.
 The command structure is used by the devices consuming the server's resources. The structure is very simple as it consists of the commands name which it wants to invoke and a sequence of parameters which each consists of the parameters name and value.
 A generic example of a command is shown below. 
@@ -6,7 +8,7 @@ A generic example of a command is shown below.
 	{"command":"theCommandName", "param": [{"pame": "paramName1", "value":"paramValue1"}, {"name": "paramName2", "value":"paramValue2"}, {"name": "paramName3", "value":"paramValue3"}, {"name": "paramName4", "value":"paramValue4"}]}
 	\end{lstlisting}
 \end{center}
-By applying the scheme, "theCommandName" has been substituted with "setExit" and the parameters have respectively been substituted with "room\_id" and "4ef9ad6e-5da3-4a2e-aa12-b32f70f3900e", "x\_coord" and "5", and so forth. 
+Below the scheme has been applied to an actual command: "theCommandName" has been substituted with "setExit" and the parameters have respectively been substituted with "room\_id" and "4ef9ad6e-5da3-4a2e-aa12-b32f70f3900e", "x\_coord" and "5", and so forth. 
 
 \begin{center}
 	\begin{lstlisting}[language=json,firstnumber=1]
@@ -29,3 +31,6 @@ The supported commands are listed in table \ref{tab:command}.
 	\label{tab:command}
 \end{table}
 \end{center}
+
+\subsection{Timeout}
+To reduce the amount of connections on the server, measures have been taken to close down connections that have not been active within a limited timespan. Currently the timespan is set to 5 seconds, however, the lifetime of a connection is refreshed every time the server receives any data from a client, enabling a client to reuse a connection or even make a stream of data without having to be concerned whether the connection is open or not.
