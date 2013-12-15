@@ -1,0 +1,10 @@
+Despite the collaboration difficulties and mitigations mentioned throughout section \ref{collaboration}, we succeeded in designing and implementing a system to solve the overall problem regarding occupancy analysis. The system makes use of the lowcost computational devices, Raspberry Pis, to perform the image analysis, supported by a central server handling database- and client communication. We solved the problem regarding the visual conditions of the image by using the running average approach to dynamically update the background image. The prediction problem was solved by building and integrating our own custom prediction model into the server. The model is inspired by the hidden Markov model and makes use of historical data about occupant activity in a room. 
+
+While the final system allows a user to detect occupants and predict their future actions, the evaluation revealed some flaws causing a significant impact. In order to perfect our solution we propose several future improvements: 
+\begin{itemize}
+\item The coordinates of each occupant needs to be stored correctly.
+\item The occupant detection should be able to distinguish between occupants moving close to each other.
+\item The server could store a list of occupants having recently resided in a room. This would simplify the process of displaying the relevant occupants in the Android application as well as increasing the relevance of requesting predictions.
+\item The prediction of an occupant should be more flexible, allowing for different meaningful requests. A request about predicting every present occupant at a time with corresponding probabilities could be supported. 
+\item The server could use the stored activity values for different tasks, such as analysing the most occupied areas of a room. This information could be used for advertisement placement.
+\end{itemize}
