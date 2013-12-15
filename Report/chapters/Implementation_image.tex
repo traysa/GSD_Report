@@ -11,12 +11,14 @@ Since the project dealt with a real-time vision application that had to process 
 
 \begin{itemize}
 \item At first we tried to benchmark how fast can Java and Python perform a simple matrix multiplication of two $300 \times 300$ size matrices. The results are illustrated in Figure~\ref{fig:benchmark_multiplication} in Appendix~\ref{app:appendixA}. We can clearly see that Java was way faster than Python in this benchmark. It took Java less than half of a second to perform the multiplication of two $300 \times 300$ size matrices on a laptop, whereas it took more than 3 seconds to do the same in Python (Figure~\ref{fig:benchmark_1}). Multiplication on a Raspberry Pi computer (Figure~\ref{fig:benchmark_2}) was naturally much slower than on a laptop. Java was again much faster than it's counterpart by dealing with the task in less than 23 seconds, whereas Python was very close to hitting 2 minute mark to accomplish the same task.
+\end{itemize}
 
 In conclusion as it was expected - Java convincingly won the first benchmark.
 
+\begin{itemize}
 \item The second benchmark involved testing how fast Java and Python can perform different image processing algorithms. For this benchmark we used the OpenCV library that we introduced earlier. OpenCV has Java and Python interfaces and all the computations are performed on the native level\footnote{In C\texttt{++}.}, hence we have some overhead from the language bindings of the API calls. Consequently, the purpose of this benchmark was to see, which language - Java or Python - has less overhead and can perform API calls faster. 
 
 As we can see in Figure~\ref{fig:benchmark_image_processing} in Appendix~\ref{app:appendixA}, the difference between Java and Python in this benchmark was rather small on both, laptop~\ref{fig:benchmark_3} and Raspberry Pi computer~\ref{fig:benchmark_4}. This was rather surprising at first, since Java had a big edge in the first benchmark. One can speculate that Python's interface to OpenCV library has been implemented in a more efficient way than Java's, thus the outcome. In general, the difference was only in terms of a few milliseconds, however, it was a good enough reason for us to choose Python's interface to OpenCV library for image processing part in this project.
+\end{itemize}
 
 Overall, the group was happy with the choice of the Python programming language for the image processing part, as it was rather easy to build complicated structures with only a few lines of code.
-\end{itemize}
