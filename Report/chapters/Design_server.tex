@@ -11,6 +11,8 @@ When data is received the server will store it in a database, making it easier t
 \begin{figure}[htb]
 	\centering
 	\includegraphics[scale=0.70]{server/ER}
-	\caption{Database overview}
+	\caption{Database ER Diagram}
 	\label{fig:database_er_diagram}
 \end{figure}
+
+The entity "ObjectMove" keeps track of all objects, storing which camera has captured the position and in which room. The entity "ObjectMovePath" keeps track of where each object has been located and at which time, and the entity "Cells" keeps track of how often a given position has been visited and which positions are considered exits.
