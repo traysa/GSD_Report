@@ -98,7 +98,7 @@ The computers each have at least one web camera attached and are responsible for
 	
 	\item \textit{\textbf{Background Subtraction.}} After we remove the initial noise, we can perform subtraction using running average approach (described in Section~\ref{sec:running_average_approach}). After subtraction we will either get a nearly totally black image, meaning no motion occurred, or an image where some colors stand out, meaning some motion has occurred. 
 	
-	\item \textit{\textbf{Channel Reduction.}} In either case, for further processing of the taken frame, we can choose to convert it to a grayscale image. The reason for this is that the original RGB image we get has three channels, while grayscale image has only one~\cite{grayscale_1}, thus it is easier to work with. This procedure is illustrated in Figures~\ref{fig:grayscale_1},~\ref{fig:grayscale_2} and~\ref{fig:grayscale_3}. 
+	\item \textit{\textbf{Channel Reduction.}} In either case, for further processing of the taken frame, we can choose to convert it to a grayscale image. The reason for this is that the original RGB image we get has three channels, while grayscale image has only one~\cite{grayscale_1}, thus it is easier to work with. This procedure is illustrated in Figures~\ref{fig:grayscale_1},~\ref{fig:grayscale_2} and~\ref{fig:grayscale_3} in Appendix~\ref{app:appendixA}. 
 	
 	\item \textit{\textbf{Thresholding.}} For further processing of the image, we apply a threshold, which converts the image to black and white and removes some more unwanted details and noise~\cite{threshold_1}. By experimenting with different threshold values we have found that the threshold values in the range between 70 and 80 produced the best results. After threshold is applied we get the image shown in Figure~\ref{fig:threshold_1}. 
 	
@@ -106,32 +106,6 @@ The computers each have at least one web camera attached and are responsible for
 	
 	\item \textit{\textbf{Bounding Box.}} Now, to project the detected area onto the original frame, we simply use bounding box technique, which gives us the coordinates of the rectangular border that fully covers the extracted white silhouette~\cite{bounding_box_1} that we got in~\ref{fig:dilate_erode_1}. Then we use these coordinates to draw a simple rectangle around the extracted object, as well as mark it's middle position by a red circle, as illustrated in Figure~\ref{fig:bounding_box_1}.
 	\end{enumerate}
-	\begin{figure}[htb]
-		\centering
-		\subfigure[Original frame]{
-		\includegraphics[scale=0.65]{grayscale/grayscale_1}
-		\label{fig:grayscale_1}}
-		\quad
-		\subfigure[After subtraction]{
-		\includegraphics[scale=0.65]{grayscale/grayscale_2}
-		\label{fig:grayscale_2}}
-		\subfigure[After grayscale filter is applied]{
-		\includegraphics[scale=0.65]{grayscale/grayscale_3}
-		\label{fig:grayscale_3}}
-		\quad
-		\subfigure[After threshold is applied]{
-		\includegraphics[scale=0.65]{threshold/threshold_1}
-		\label{fig:threshold_1}}
-		\subfigure[After dilation and erosion]{
-		\includegraphics[scale=0.65]{dilate_erode/dilate_erode_1}
-		\label{fig:dilate_erode_1}}
-		\quad
-		\subfigure[After bounding box is drawn]{
-		\includegraphics[scale=0.65]{bounding_box/bounding_box_1}
-		\label{fig:bounding_box_1}}
-		\caption{Object detection example}
-		\label{fig:object_detection_example}
-	\end{figure}
 	
 	In conclusion, by applying the steps discussed in this section, we can fairly accurately detect people and their movement in the monitored area.
 	
