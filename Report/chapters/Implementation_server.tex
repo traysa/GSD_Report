@@ -1,49 +1,31 @@
-\subsection{Communication}
-
-To reduce possible platform limitations the server communicates with all other devices through the TCP protocol, structuring the data in a JSON string.
-
-The server works with two different structures:
-\begin{enumerate}
-\item Commands, and
-\item Data Deliveries.
-\end{enumerate}
-
-\subsection{Commands}
+To reduce possible platform limitations the server communicates with all other devices through the TCP protocol, structuring the data in a JSON string. This is done for both receiving and interpreting commands as well as sending responses back.
 The command structure is used by the devices consuming the server's resources. The structure is very simple as it consists of the commands name which it wants to invoke and a sequence of parameters which each consists of the parameters name and value.
-
-A generic example of a command can be seen in figure~\ref{fig:generic_json_command_example} for comparison the command "setExit" is shown in figure~\ref{fig:setExit_json_command}
-
-\begin{figure}[htb]
-	\centering
+A generic example of a command is shown below. 
+\begin{center}
 	\begin{lstlisting}[language=json]
 	{"command":"theCommandName", "param": [{"pame": "paramName1", "value":"paramValue1"}, {"name": "paramName2", "value":"paramValue2"}, {"name": "paramName3", "value":"paramValue3"}, {"name": "paramName4", "value":"paramValue4"}]}
 	\end{lstlisting}
-	\caption{Generic JSON command example}
-	\label{fig:generic_json_command_example}
-\end{figure}
+\end{center}
+By applying the scheme, "theCommandName" has been substituted with "setExit" and the parameters have respectively been substituted with "room\_id" and "4ef9ad6e-5da3-4a2e-aa12-b32f70f3900e", "x\_coord" and "5", and so forth. 
 
-In figure~\ref{fig:setExit_json_command} "theCommandName" have been substituted with "setExit" and the parameters have respectively been substituted with "room\_id" and "4ef9ad6e-5da3-4a2e-aa12-b32f70f3900e", "x\_coord" and "5", and so forth.
-
-\begin{figure}[htb]
-	\centering
+\begin{center}
 	\begin{lstlisting}[language=json,firstnumber=1]
 	{"command":"setExit", "param": [{"name": "room_id", "value":"4ef9ad6e-5da3-4a2e-aa12-b32f70f3900e"}, {"name": "x_coord", "value":"5"}, {"name": "y_coord", "value":"470"}, {"name": "is_exit", "value":"true"}]}
 	\end{lstlisting}
-	\caption{setExit JSON command}
-	\label{fig:setExit_json_command}
-\end{figure}
+\end{center}
 
-There are x commands in total:
-\begin{description}
-\item[getRoomStatus]
-\item[getRoomsAvailable]
-\item[checkPredictions]
-\item[checkProbabilitiesToExits]
-\item[setExit]
-\end{description}
-
-
-\subsection{Storage}
-
-
-
+The supported commands are listed in table \ref{tab:command}.
+\begin{center}
+\begin{table}
+    \begin{tabular}{ | p{4.5cm} | p{4.7cm} | p{3cm} | p{3.5cm} |} \hline
+    Command description & Command name & Parameters & Output \\ \hline
+    Get information about each occupant in a room in a given timespan & getRoomStatus & room id, start time, end time. & A list of occupant ids. \\ \hline
+    Get information about each room and the exits & getRoomsAvailable & None & a list of room ids with corresponding coordinates of each exit. \\ \hline
+	Get the predicted exit & checkPredictions & room id, occupant id & The coordinates of the predicted exit. \\ \hline
+	Get information about the probabilities to each exit & checkProbabilitiesToExits & room id, occupant id & A list of the coordinates of each exit and the corresponding probability of the occupant exiting there. \\ \hline
+    Set  or remove the exit property of an area in the room & setExit & room id, x-coordinate, y-coordinate, is exit (boolean) & Returns true if the operation succeeded. \\ 
+	\hline \end{tabular}
+	\caption{Description of the supported commands.}
+	\label{tab:command}
+\end{table}
+\end{center}
